@@ -20,7 +20,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[blog/flowershow-cloud-comments|How to Enable Comments]]
 - [[blog/flowershow-cloud-custom-styles|How to Customize the Look of Your Site]]
 
-### 🚧 Comming soon...
+### 🚧 Coming soon...
 
 - How to Set Custom Social Previews for Your Pages
 - How to Configure Your Site with Google Analytics
