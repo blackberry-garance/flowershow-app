@@ -32,6 +32,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[docs/flowershow-cloud/navbar-configuration|Navbar configuration]]
 - [[docs/flowershow-cloud/comments|Page comments]]
 - [[docs/flowershow-cloud/custom-styles|Custom styles]]
+- [[docs/flowershow-cloud/featured-image|Featured image]]
 
 ---
 
