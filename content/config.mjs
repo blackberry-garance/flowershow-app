@@ -1,5 +1,6 @@
 const config = {
   title: "Flowershow",
+  googleTagManager: "GTM-NF3S6WJ2",
   description: "Publish your digital garden",
   author: "Flowershow",
   logo: "https://r2-assets.flowershow.app/logo.png",
