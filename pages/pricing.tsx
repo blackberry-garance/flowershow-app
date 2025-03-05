@@ -22,7 +22,7 @@ export default function PricingPage() {
                 <div className="mx-auto mt-12 text-center px-4 py-2 bg-secondary/10 rounded-lg">
                     <p className="text-sm text-secondary">
                         <span className="mr-2">🎉</span>
-                        Beta period: All Pro features are temporarily enabled for free. They will become premium-only features soon.
+                        Beta period: All Premium features are temporarily enabled for free. They will become premium-only features soon.
                     </p>
                 </div>
 
@@ -218,7 +218,17 @@ export const getStaticProps: GetStaticProps = async (): Promise<
     };
 };
 
-const tiers = [
+interface Tier {
+    name: string;
+    id: string;
+    href?: string;
+    priceMonthly: string;
+    description: string;
+    mostPopular: boolean;
+    cta: string;
+}
+
+const tiers: Tier[] = [
     {
         name: 'Free',
         id: 'tier-free',
@@ -229,52 +239,64 @@ const tiers = [
         cta: "Get early access"
     },
     {
-        name: 'Pro',
-        id: 'tier-pro',
+        name: 'Premium',
+        id: 'tier-premium',
+        href: "https://tally.so/r/3EN1yX",
         priceMonthly: '$5',
         description: 'For creators who want more customization and features',
         mostPopular: false,
-        cta: "Free during beta"
+        cta: "Get early access"
     },
 ]
-const sections = [
+interface Feature {
+    name: string;
+    tiers: Record<string, boolean | string>;
+    status?: "IN_PROGRESS";
+}
+
+interface Section {
+    name: string;
+    features: Feature[];
+}
+
+const sections: Section[] = [
     {
         name: 'Core Features',
         features: [
-            { name: 'Wiki-style links', tiers: { Free: true, Pro: true } },
-            { name: 'Mermaid diagrams', tiers: { Free: true, Pro: true } },
-            { name: 'Math equations', tiers: { Free: true, Pro: true } },
-            { name: 'Table of contents', tiers: { Free: true, Pro: true } },
-            { name: 'Obsidian plugin', tiers: { Free: true, Pro: true } },
+            { name: 'Wiki-style links', tiers: { Free: true, Premium: true } },
+            { name: 'Mermaid diagrams', tiers: { Free: true, Premium: true } },
+            { name: 'Math equations', tiers: { Free: true, Premium: true } },
+            { name: 'Table of contents', tiers: { Free: true, Premium: true } },
+            { name: 'Obsidian plugin', tiers: { Free: true, Premium: true } },
         ],
     },
     {
         name: 'Customization',
         features: [
-            { name: 'Custom CSS', tiers: { Free: true, Pro: true } },
-            { name: 'Custom domain', tiers: { Pro: true } },
-            { name: 'Remove Flowershow branding', tiers: { Pro: true } },
-            { name: 'Full-text search', tiers: { Free: true, Pro: true }, status: "IN_PROGRESS" },
+            { name: 'Custom CSS', tiers: { Free: true, Premium: true } },
+            { name: 'Custom domain', tiers: { Premium: true } },
+            { name: 'Removed Flowershow branding', tiers: { Premium: true } },
+            { name: 'Full-text search', tiers: { Free: true, Premium: true }, status: "IN_PROGRESS" },
         ],
     },
     {
         name: 'Content',
         features: [
-            { name: 'Unlimited public sites', tiers: { Free: false, Pro: true } },
-            { name: 'Unlimited site size', tiers: { Free: false, Pro: true } },
+            { name: 'Unlimited public sites', tiers: { Free: false, Premium: true } },
+            { name: 'Unlimited site size', tiers: { Free: false, Premium: true } },
         ],
     },
     {
         name: 'Support',
         features: [
-            { name: 'Community support', tiers: { Free: true, Pro: true } },
-            { name: 'Priority support', tiers: { Pro: true } },
-            { name: 'Onboarding assistance', tiers: { Pro: true } },
+            { name: 'Community support', tiers: { Free: true, Premium: true } },
+            { name: 'Priority support', tiers: { Premium: true } },
+            { name: 'Onboarding assistance', tiers: { Premium: true } },
         ],
     },
 ]
 
 
-function classNames(...classes) {
+function classNames(...classes: string[]): string {
     return classes.filter(Boolean).join(' ')
 }
