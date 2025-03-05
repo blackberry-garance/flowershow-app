@@ -69,6 +69,10 @@
   </url>
 
   <url>
+    <loc>https://flowershow.app/docs/self-hosted</loc>
+  </url>
+
+  <url>
     <loc>https://flowershow.app/docs/blog-tutorial</loc>
   </url>
 
@@ -108,10 +112,6 @@
 
   <url>
     <loc>https://flowershow.app/docs/tasks</loc>
-  </url>
-
-  <url>
-    <loc>https://flowershow.app/docs/cloud</loc>
   </url>
 
   <url>
@@ -192,6 +192,10 @@
 
   <url>
     <loc>https://flowershow.app/docs/blog</loc>
+  </url>
+
+  <url>
+    <loc>https://flowershow.app/blog/flowershow-cloud-featured-images</loc>
   </url>
 
   <url>
@@ -368,6 +372,10 @@
 
   <url>
     <loc>https://flowershow.app/docs/tailwind</loc>
+  </url>
+
+  <url>
+    <loc>https://flowershow.app/docs/flowershow-cloud/featured-image</loc>
   </url>
 
   <url>
