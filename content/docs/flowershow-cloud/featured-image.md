@@ -1,19 +1,77 @@
 ---
-title: Add Featured Images
+title: Page Header Configuration
 tags:
   - flowershow-cloud
 ---
 
-You can add featured images to your pages in Flowershow Cloud by setting the `image` frontmatter field. This image will also be used for social media cards.
+Flowershow Cloud supports several page configuration options through frontmatter. These options help you control how your pages appear both on your site and in social media shares.
 
-## Image Sources
+## Available Configuration Options
+
+Here are all the available page configuration options:
+
+```yaml
+---
+title: My Page Title                    # Title (used for SEO and social previews)
+description: A brief description        # Description (used for SEO and social previews)
+authors: ["John Doe", "Jane Smith"]     # List of authors
+date: 2024-03-06                       # Publication date
+image: content/assets/my-image.jpg      # Featured image (used for social previews)
+---
+```
+
+### Title
+
+The `title` field sets your page's title and is displayed in page header.
+
+It's also used in:
+- Page header
+- Sidebar navigation
+- Browser tab title
+- Search engine result title
+- Social media preview title
+
+>[!note]
+>Instead of using `title` frontmatter field, you can just set top level markdown `# Page title`. If neither `title` frontmatter field nor level 1 markdown heading is used, title will default to the filename.
+
+### Description
+
+The `description` field provides a brief summary of your page content and is displayed in page header.
+
+It's also used in:
+- Search engine result snippet
+- Social media preview description
+
+### Authors
+
+The `authors` field lets you specify one or more authors for the page. Authors are displayed in page header.
+
+```yaml
+authors: ["John Doe"]           # Single author
+authors: ["John", "Jane"]       # Multiple authors
+```
+
+### Date
+
+The `date` field sets the publication date for your page and is displayed in page header.
+
+```yaml
+date: 2024-03-06               # YYYY-MM-DD format
+```
+
+### Featured Image
+
+The `image` field sets a featured image for your page.
+
+It's also is used in:
+- Social media preview cards
 
 You can specify your featured image in two ways:
 
 1. **Repository Path**: Use a relative or absolute path to an image in your repository
 2. **External URL**: Link to an image hosted elsewhere on the web
 
-## Adding a Featured Image
+#### Adding a Featured Image
 
 Add the `image` field to your page's frontmatter:
 
@@ -44,6 +102,8 @@ image: https://example.com/my-image.jpg  # external URL
 
 ## Best Practices
 
-- Use high-quality images that represent your content well
+- Use descriptive titles and descriptions for better SEO
+- Include featured images when possible for better social sharing
 - Recommended image dimensions: 1200x630 pixels for optimal social media sharing
-- Keep file sizes reasonable (under 1MB) for better performance
+- Keep image file sizes reasonable (under 1MB) for better performance
+- Use ISO date format (YYYY-MM-DD) for dates
