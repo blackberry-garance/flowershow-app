@@ -12,11 +12,11 @@ Here are all the available page configuration options:
 
 ```yaml
 ---
-title: My Page Title                    # Title (used for SEO and social previews)
-description: A brief description        # Description (used for SEO and social previews)
-authors: ["John Doe", "Jane Smith"]     # List of authors
-date: 2024-03-06                       # Publication date
-image: content/assets/my-image.jpg      # Featured image (used for social previews)
+title: My Page Title
+description: A brief description
+authors: ["John Doe", "Jane Smith"]
+date: 2024-03-06
+image: content/assets/my-image.jpg
 ---
 ```
 
