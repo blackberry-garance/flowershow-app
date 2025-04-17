@@ -4,7 +4,6 @@ description: Flowershow is a quick and easy way to publish your digital garden, 
 image: /assets/hero.png
 showHero: true
 showToc: false
-showEditLink: false
 cta:
   - label: Use Flowershow for free
     href: https://cloud.flowershow.app/
