@@ -19,8 +19,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[how-to-add-featured-images|How to Add Featured Images to Your Pages (and Set Social Previews)]]
 - [[how-to-create-content-catalogs|How to Create Content Catalogs with the List Component (for Your Blog Posts, Tutorials List and More)]]
 - [[sidebar-configuration|How to Enable Sidebar Navigation]]
-
-- 🚧 How to Configure Your Site with Google Analytics
+- [[how-to-configure-google-analytics|How to Configure Your Site with Google Analytics]]
 - 🚧 How to Add Charts and Graphs
 
 ## Reference
@@ -35,6 +34,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[docs/custom-styles|Custom styles]]
 - [[edit-this-page-button|Edit this page button]]
 - [[docs/list-component|List Component]]
+- [[analytics-configuration|Google Analytics configuration]]
 
 >[!note]
 >If you're looking for docs and tutorials related to Flowershow Self-Hosted, [[docs/self-hosted/README|click here]].
