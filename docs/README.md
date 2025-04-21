@@ -34,7 +34,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[docs/custom-styles|Custom styles]]
 - [[edit-this-page-button|Edit this page button]]
 - [[docs/list-component|List Component]]
-- [[analytics-configuration|Google Analytics configuration]]
+- [[docs/analytics|Google Analytics configuration]]
 
 >[!note]
 >If you're looking for docs and tutorials related to Flowershow Self-Hosted, [[docs/self-hosted/README|click here]].
