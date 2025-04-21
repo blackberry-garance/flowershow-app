@@ -7,6 +7,7 @@ showToc: false
 cta:
   - label: Use Flowershow for free
     href: https://cloud.flowershow.app/
+showEditLink: false
 ---
 
 ## What is Flowershow?
