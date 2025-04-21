@@ -10,16 +10,16 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 
 ## Tutorials & How-Tos
 
-- [[how-to-publish-vault-quickly-and-easily|How to Publish an Obsidian Vault]]
-- [[how-to-configure-page-headers|How to Configure Page Headers]]
-- [[how-to-configure-navigation-bar|How to Configure the Navigation Bar]]
-- [[how-to-enable-page-comments|How to Enable Page Comments]]
-- [[how-to-customize-style|How to Customize the Look of Your Site]]
+- [[blog/how-to-publish-vault-quickly-and-easily|How to Publish an Obsidian Vault]]
+- [[blog/how-to-configure-page-headers|How to Configure Page Headers]]
+- [[blog/how-to-configure-navigation-bar|How to Configure the Navigation Bar]]
+- [[blog/how-to-enable-page-comments|How to Enable Page Comments]]
+- [[blog/how-to-customize-style|How to Customize the Look of Your Site]]
 - [[blog/how-to-add-edit-this-page-button|How to Add 'Edit this page' Button (To Encourage Contributions)]]
-- [[how-to-add-featured-images|How to Add Featured Images to Your Pages (and Set Social Previews)]]
-- [[how-to-create-content-catalogs|How to Create Content Catalogs with the List Component (for Your Blog Posts, Tutorials List and More)]]
-- [[sidebar-configuration|How to Enable Sidebar Navigation]]
-- [[how-to-configure-google-analytics|How to Configure Your Site with Google Analytics]]
+- [[blog/how-to-add-featured-images|How to Add Featured Images to Your Pages (and Set Social Previews)]]
+- [[blog/how-to-create-content-catalogs|How to Create Content Catalogs with the List Component (for Your Blog Posts, Tutorials List and More)]]
+- [[docs/sidebar-configuration|How to Enable Sidebar Navigation]]
+- [[blog/how-to-configure-google-analytics|How to Configure Your Site with Google Analytics]]
 - 🚧 How to Add Charts and Graphs
 
 ## Reference
@@ -37,7 +37,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[docs/analytics|Google Analytics configuration]]
 
 >[!note]
->If you're looking for docs and tutorials related to Flowershow Self-Hosted, [[docs/self-hosted/README|click here]].
+>If you're looking for docs and tutorials related to Flowershow Self-Hosted, [[/docs/self-hosted/README|click here]].
 
 ---
 
