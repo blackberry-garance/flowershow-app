@@ -2,6 +2,9 @@
 title: Analytics Configuration
 ---
 
+> [!note]
+> You are viewing documentation for Flowershow Cloud. For Flowershow Self-hosted documentation, visit [[/docs/self-hosted/README|docs/self-hosted]].
+
 Flowershow supports Google Analytics 4 integration through a simple configuration in your site's `config.json` file. This guide covers how to set up analytics tracking for your Flowershow site.
 
 ## Configuration Structure

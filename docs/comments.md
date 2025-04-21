@@ -2,6 +2,9 @@
 title: Page Comments
 ---
 
+> [!note]
+> You are viewing documentation for Flowershow Cloud. For Flowershow Self-hosted documentation, visit [[/docs/self-hosted/README|docs/self-hosted]].
+
 You can enable comments on your Flowershow Cloud site through the site settings in your dashboard. Comments are powered by GitHub Discussions.
 
 ## Requirements

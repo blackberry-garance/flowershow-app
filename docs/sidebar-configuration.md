@@ -2,6 +2,8 @@
 title: Sidebar Configuration
 ---
 
+> [!note]
+> You are viewing documentation for Flowershow Cloud. For Flowershow Self-hosted documentation, visit [[/docs/self-hosted/README|docs/self-hosted]].
 
 Flowershow allows you to enable a sidebar navigation that displays your site's structure and links to all pages.
 

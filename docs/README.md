@@ -30,9 +30,9 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[page-header-configuration|Page Headers]]
 - [[navbar-configuration|Navbar]]
 - [[sidebar-configuration|Sidebar]]
-- [[page-comments|Page comments]]
+- [[docs/comments|Page comments]]
 - [[docs/custom-styles|Custom styles]]
-- [[edit-this-page-button|Edit this page button]]
+- [[docs/edit-this-page|Edit this page button]]
 - [[docs/list-component|List Component]]
 - [[docs/analytics|Google Analytics configuration]]
 
