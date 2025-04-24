@@ -5,9 +5,18 @@ title: '"Edit this page" button'
 > [!note]
 > You are viewing documentation for Flowershow Cloud. For Flowershow Self-hosted documentation, visit [[/docs/self-hosted/README|docs/self-hosted]].
 
-If you keep your content in a public GitHub repository, and would like to encourage other people to contribute to it, you can show "Edit this page" button at the bottom of the page. It will link to the source file in your repository.
+You can enable an "Edit this page" button at the bottom of your pages to encourage contributions to your content. This button links directly to the source file in your GitHub repository.
 
-In order to make it work, you first need to set the `editLinkRoot` in your `config.mjs` file:
+## Requirements
+
+1. Public GitHub repository containing your content
+2. `editLinkRoot` configured in your `config.mjs` file
+
+## Configuration
+
+### Setting up the Edit Link Root
+
+In your `config.mjs` file, set the `editLinkRoot` to point to your repository's edit URL:
 
 ```js
 {
@@ -15,23 +24,37 @@ In order to make it work, you first need to set the `editLinkRoot` in your `conf
 }
 ```
 
-## Default setting
+## Default Behavior and Customization
 
-You can disable or enable showing the button for all your pages by setting this property in your `config.mjs` file. The button is disabled by default.
+By default, the "Edit this page" button is disabled on all pages. You have two ways to customize this behavior:
+
+### Enabling Site-wide
+
+To enable the button on all pages, set `showEditLink: true` in your `config.mjs` file:
 
 ```js
 {
-	showEditLink: false,
+  showEditLink: true
 }
 ```
 
-## Per-page setting
+### Per-page Control
 
-You can also overwrite the default setting in single pages by including this field in the frontmatter:
+You can override the default setting on specific pages by adding `showEditLink` to the page's frontmatter:
 
-```md
+```yaml
 ---
-showEditLink: true
+title: My Page
+showEditLink: true  # Enable on this page
+---
+```
+
+Or to hide the button on a specific page when it's enabled site-wide:
+
+```yaml
+---
+title: My Page
+showEditLink: false  # Disable on this page
 ---
 ```
 
