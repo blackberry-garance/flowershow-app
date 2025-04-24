@@ -4,6 +4,8 @@ description: The free, open-source version of Flowershow. Perfect for developers
 image: /assets/flowershow_light.png
 showHero: true
 showToc: false
+showComments: false
+showEditLink: false
 cta:
   - label: Quick start
     href: https://flowershow.app/docs/publish-howto
