@@ -65,7 +65,7 @@ For creators who want more customization and features
 | Custom CSS | ✓ | ✓ |
 | Custom domain | - | ✓ |
 | Removed Flowershow branding | - | ✓ |
-| Full-text search 🚧 | ✓ | ✓ |
+| Full-text search | - | ✓ |
 
 ### Content
 
