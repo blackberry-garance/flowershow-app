@@ -24,5 +24,6 @@
     ]
   },
   "contentExclude": ["/excalidraw", "/journal", "/meta", "/notes", "/people", "/public"],
-  "showEditLink": true
+  "showEditLink": true,
+  "showSearch": true
 }
