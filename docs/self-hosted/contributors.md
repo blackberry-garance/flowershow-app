@@ -2,6 +2,9 @@
 title: Developer docs for contributors
 ---
 
+> [!warning]
+> You are viewing documentation for Flowershow Self-Hosted. Flowershow Cloud documentation can be found [[docs/README|here]].
+
 ## Our repository
 
 https://github.com/flowershow/flowershow

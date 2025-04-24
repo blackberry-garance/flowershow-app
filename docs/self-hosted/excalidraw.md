@@ -1,3 +1,7 @@
+
+> [!warning]
+> You are viewing documentation for Flowershow Self-Hosted. Flowershow Cloud documentation can be found [[docs/README|here]].
+
 # Excalidraw in Flowershow
 
 Excalidraw is a virtual collaborative whiteboard tool that lets you easily sketch diagrams that have a hand-drawn feel to them.

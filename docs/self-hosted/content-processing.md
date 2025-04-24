@@ -2,6 +2,9 @@
 title: Transforming your markdown content with the `preProcess` function
 ---
 
+> [!warning]
+> You are viewing documentation for Flowershow Self-Hosted. Flowershow Cloud documentation can be found [[docs/README|here]].
+
 ## Introduction
 
 The `preProcess` function in Flowershow allows you to apply custom transformations to your Markdown content before it's rendered in the application.

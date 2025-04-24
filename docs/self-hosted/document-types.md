@@ -2,6 +2,9 @@
 title: Document types
 ---
 
+> [!warning]
+> You are viewing documentation for Flowershow Self-Hosted. Flowershow Cloud documentation can be found [[docs/README|here]].
+
 Flowershow enables you to establish and enforce the structure of your Markdown content using the Zod library for schema definitions. This tutorial guides you through the process of defining schemas for a blog post, ensuring a mandatory `date` field. The schemas play a crucial role in error prevention and ensure the predicted structure in Markdown files.
 
 ## Define Your Schemas

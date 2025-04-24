@@ -1,6 +1,8 @@
 ---
 title: Social links embeds
 ---
+> [!warning]
+> You are viewing documentation for Flowershow Self-Hosted. Flowershow Cloud documentation can be found [[docs/README|here]].
 
 ## Youtube
 

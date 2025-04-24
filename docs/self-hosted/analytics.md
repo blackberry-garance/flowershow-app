@@ -1,9 +1,13 @@
 ---
 title: Analytics
 ---
-# Analytics
+
+> [!warning]
+> You are viewing documentation for Flowershow Self-Hosted. Flowershow Cloud documentation can be found [[docs/README|here]].
+
 Flowershow supports different analytics providers. It might not be as feature rich as the official analytics providers but it should be sufficient for simple use cases.
 (See [[docs/config|this chapter]] about basic user configurations.)
+
 ```js
 // config.mjs
 {

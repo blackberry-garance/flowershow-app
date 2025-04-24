@@ -1,6 +1,8 @@
 ---
 title: Dark and Light themes
 ---
+> [!warning]
+> You are viewing documentation for Flowershow Self-Hosted. Flowershow Cloud documentation can be found [[docs/README|here]].
 
 Flowershow supports switching themes of your website to dark or light, by clicking on the ☀️ icon in the navigation bar.
 

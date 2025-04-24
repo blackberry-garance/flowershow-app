@@ -6,6 +6,9 @@ created: 2023-03-02
 authors: [philippe-du-preez]
 ---
 
+> [!warning]
+> You are viewing documentation for Flowershow Self-Hosted. Flowershow Cloud documentation can be found [[docs/README|here]].
+
 You may have many different types of notes that you want to display in different ways on your Flowershow website, like tutorials, docs, news, or... recipes! In this tutorial, we will cover how to add a custom `RecipeLayout` for our recipe blog posts.
 
 ## Recipe page metadata

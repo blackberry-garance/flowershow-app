@@ -1,6 +1,8 @@
 ---
 title: Tasks extraction
 ---
+> [!warning]
+> You are viewing documentation for Flowershow Self-Hosted. Flowershow Cloud documentation can be found [[docs/README|here]].
 
 Floweshow supports task extraction (i.e. `- [ ] this is a task`).
 

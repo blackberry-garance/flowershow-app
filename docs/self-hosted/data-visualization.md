@@ -2,6 +2,9 @@
 title: Visualizing data in FlowerShow
 ---
 
+> [!warning]
+> You are viewing documentation for Flowershow Self-Hosted. Flowershow Cloud documentation can be found [[docs/README|here]].
+
 Flowershow allows you to easily embed data visualization components into your FlowerShow app. There's no need for coding or manual embedding of charts and tables; you can effortlessly include them in your document using a straightforward syntax. Components can be added by either providing inline data or referencing external data files.
 
 For example, a chart like the one below:

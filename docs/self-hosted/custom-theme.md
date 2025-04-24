@@ -6,6 +6,9 @@ layout: blog
 date: 2023-01-23
 ---
 
+> [!warning]
+> You are viewing documentation for Flowershow Self-Hosted. Flowershow Cloud documentation can be found [[docs/README|here]].
+
 We are going to learn how to change the fonts and colors used throughout
 your Flowershow website, so you can have it looking exactly the way you want!
 

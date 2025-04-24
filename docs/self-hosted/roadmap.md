@@ -1,6 +1,8 @@
 ---
 title: Roadmap
 ---
+> [!warning]
+> You are viewing documentation for Flowershow Self-Hosted. Flowershow Cloud documentation can be found [[docs/README|here]].
 
 Flowershow is actively developed. Contributions are very welcome! We track our roadmap in this board on github:
 

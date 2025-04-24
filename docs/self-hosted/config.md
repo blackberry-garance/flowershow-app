@@ -1,3 +1,7 @@
+
+> [!warning]
+> You are viewing documentation for Flowershow Self-Hosted. Flowershow Cloud documentation can be found [[docs/README|here]].
+
 # Configuration
 
 Flowershow supports setting common configuration values using a `config.mjs` file in your content directory. With it you can customize some things like website title, navigation links in the navbar, or set your google analytics key.

@@ -2,6 +2,9 @@
 title: Embedding files
 ---
 
+> [!warning]
+> You are viewing documentation for Flowershow Self-Hosted. Flowershow Cloud documentation can be found [[docs/README|here]].
+
 If you want to embed images (or pdfs) in your markdown notes or use them as `src` value in your in-markdown HTML code blocks, you need to create a folder at the top level of your content folder, where you'll put all your asset files. Then you'll need to create a symlink to it inside the `public` folder.
 
 ## Steps

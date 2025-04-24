@@ -1,3 +1,7 @@
+
+> [!warning]
+> You are viewing documentation for Flowershow Self-Hosted. Flowershow Cloud documentation can be found [[docs/README|here]].
+
 # Tailwind support
 
 Flowershow comes with built-in [tailwind](https://tailwindcss.com) support. You can use it to style your custom layouts or in-markdown HTML blocks.

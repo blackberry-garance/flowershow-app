@@ -1,3 +1,7 @@
+
+> [!warning]
+> You are viewing documentation for Flowershow Self-Hosted. Flowershow Cloud documentation can be found [[docs/README|here]].
+
 # Sitemaps
 
 A sitemap is a file that contains information about your pages, videos and other content on your website, along with their hierarchical structure and relationships. This information is then used by search engines like google to crawl your website, enabling them to quickly locate and index all of your pages, including those that might be hidden or difficult to find through standard navigation.

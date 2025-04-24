@@ -2,6 +2,9 @@
 title: Layouts
 ---
 
+> [!warning]
+> You are viewing documentation for Flowershow Self-Hosted. Flowershow Cloud documentation can be found [[docs/README|here]].
+
 Layouts are simply React components, that wrap around your page's content. By default, all your notes will use the **Docs** layout (`layouts/docs.js`), but if you don't like it or you would like to use a different layout for some of your notes, you can create your own custom layout.
 
 ## 🚧 Overriding the default layout

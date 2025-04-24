@@ -6,6 +6,9 @@ date: 2023-02-04
 authors: [Khalil Ali]
 ---
 
+> [!warning]
+> You are viewing documentation for Flowershow Self-Hosted. Flowershow Cloud documentation can be found [[docs/README|here]].
+
 Flowershow supports the integration of a user commenting feature on your website, allowing visitors to provide their feedback and thoughts on your pages. This functionality can be configured in the config file and can be optionally added to each page's frontmatter for more granular control.
 
 ![[page_comments.png]]

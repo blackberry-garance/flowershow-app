@@ -6,6 +6,8 @@ date: 2023-01-25
 updated: 2023-04-25
 authors: [philippe-du-preez]
 ---
+> [!warning]
+> You are viewing documentation for Flowershow Self-Hosted. Flowershow Cloud documentation can be found [[docs/README|here]].
 
 If you're writing blogs, news, or articles on your site, then this is for you! By using [Flowershow](https://flowershow.app/) as a Next.js template, this is easier than ever!
 

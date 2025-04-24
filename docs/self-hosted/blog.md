@@ -2,6 +2,9 @@
 title: Blog support
 ---
 
+> [!warning]
+> You are viewing documentation for Flowershow Self-Hosted. Flowershow Cloud documentation can be found [[docs/README|here]].
+
 All files inside the `<your-content-folder>/blog` will be treated as blog posts.
 
 ## Blog post frontmatter fields

@@ -6,6 +6,8 @@ date: 2023-08-03
 authors:
   - olayway
 ---
+> [!warning]
+> You are viewing documentation for Flowershow Self-Hosted. Flowershow Cloud documentation can be found [[docs/README|here]].
 
 ## Prerequisites
 

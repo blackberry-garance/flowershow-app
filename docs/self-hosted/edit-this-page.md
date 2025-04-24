@@ -2,6 +2,9 @@
 title: Edit this page button
 ---
 
+> [!warning]
+> You are viewing documentation for Flowershow Self-Hosted. Flowershow Cloud documentation can be found [[docs/README|here]].
+
 If you keep your content in a public GitHub repository, and would like to encourage other people to contribute to it, you can show "Edit this page" button at the bottom of the page. It will link to the source file in your repository.
 
 In order to make it work, you first need to set the `editLinkRoot` in your `config.mjs` file:

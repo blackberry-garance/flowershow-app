@@ -1,6 +1,8 @@
 ---
 title: Upgrading Flowershow and a Flowershow Site
 ---
+> [!warning]
+> You are viewing documentation for Flowershow Self-Hosted. Flowershow Cloud documentation can be found [[docs/README|here]].
 
 For a simple site you can just upgrade Flowershow and republish.
 

@@ -2,6 +2,8 @@
 title: SEO Configuration
 description: How to set up SEO in flowershow
 ---
+> [!warning]
+> You are viewing documentation for Flowershow Self-Hosted. Flowershow Cloud documentation can be found [[docs/README|here]].
 
 ## What is SEO and meta tags
 

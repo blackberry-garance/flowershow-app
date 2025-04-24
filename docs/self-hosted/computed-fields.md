@@ -2,6 +2,9 @@
 title: Computed Fields
 ---
 
+> [!warning]
+> You are viewing documentation for Flowershow Self-Hosted. Flowershow Cloud documentation can be found [[docs/README|here]].
+
 Computed Fields is a powerful feature in Flowershow that allows you to define custom functions to compute additional fields based on the content of your Markdown files. In this tutorial, we'll walk through the steps of creating and using computed fields, using a practical example of extracting the first heading from a Markdown file.
 
 ### Step 1: Define the Computed Field Function

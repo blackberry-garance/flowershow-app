@@ -2,6 +2,9 @@
 title: Custom 404 Page
 ---
 
+> [!warning]
+> You are viewing documentation for Flowershow Self-Hosted. Flowershow Cloud documentation can be found [[docs/README|here]].
+
 # Custom 404 Page
 
 In Flowershow, you have the flexibility to create custom 404 pages for handling broken pages or links.
