@@ -2,6 +2,8 @@
 title: Pricing
 description: "Simple and transparent pricing for Flowershow Cloud"
 showToc: false
+showComments: false
+showEditLink: false
 ---
 
 Start sharing your digital garden for free. Upgrade to get extra premium features.
