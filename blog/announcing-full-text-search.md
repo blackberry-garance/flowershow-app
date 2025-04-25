@@ -1,9 +1,10 @@
 ---
 title: Full Text Search Now Available for Premium Sites
-description: Enable powerful search functionality on your Flowershow site with Typesense
+description: Enable powerful search functionality on your Flowershow site and make it easier for your readers to find relevant content.
 date: 2025-04-24
 authors:
   - olayway
+image: /assets/fts.png
 ---
 
 We're excited to announce that full text search is now available for all premium Flowershow sites. Powered by Typesense and InstantSearch, this feature lets your readers quickly find content across your entire site.
@@ -19,6 +20,8 @@ We're excited to announce that full text search is now available for all premium
 1. Go to your Floweshow dashboard
 2. Open your premium site settings
 3. Enable full text search
+
+![[fts-1.png]]
 
 After enabling the feature, please allow a few minutes for your site's content to be initially indexed.
 
