@@ -7,8 +7,6 @@ showToc: false
 showComments: false
 showEditLink: false
 cta:
-  - label: Quick start
-    href: https://flowershow.app/docs/publish-howto
   - label: Star on GitHub
     href: https://github.com/flowershow/flowershow
 ---
@@ -25,7 +23,7 @@ cta:
 
 Blog document type for your blog posts. This way you'll be able to fetch and display them on any of your pages by using our BlogsList component (or you can create a custom one).
 
-[[blog|Learn more about Blog Support]]
+[[/docs/self-hosted/blog|Learn more about Blog Support]]
 
 ![Blog feature](/assets/blog.png)
 
@@ -33,7 +31,7 @@ Blog document type for your blog posts. This way you'll be able to fetch and dis
 
 Flowershow comes with built-in tailwind support on any markdown page for styling your content.
 
-[[tailwind|Learn more about Tailwind]]
+[[/docs/self-hosted/tailwind|Learn more about Tailwind]]
 
 ![Tailwind feature](/assets/tw.png)
 
@@ -41,7 +39,7 @@ Flowershow comes with built-in tailwind support on any markdown page for styling
 
 Change the fonts and colors used throughout your website as well as switch between dark and light modes.
 
-[[custom-theme|Learn more about Themes]]
+[[/docs/self-hosted/custom-theme|Learn more about Themes]]
 
 ![Theme feature](/assets/theme.png)
 
