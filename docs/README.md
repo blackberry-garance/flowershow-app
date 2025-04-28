@@ -12,6 +12,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 
 - [[blog/how-to-publish-vault-quickly-and-easily|How to Publish an Obsidian Vault]]
 - [[blog/how-to-configure-page-headers|How to Configure Page Headers]]
+- [[how-to-add-hero-sections|How to Add Hero Sections]]
 - [[blog/how-to-configure-navigation-bar|How to Configure the Navigation Bar]]
 - [[blog/how-to-enable-page-comments|How to Enable Page Comments]]
 - [[blog/how-to-customize-style|How to Customize the Look of Your Site]]
@@ -27,7 +28,8 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[syntax|Syntax]]
 - [[math|Math equations]]
 - [[mermaid|Mermaid graphs]]
-- [[page-header-configuration|Page Headers]]
+- [[page-header-configuration|Page headers]]
+- [[hero-sections|Hero sections]]
 - [[navbar-configuration|Navbar]]
 - [[sidebar-configuration|Sidebar]]
 - [[docs/comments|Page comments]]

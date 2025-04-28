@@ -81,7 +81,7 @@ Display your content in an elegant format supporting title, description, authors
 
 Transform your page headers into stunning, full-width hero sections with customizable backgrounds, text, and call-to-action buttons. Create impactful landing pages that capture your visitors' attention.
 
-[[how-to-add-hero-headers|Learn more →]]
+[[how-to-add-hero-sections|Learn more →]]
 
 ![[hero-layout.png]]
 
