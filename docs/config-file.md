@@ -25,7 +25,7 @@ Enable Google Analytics 4 tracking:
 }
 ```
 
-[[Learn more]]
+[[/docs/analytics|Learn more]]
 
 ### Comments
 
@@ -37,7 +37,7 @@ Control comment functionality across your site:
 }
 ```
 
-[[Learn more]]
+[[/docs/comments|Learn more]]
 
 ### Navigation Bar
 
@@ -65,7 +65,7 @@ Customize your site's navigation bar:
 }
 ```
 
-[[Learn more]]
+[[/blog/how-to-configure-navigation-bar|Learn more]]
 
 ### Sidebar
 
@@ -77,7 +77,7 @@ Enable the sidebar navigation:
 }
 ```
 
-[[Learn more]]
+[[/docs/sidebar-configuration|Learn more]]
 
 ## Complete Example
 
