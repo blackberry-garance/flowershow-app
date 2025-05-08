@@ -1,27 +1,26 @@
 ---
-title: Publish your markdown quickly, easily and for free
-description: Flowershow is a quick and easy way to publish your digital garden, Obsidian vault or any kind of markdown – no coding required. Sign up, connect your vault, and have your site online in 2 minutes! Fully-featured free forever plan available.
+title: The best way to publish markdown powered websites
+description: Flowershow is the fast and easy way to create elegant markdown-based websites — for docs, handbooks, blogs and landing pages. No coding required. Sign up, connect your content, and have your site live in seconds!
 image: /assets/hero.png
 showHero: true
 showToc: false
 showEditLink: false
 showComments: false
 cta:
-  - label: Use Flowershow for free
+  - label: Start publishing for free
     href: https://cloud.flowershow.app/
 ---
 
 ## What is Flowershow?
 
-Flowershow is a quick and easy way to turn your markdown into an elegant website. No coding, no technical setup, no maintenance required. Just connect your content and publish with a click. Perfect for markdown-based digital gardens, documentation, blogs, wikis, websites including Obsidian vaults.
+Flowershow is a quick and easy way to turn your markdown into an elegant website. No coding, no technical setup, no maintenance required. Just connect your content and publish with a click. Perfect for markdown-based docs, blogs, knowledgebases, landing pages and more.
 
-- Obsidian compatibile
-- Quick and easy
-- Free forever plan
-
-### Crafted for Obsidian
-
-Works with your existing Obsidian notes out of the box. No need to modify the syntax or change file layout. Not an obsidian fan? Flowershow will work with any CommonMark or GFM markdown files.
+- **Instant deployment**: Go live in seconds with zero configuration
+- **Folder-based publishing**: Point to a folder of Markdown files
+- **Multi-page navigation**: Automatically generates structured sites
+- **Hosted & beautiful by default**: No need for custom design or build tools
+- **Own your content**: Fully Markdown-native, no lock-in, Git-integrable
+- **Custom domains and themes**: Bring your own domain, style your site
 
 ### Instant Publishing
 
@@ -35,13 +34,9 @@ Clean and elegant. Perfect for digital gardens, documentation, or any knowledge 
 
 Flowershow ensures you're always using the latest features without any maintenance. Focus on creating content while we handle the technical details.
 
-## Features
+### Markdown and Wiki Syntax Support
 
-Here are some of the cool features that are currently supported by Flowershow
-
-### Markdown and Obsidian Syntax Support
-
-Flowershow was designed with Obsidian users in mind, so it aims to fully support Obsidian syntax, including CommonMark, GitHub Flavoured Markdown and Obsidian extensions, like Wiki links.
+Fully supports CommonMark, GitHub Flavoured Markdown and Obsidian extensions, like Wiki links.
 
 [[syntax|Learn more →]]
 
@@ -98,9 +93,3 @@ Transform your page headers into stunning, full-width hero sections with customi
     textDecoration: 'none',
     display: 'inline-block'
   }}>Sign up for free now</a></div>
-
-
-
-
-
-
