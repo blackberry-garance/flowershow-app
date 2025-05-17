@@ -6,7 +6,6 @@
       { "href": "/pricing", "name": "Pricing" },
       { "href": "/docs", "name": "Docs" },
       { "href": "/blog", "name": "Blog" },
-      { "href": "/self-hosted", "name": "Self-hosted" },
       {
         "href": "https://github.com/flowershow/flowershow/discussions",
         "name": "Forum"
