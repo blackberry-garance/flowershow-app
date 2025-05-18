@@ -1,6 +1,6 @@
 ---
 title: Obsidian Publish Alternatives
-description: "What options are there for publishing your Obsidian vault? We review the main ones, paid and free, cloud or self-hosted. 
+description: "What options are there for publishing your Obsidian vault? We review the main ones, paid and free, cloud or self-hosted."
 date: 2023-05-22
 authors:
   - rufuspollock
