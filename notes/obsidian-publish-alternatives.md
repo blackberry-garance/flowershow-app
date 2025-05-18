@@ -1,50 +1,49 @@
-# Obsidian Publishing Options
+---
+title: Obsidian Publish Alternatives
+description: "What options are there for publishing your Obsidian vault? We review the main ones, paid and free, cloud or self-hosted. 
+date: 2023-05-22
+authors:
+  - rufuspollock
+---
 
-> [!WARNING]
->
-> This content has moved to https://flowershow.app/notes/obsidian-publishing-options
+Here we review the existing options for publishing an Obsidian vault, including official Obsidian Publish and the major alternatives.
 
-A list of existing obsidian publishing options including official obsidian publish and obsidian publish alternatives.
+In general, the main division is between approaches where the site creation and hosting are done for you (like Obsidian Publish and Flowershow Cloud) and approaches that are self-hosted options where you need to build and then host the published site and options.
 
-Plus some commentary on why flowershow could be useful addition to these and to the obsidian community.
+Amongst the self-hosted options there are roughly three main methods:
 
-Metadata
-
-- description
-- screenshot
-- metadata
-  - 🔗 primary url
-  - 📣 announce date and url
-  - ⭐ stars (plus github url)
-  - 💤 is it actively developed
-  - 💰 cost and/or license (if missing assume free and open source)
-  - 💻 tech approach summary e.g. is it js, what framework, script to static then publish
-- comments
-
-# Summary
-
-Typology of build approaches:
-
-- Obsidian plugin
-- Scripted conversion to a static site (usually python)
-- NextJS or similar
-
-What are common features (we can compare across)
-
-- Syntax support i.e. markdown plus obsidian
-- Default theme (look/feel)
-- Customizability (themeability)
-- Search
-- Publishing control (e.g. show/hide pages)
-- Links and network graph e.g. back/forward link info and overall graph
-
-Attributes to sort by
-
-- Date created
-- Active-ness
-- Cost/open-source
+- NextJS or similar static site generator where you use a full service static site generator to generate the site from the markdown files in the Obsidian vault. This is the approach of Flowershow self-hosted and Quartz
+- Obsidian plugin where site rendering is done within a plugin
+- Scripted conversion to a static site (usually python). This is like a simplified version of the first option where 
 
 # Options
+
+## Flowershow
+
+The software provided on this site. There's a cloud version where you can just click and publish and a self-hosted version. The cloud version is completely free with a premium upgrade for $5 a month if you want your own domain or some more advanced features.
+
+- 🔗 https://flowershow.app/
+- 💤 Active
+- 💰 $0/month (premium: $5/month)
+
+![image](https://github.com/user-attachments/assets/f07131b9-79a3-4ad6-8ff3-d1d81b8d3142)
+
+### Pros
+
+- Full compatibility with Obsidian syntax and features e.g. math, mermaid diagrams etc
+- Cloud hosting so nothing to install and maintain.
+- Elegant default theme
+- Fully customizable design
+- Blog support
+- Obsidian plugin as well as direct publishing
+- Can select what notes you want to publish
+- Sidebar
+- Commenting (via giscus)
+
+### Cons
+
+- Missing graph view of note linkages
+- No dataview support
 
 ## Obsidian Publish
 
@@ -52,7 +51,7 @@ The official obsidian publish plugin.
 
 - 🔗 https://help.obsidian.md/Obsidian+Publish/Introduction+to+Obsidian+Publish
 - 💤 Active
-- 💰 $20/month
+- 💰 $20/month (**update (2025)**: now $8/month, though with sync 
 
 ![[Pasted image 20220815165038.png]]
 
@@ -74,6 +73,7 @@ The official obsidian publish plugin.
 - costly ($20/month or $198/year) and no self-hosting option
 - not very customizable: you can use community themes (same as for desktop app) and tweak them or create your own
 - not website-like look, just like an online version of Obsidian
+- no dataview support
 
 ## obsidian-zola
 
@@ -307,3 +307,35 @@ Mkdocs Obsidian is an association between a python script and a Material mkdocs 
 
 - Main site page 404s: https://mara-li.github.io/mkdocs_obsidian_template/
 - Has worked to make an obsidian plugin that somehow connects to github actions to do publishing (?)
+
+# Metadata
+
+This is the metadata we try to collect on each item.
+
+- description
+- screenshot
+- metadata
+  - 🔗 primary url
+  - 📣 announce date and url
+  - ⭐ stars (plus github url)
+  - 💤 is it actively developed
+  - 💰 cost and/or license (if missing assume free and open source)
+  - 💻 tech approach summary e.g. is it js, what framework, script to static then publish
+- comments
+
+## Analysis
+
+What are common features (we can compare across)
+
+- Syntax support i.e. markdown plus obsidian
+- Default theme (look/feel)
+- Customizability (themeability)
+- Search
+- Publishing control (e.g. show/hide pages)
+- Links and network graph e.g. back/forward link info and overall graph
+
+Attributes to sort by
+
+- Date created
+- Active-ness
+- Cost/open-source
