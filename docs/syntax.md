@@ -289,39 +289,61 @@ Two '-' will convert to ndash. Three '-' will convert to mdash. Three '.' with o
 **Renders as:**  
 ![[sample.pdf]]
 
-## Callouts
+### Callouts
 
 **Example:**
 
 ```md
 > [!info] This is cool!
 > Here's a callout block.
-> It supports **markdown** and [[Internal link|wikilinks]].
+> It supports **markdown** and [[abc|wikilinks]].
 ```
 
 **Renders as:**
 
 > [!info] This is cool!
 > Here's a callout block.
-> It supports **markdown** and [[docs/index|wikilinks]].
+> It supports **markdown** and [[abc|wikilinks]].
 
-### Supported Types:
+**Example:**
+
+```md
+> [!tip] Title-only callout
+```
+
+**Renders as:**
+
+> [!tip] Title-only callout
+
+**Example:**
+
+```md
+> [!faq]- Are callouts foldable?
+> Yes! In a foldable callout, the contents are hidden when the callout is collapsed.
+```
+
+**Renders as:**
+
+> [!faq]- Are callouts foldable?
+> Yes! In a foldable callout, the contents are hidden when the callout is collapsed.
+
+**Example:**
+
+```md
+> [!question] Can callouts be nested?
+> > [!todo] Yes!, they can.
+> > > [!example]  You can even use multiple layers of nesting.
+```
+
+**Renders as:**
+
+> [!question] Can callouts be nested?
+> > [!todo] Yes!, they can.
+> > > [!example]  You can even use multiple layers of nesting.
+
 
 Flowershow supports 13 different Obsidian callout types (with aliases) like note, abstract, todo, or tip. See this [Obsidian docs page](https://help.obsidian.md/How+to/Use+callouts) to learn more about different callout types.
 
-- note
-- tip (alias: hint, important)
-- warning (alias: caution, attention)
-- abstract (alias: summary, tldr)
-- info
-- todo
-- success (alias: check, done)
-- question (alias: help, faq)
-- failure (alias: fail, missing)
-- danger (alias: error)
-- bug
-- example
-- quote (alias: cite)
 
 ### 🚧 Text highlighting
 
