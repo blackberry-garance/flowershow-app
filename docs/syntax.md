@@ -341,8 +341,7 @@ Two '-' will convert to ndash. Three '-' will convert to mdash. Three '.' with o
 > > [!todo] Yes!, they can.
 > > > [!example]  You can even use multiple layers of nesting.
 
-#### Supported callout types
-
+**Supported callout types:**
 Flowershow supports 13 different Obsidian callout types (with aliases) like note, abstract, todo, or tip. See this [Obsidian docs page](https://help.obsidian.md/How+to/Use+callouts) to learn more about different callout types.
 
 ### 🚧 Text highlighting
