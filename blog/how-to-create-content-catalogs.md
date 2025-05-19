@@ -1,14 +1,17 @@
 ---
-title: How to Create Content Catalogs with the List Component
-description: Learn how to organize and display your content collections using Flowershow's List component, perfect for blog posts, tutorials, recipes, and more.
+title: How to Create Blogs and Listing Pages with Flowershow
+description: Flowershow's new listing features make it super easy to create blog index pages and other kind of listing pages for tutorials, recipes, and more.
 date: 2025-03-25
 authors:
   - olayway
 tags:
   - flowershow-cloud
+image: /assets/Pasted%20image%2020250325124121.png
 ---
 
 Whether you're managing a blog, documentation, recipes, or any other collection of markdown files, the List component makes it easy to display them in a clean, organized way.
+
+![[Pasted image 20250325124121.png]]
 
 ## Using the List Component
 
@@ -28,6 +31,7 @@ That's it! This single line will create an elegantly formatted list of all markd
 ## How It Works
 
 The List component:
+
 - Takes an absolute path to a directory as its `dir` prop
 - Scans the specified directory for markdown files
 - Automatically ignores `README.md` and `index.md` files
