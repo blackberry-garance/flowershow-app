@@ -54,7 +54,7 @@ Here are all my blog posts:
 ## Important Notes
 
 - The `dir` prop must be an absolute path
-- The component won't display `README.md` or `index.md` files
+- The component won't list home (aka index) pages (`README.md` or `index.md` files)
 - Files are sorted by date (newest first) if dates are provided in frontmatter, otherwise they are sorted by title
 - The component is not recursive - it won't show files in subdirectories
 
