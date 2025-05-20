@@ -38,5 +38,3 @@ https://flowershow.app/docs/social-previews
 ---
 
 We 💙 feedback! If you have any ideas for new features or if you’ve noticed any bugs, please submit an issue [here](https://github.com/flowershow/flowershow/issues) or start a discussion [here](https://github.com/flowershow/flowershow/discussions). Thank you! 🌷
-
-[Join our Discord server!](https://discord.gg/vQ5Y2uUzt6)

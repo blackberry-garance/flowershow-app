@@ -229,7 +229,3 @@ The `blogs.js` file is just one example of using getter functions. If you want t
 ## Conclusion
 
 Using [Flowershow](https://flowershow.app/) as a template to make a content driven site takes the hassle out of implementing a lot of useful features from scratch, so give it a try if you just want to get started getting your content online!
-
-[Sign up for Flowershow's newsletter](https://flowershow.app/)
-
-[Join Flowershow's Discord](https://discord.com/invite/cPxejPzpwt)

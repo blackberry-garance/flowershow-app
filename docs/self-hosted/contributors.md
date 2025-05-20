@@ -42,9 +42,6 @@ If you'd like to work on one of them:
 
 If you have an idea for improvement, and it doesn't have a corresponding issue yet, simply submit a new one.
 
-> [!note]
-> Join our [Discord channel](https://discord.gg/cPxejPzpwt) do discuss existing issues and to ask for help.
-
 ## Package manager
 
 We're using `pnpm` package manager.
