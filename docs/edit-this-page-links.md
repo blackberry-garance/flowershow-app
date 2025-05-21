@@ -5,7 +5,8 @@ description: Display an “Edit this page” link at the bottom of each page tha
 
 ## Configuration
 
->[!important] Your GitHub repository must be **public**
+> [!important]
+> Your GitHub repository must be **public**
 
 To enable the button **on all pages**, this in your site's [[config-file|config file]].
 
