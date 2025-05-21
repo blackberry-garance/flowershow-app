@@ -3,7 +3,7 @@ title: Analytics configuration
 description: Set up Google Analytics 4 to track and analyse behavior of your site's visitors.
 ---
 
-## Configuration Structure
+## Configuration structure
 
 Analytics configuration is defined using the `analytics` field in your `config.json`:
 
@@ -17,7 +17,7 @@ Analytics configuration is defined using the `analytics` field in your `config.j
 
 - `analytics`: Your Google Analytics 4 Measurement ID (starts with "G-")
 
-## Data Stream Setup
+## Data stream setup
 
 Before configuring analytics, you need a Google Analytics 4 data stream:
 

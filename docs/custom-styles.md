@@ -3,7 +3,7 @@ title: Custom styles
 description: Customize the appearance of your site with CSS.
 ---
 
-## Creating the File
+## Creating the file
 
 1. Create a new file named `custom.css` in the root of your repository (or the root directory of you're site's content if you're publishing from a subfolder)
 2. Add your CSS rules to customize colors, fonts, layouts, and more

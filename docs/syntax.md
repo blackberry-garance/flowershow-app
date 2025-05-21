@@ -1,5 +1,6 @@
-# Markdown syntax support
-
+---
+title: Markdown syntax support
+---
 Flowershow was designed with Obsidian users in mind, and so, it aims to fully support Obsidian syntax, including **CommonMark**, **GitHub Flavoured Markdown** and **Obsidian extensions**, like Wiki links.
 
 ## CommonMark

@@ -5,107 +5,103 @@ description: Edit and manage settings for your entire published site
 
 > [!info] Some features are only available on [premium sites](https://flowershow.app/pricing).
 
-## Configuration File
+## Site name
 
-The `config.json` file is the central configuration file for your Flowershow site. It allows you to customize various aspects of your site, from analytics and comments to navigation and layout options.
+Change your site name. If you don't have a custom domain set it will be used in the URL at which your site is published, i.e. `https://my.flowershow.app/@<your-username>/<site-name>`.
 
-### File Location
+![[site-name-option.png]]
 
-Place the `config.json` file in the root directory of your site's content. For most users, this means placing it in the root of your repository. However, if you publish only a specific folder of your vault/repository, you should place this file within that folder.
+## Branch
 
-### Configuration Options
+Change the branch of the GitHub repository you're site is built from. Defaults to `main`.
 
-Here's a comprehensive overview of all available configuration options:
+![[branch-option.png]]
 
-#### Analytics
+## Root directory
 
-Enable Google Analytics 4 tracking:
+Set path to the folder in your GitHub repository that you want to publish. Leave this field empty if you want to publish the entire repository.
+
+![[root-dir-option.png]]
+
+For example, if you have a repository with your app's code and you wish to publish only it's documentation that you keep in `/docs`, you can use this field to do that.
+
+## Auto-sync
+
+Make your site content automatically publish after you commit any changes to your GitHub repository.
+
+![[auto-sync-option.png]]
+
+## Comments
+
+Show comments section at the bottom of your pages.
+
+![[comments-option.png]]
+
+👉 See [[/docs/comments|Comments]] to learn more.
+
+## Full-text search (⭐️ Premium feature)
+
+Turn on content indexing and show search field in the nav bar to make finding relevant information easier for your visitors.
+
+![[search-option.png]]
+## Custom domain (⭐️ Premium feature)
+
+Set custom domain for your site.
+
+![[custom-domain-option.png]]
+
+🚧 More instructions coming soon!
+
+## Analytics
+
+Enable Google Analytics tracking with `analytics` field in your [[config-file|config file]].
 
 ```json
 {
-  "analytics": "G-XXXXXXXXXX"  // Your GA4 Measurement ID
+  "analytics": "G-XXXXXXXXXX" // Your GA4 Tracking ID
 }
 ```
 
-[[/docs/analytics|Learn more]]
+👉 See [[/docs/analytics|Analytics]] to learn more.
 
-#### Comments
+## Navigation bar
 
-Control comment functionality across your site:
-
-```json
-{
-  "showComments": false  // Disable comments site-wide (if you want to enable them only on specific pages)
-}
-```
-
-[[/docs/comments|Learn more]]
-
-#### Navigation Bar
-
-Customize your site's navigation bar:
+Customize your site's navigation bar. Set **logo**, **title**, **links** and **socials**.
 
 ```json
 {
   "nav": {
-    "logo": "logo.jpeg",        // Path to your logo file or external URL
-    "title": "My Digital Garden", // Site title displayed next to the logo
-    "links": [                  // Navigation links
-      {
-        "href": "/blog",
-        "name": "Blog"
-      }
-    ],
-    "social": [                // Social media links
-      {
-        "label": "github",     // Platform identifier
-        "name": "GitHub Profile",
-        "href": "https://github.com/yourusername"
-      }
-    ]
+    "logo": "/path/to/logo.png",
+    ...
   }
 }
 ```
 
-[[/blog/how-to-configure-navigation-bar|Learn more]]
+👉 See [[navbar|Navigation bar]] to learn more.
 
-#### Sidebar
+## Sidebar
 
-Enable the sidebar navigation:
-
-```json
-{
-  "showSidebar": true  // Enable sidebar navigation (with sitemap)
-}
-```
-
-[[/docs/sidebar-configuration|Learn more]]
-
-### Complete Example
-
-Here's a comprehensive example showing all available options:
+Show your site's sitemap in a sidebar on the left.
 
 ```json
 {
-  "analytics": "G-XXXXXXXXXX",
-  "showComments": true,
-  "showSidebar": true,
-  "nav": {
-    "logo": "logo.jpeg",
-    "title": "My Digital Garden",
-    "links": [
-      {
-        "href": "/blog",
-        "name": "Blog"
-      }
-    ],
-    "social": [
-      {
-        "label": "github",
-        "name": "GitHub Profile",
-        "href": "https://github.com/yourusername"
-      }
-    ]
-  }
+  "showSidebar": true
 }
 ```
+
+👉 See [[sidebar|Sidebar]] to learn more.
+
+## "Edit this page" links
+
+> [!important] Works only for sites published from **public** GitHub repositories.
+
+Show "Edit this page" links at the bottom of your site's pages to allow visitors to contribute to your content easily. Links will open the underlying files in edit mode in your GitHub repository.
+
+```json
+{
+  "showEditLink": true
+}
+```
+
+👉 See [[edit-this-page-links|"Edit this page" links]] to learn more.
+

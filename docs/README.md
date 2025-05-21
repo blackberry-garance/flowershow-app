@@ -23,18 +23,26 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 
 ## Reference
 
-- [[syntax|Syntax]]
-- [[math|Math equations]]
-- [[mermaid|Mermaid graphs]]
-- [[page-headers|Page header]]
-- [[hero-sections|Hero sections]]
+### Site settings
+
+- [[site-settings|Site settings (comprehensive list of options)]]
 - [[navbar|Navbar]]
 - [[sidebar|Sidebar]]
 - [[docs/comments|Page comments]]
-- [[docs/custom-styles|Custom styles]]
-- [[edit-this-page-links|Edit this page links]]
-- [[docs/list-component|List Component]]
+- [[edit-this-page-links|"Edit this page" links]]
 - [[docs/analytics|Google Analytics configuration]]
+- [[docs/custom-styles|Custom styles]]
+- [[config-file|`config.json` file]]
+
+### Site content
+
+- [[syntax|Supported syntax]]
+- [[math|Math equations]]
+- [[mermaid|Mermaid graphs]]
+- [[hero-sections|Hero sections]]
+- [[page-headers|Page headers]]
+- [[docs/list-component|List Component]]
+- 🚧 JSX blocks styled with Tailwind classes
 
 ---
 
