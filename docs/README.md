@@ -1,6 +1,4 @@
----
-title: Get Started with Flowershow
----
+# Get Started with Flowershow
 
 ## What is Flowershow?
 
@@ -19,7 +17,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[blog/how-to-add-edit-this-page-button|How to Add 'Edit this page' Button (To Encourage Contributions)]]
 - [[blog/how-to-add-featured-images|How to Add Featured Images to Your Pages (and Set Social Previews)]]
 - [[blog/how-to-create-content-catalogs|How to Create Content Catalogs with the List Component (for Your Blog Posts, Tutorials List and More)]]
-- [[docs/sidebar-configuration|How to Enable Sidebar Navigation]]
+- [[docs/sidebar|How to Enable Sidebar Navigation]]
 - [[blog/how-to-configure-google-analytics|How to Configure Your Site with Google Analytics]]
 - 🚧 How to Add Charts and Graphs
 
@@ -28,18 +26,15 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[syntax|Syntax]]
 - [[math|Math equations]]
 - [[mermaid|Mermaid graphs]]
-- [[page-header-configuration|Page headers]]
+- [[page-headers|Page header]]
 - [[hero-sections|Hero sections]]
-- [[navbar-configuration|Navbar]]
-- [[sidebar-configuration|Sidebar]]
+- [[navbar|Navbar]]
+- [[sidebar|Sidebar]]
 - [[docs/comments|Page comments]]
 - [[docs/custom-styles|Custom styles]]
-- [[docs/edit-this-page|Edit this page button]]
+- [[edit-this-page-links|Edit this page links]]
 - [[docs/list-component|List Component]]
 - [[docs/analytics|Google Analytics configuration]]
-
->[!note]
->If you're looking for docs and tutorials related to Flowershow Self-Hosted, [[/docs/self-hosted/README|click here]].
 
 ---
 

@@ -1,11 +1,7 @@
 ---
-title: Page Header Configuration
+title: Page headers
+description: Configure page headers and SEO meta tags. 
 ---
-
-> [!note]
-> You are viewing documentation for Flowershow Cloud. For Flowershow Self-hosted documentation, visit [[/docs/self-hosted/README|docs/self-hosted]].
-
-Flowershow Cloud supports several page configuration options through frontmatter. These options help you control how your pages appear both on your site and in social media shares.
 
 ## Available Configuration Options
 

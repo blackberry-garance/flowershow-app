@@ -1,11 +1,7 @@
 ---
-title: List Component
+title: `List` component
+description: Create organized lists and content catalogs by automatically listing files in a specified directory.
 ---
-
-> [!note]
-> You are viewing documentation for Flowershow Cloud. For Flowershow Self-hosted documentation, visit [[/docs/self-hosted/README|docs/self-hosted]].
-
-The List component allows you to create organized catalogs of your markdown content by automatically listing files from a specified directory.
 
 ## Usage
 

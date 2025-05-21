@@ -1,8 +1,7 @@
 ---
-title: Math
+title: Math equations
+description: Write math equestions with LaTeX syntax.
 ---
-
-Flowershow supports math syntax where you can use LaTeX notations to denote formulas.
 
 ## How to use
 
@@ -42,8 +41,4 @@ c & d
 \end{vmatrix}=ad-bc
 $$
 
-## Developers
-
-Math syntax is supported by using the remark and rehype plugins - [remark-math](https://github.com/remarkjs/remark-math/tree/main/packages/remark-math) and [rehype-katex](https://github.com/remarkjs/remark-math/tree/main/packages/rehype-katex).
-
-More documentation on math syntax usage can be found on [KaTeX](https://katex.org/).
+More documentation on math syntax usage can be found in [KaTeX docs](https://katex.org/docs/support_table.html).

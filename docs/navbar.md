@@ -1,11 +1,7 @@
 ---
-title: Navbar Configuration
+title: Navbar configuration
+description: Set logo, title, links and socials in your navigation bar.
 ---
-
-> [!note]
-> You are viewing documentation for Flowershow Cloud. For Flowershow Self-hosted documentation, visit [[/docs/self-hosted/README|docs/self-hosted]].
-
-The navigation bar in Flowershow Cloud can be customized through the `config.json` file in your site's root directory. This guide covers all available configuration options for customizing your site's navigation bar.
 
 ## Configuration Structure
 

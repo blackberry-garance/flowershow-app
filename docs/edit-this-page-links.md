@@ -1,11 +1,7 @@
 ---
-title: '"Edit this page" button'
+title: '"Edit this page" links'
+description: Display an “Edit this page” link at the bottom of each page that takes users directly to the file in your GitHub repo, ready for editing.
 ---
-
-> [!note]
-> You are viewing documentation for Flowershow Cloud. For Flowershow Self-hosted documentation, visit [[/docs/self-hosted/README|docs/self-hosted]].
-
-You can enable an "Edit this page" button at the bottom of your pages to encourage contributions to your content. This button links directly to the source file in your GitHub repository.
 
 ## Requirements
 

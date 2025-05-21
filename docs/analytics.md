@@ -1,8 +1,7 @@
 ---
-title: Analytics Configuration
+title: Analytics configuration
+description: Set up Google Analytics 4 to track and analyse behavior of your site's visitors.
 ---
-
-Flowershow supports Google Analytics 4 integration through a simple configuration in your site's `config.json` file. This guide covers how to set up analytics tracking for your Flowershow site.
 
 ## Configuration Structure
 

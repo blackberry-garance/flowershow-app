@@ -1,8 +1,7 @@
 ---
 title: Sidebar Configuration
+description: Enable sidebar navigation that displays your site's structure and links to all pages.
 ---
-
-Flowershow allows you to enable a sidebar navigation that displays your site's structure and links to all pages.
 
 ## Enabling the Sidebar
 

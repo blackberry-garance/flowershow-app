@@ -1,11 +1,7 @@
 ---
-title: Hero Configuration
-description: Configure hero sections for your pages
+title: Hero sections
+description: Add prominent, full-width banners at the top of your pages that can include titles, descriptions, background images and call-to-action buttons.
 ---
-
-# Hero Configuration
-
-Flowershow supports hero sections - prominent, full-width banners at the top of your pages that can include titles, descriptions, background images and call-to-action buttons.
 
 ## Page-Level Configuration
 

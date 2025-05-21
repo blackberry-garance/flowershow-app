@@ -1,21 +1,23 @@
 ---
-title: Configuration File (config.json)
-description: A comprehensive guide to Flowershow's config.json configuration file
+title: Site settings
+description: Edit and manage settings for your entire published site
 ---
 
-# Configuration File
+> [!info] Some features are only available on [premium sites](https://flowershow.app/pricing).
+
+## Configuration File
 
 The `config.json` file is the central configuration file for your Flowershow site. It allows you to customize various aspects of your site, from analytics and comments to navigation and layout options.
 
-## File Location
+### File Location
 
 Place the `config.json` file in the root directory of your site's content. For most users, this means placing it in the root of your repository. However, if you publish only a specific folder of your vault/repository, you should place this file within that folder.
 
-## Configuration Options
+### Configuration Options
 
 Here's a comprehensive overview of all available configuration options:
 
-### Analytics
+#### Analytics
 
 Enable Google Analytics 4 tracking:
 
@@ -27,7 +29,7 @@ Enable Google Analytics 4 tracking:
 
 [[/docs/analytics|Learn more]]
 
-### Comments
+#### Comments
 
 Control comment functionality across your site:
 
@@ -39,7 +41,7 @@ Control comment functionality across your site:
 
 [[/docs/comments|Learn more]]
 
-### Navigation Bar
+#### Navigation Bar
 
 Customize your site's navigation bar:
 
@@ -67,7 +69,7 @@ Customize your site's navigation bar:
 
 [[/blog/how-to-configure-navigation-bar|Learn more]]
 
-### Sidebar
+#### Sidebar
 
 Enable the sidebar navigation:
 
@@ -79,7 +81,7 @@ Enable the sidebar navigation:
 
 [[/docs/sidebar-configuration|Learn more]]
 
-## Complete Example
+### Complete Example
 
 Here's a comprehensive example showing all available options:
 

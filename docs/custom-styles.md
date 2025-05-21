@@ -1,11 +1,7 @@
 ---
-title: Custom Styles
+title: Custom styles
+description: Customize the appearance of your site with CSS.
 ---
-
-> [!note]
-> You are viewing documentation for Flowershow Cloud. For Flowershow Self-hosted documentation, visit [[/docs/self-hosted/README|docs/self-hosted]].
-
-You can customize the appearance of your Flowershow Cloud site by adding a `custom.css` file to your site's repository.
 
 ## Creating the File
 

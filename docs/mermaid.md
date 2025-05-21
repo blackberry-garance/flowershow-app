@@ -1,10 +1,7 @@
 ---
-title: Mermaid Diagrams
+title: Mermaid diagrams
+description: Create diagrams and visualizations using a popular, text-based syntax.
 ---
-
-Mermaid lets you create diagrams and visualizations using a simple text-based syntax. You can read more about [Mermaid diagrams on the Mermaid website here](https://mermaid-js.github.io/mermaid/#/).
-
-Because it is text-based mermaid is very well suited to being using in plain-text and markdown.
 
 ## How to use
 
@@ -61,3 +58,5 @@ sequenceDiagram
     John-->>-Alice: Hi Alice, I can hear you!
     John-->>-Alice: I feel great!
 ```
+
+You can read more about Mermaid diagrams on the [Mermaid website](https://mermaid.js.org/)..
