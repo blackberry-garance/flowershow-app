@@ -4,4 +4,4 @@ description: A collection of blog posts about Flowershow, its features, updates,
 showToc: false
 ---
 
-<List dir="/blog"/ fields={["title", "description", "date", "authors"]}>
+<List dir="/blog" fields={["title", "description", "date", "authors"]}/>
