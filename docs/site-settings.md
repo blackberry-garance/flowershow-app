@@ -3,7 +3,8 @@ title: Site settings
 description: Edit and manage settings for your entire published site
 ---
 
-> [!info] Some features are only available on [premium sites](https://flowershow.app/pricing).
+> [!info]
+> Some features are only available on [premium sites](https://flowershow.app/pricing).
 
 ## Site name
 
