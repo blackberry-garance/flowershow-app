@@ -1,3 +1,3 @@
-# Site Wide Table of Contents
+# Site wide Table of Contents
 
 See [[sidebar|Sidebar Configuration]]

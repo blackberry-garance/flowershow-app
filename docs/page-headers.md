@@ -3,7 +3,7 @@ title: Page headers
 description: Configure page headers and SEO meta tags. 
 ---
 
-## Available Configuration Options
+## Available configuration options
 
 Here are all the available page configuration options:
 
@@ -56,7 +56,7 @@ The `date` field sets the publication date for your page and is displayed in pag
 date: 2024-03-06               # YYYY-MM-DD format
 ```
 
-### Featured Image
+### Featured image
 
 The `image` field sets a featured image for your page.
 
@@ -68,7 +68,7 @@ You can specify your featured image in two ways:
 1. **Repository Path**: Use a relative or absolute path to an image in your repository
 2. **External URL**: Link to an image hosted elsewhere on the web
 
-#### Adding a Featured Image
+#### Adding a featured image
 
 Add the `image` field to your page's frontmatter:
 
@@ -97,7 +97,7 @@ image: https://example.com/my-image.jpg  # external URL
 ---
 ```
 
-## Best Practices
+## Best practices
 
 - Use descriptive titles and descriptions for better SEO
 - Include featured images when possible for better social sharing

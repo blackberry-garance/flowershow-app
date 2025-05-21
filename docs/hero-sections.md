@@ -3,7 +3,7 @@ title: Hero sections
 description: Add prominent, full-width banners at the top of your pages that can include titles, descriptions, background images and call-to-action buttons.
 ---
 
-## Page-Level Configuration
+## Page-level configuration
 
 Enable hero sections for individual pages using frontmatter:
 
@@ -45,7 +45,7 @@ cta:
 ---
 ```
 
-## Site-Wide Configuration
+## Site-wide configuration
 
 Enable hero sections across your site using `config.json`:
 
@@ -70,7 +70,7 @@ Enable hero sections across your site using `config.json`:
 
 This sets default hero content for all pages. Individual page frontmatters can override these defaults.
 
-## Disabling Heroes
+## Disabling heroes
 
 To disable a hero section on a specific page when enabled site-wide:
 
@@ -80,7 +80,7 @@ showHero: false
 ---
 ```
 
-## Best Practices
+## Best practices
 
 1. Use high-quality images optimized for web
 2. Keep descriptions concise and engaging

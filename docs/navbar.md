@@ -3,7 +3,7 @@ title: Navbar configuration
 description: Set logo, title, links and socials in your navigation bar.
 ---
 
-## Configuration Structure
+## Configuration structure
 
 The navigation bar configuration is defined under the `nav` object in your `config.json`:
 
@@ -18,7 +18,7 @@ The navigation bar configuration is defined under the `nav` object in your `conf
 }
 ```
 
-## Logo and Title
+## Logo and title
 
 Configure your site's branding with a logo and title:
 
@@ -34,7 +34,7 @@ Configure your site's branding with a logo and title:
 - `logo`: Path to your logo file (relative to site root) or external URL
 - `title`: Text displayed as your site title
 
-## Navigation Links
+## Navigation links
 
 Add navigation links using the `links` array. Each link requires:
 
@@ -59,7 +59,7 @@ Properties:
 - `href`: URL or path the link points to
 - `name`: Display text for the link
 
-## Social Media Links
+## Social media links
 
 Add social media links using the `social` array. Each social link requires:
 
@@ -97,7 +97,7 @@ Supported Platform Labels:
 - `instagram`
 - `youtube`
 
-## Complete Example
+## Complete example
 
 Here's a comprehensive configuration example:
 
