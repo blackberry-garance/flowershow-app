@@ -1,16 +1,14 @@
 ---
 title: Pricing
-description: "Simple and transparent pricing for Flowershow Cloud"
+description: Start sharing your digital garden for free. Upgrade to get extra premium features.
 showToc: false
 showComments: false
 showEditLink: false
 ---
 
-Start sharing your digital garden for free. Upgrade to get extra premium features.
-
 ## Free Plan
 
-**USD 0/month**  
+**\$0/month**  
 
 Perfect for personal digital gardens and small projects
 
@@ -29,7 +27,7 @@ Perfect for personal digital gardens and small projects
 
 ## Premium Plan
 
-**USD 5/month** or **USD 50/annually**
+**\$5/month** or **\$50/annually**
 
 For creators who want more customization and features
 
