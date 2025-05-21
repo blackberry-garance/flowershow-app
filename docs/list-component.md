@@ -1,5 +1,5 @@
 ---
-title: `List` component
+title: "`List` component"
 description: Create organized lists and content catalogs by automatically listing files in a specified directory.
 ---
 
