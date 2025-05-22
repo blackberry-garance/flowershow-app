@@ -1,5 +1,5 @@
 ---
-title: Page comments
+title: Comments
 description: Enable comments on yout site's pages. Powered by Giscus and GitHub Discussions.
 ---
 
