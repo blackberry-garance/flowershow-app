@@ -28,13 +28,13 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[site-settings|Site settings (comprehensive list of options)]]
 - [[navbar|Navbar]]
 - [[sidebar|Sidebar]]
-- [[docs/comments|Page comments]]
+- [[docs/comments|Comments]]
 - [[edit-this-page-links|"Edit this page" links]]
 - [[docs/analytics|Google Analytics configuration]]
 - [[docs/custom-styles|Custom styles]]
 - [[config-file|`config.json` file]]
 
-### Site content
+### Page content
 
 - [[syntax|Supported syntax]]
 - [[math|Math equations]]
