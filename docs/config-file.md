@@ -3,7 +3,10 @@ title: "`config.json` file"
 ---
 ## What is `config.json` file
 
-`config.json` file is the central configuration file for your Flowershow site. It allows you to customize various aspects of your site, from analytics and comments to navigation and layout options.
+`config.json` file is the configuration file for your Flowershow site complementary to site settings in your dashboard. It allows you to customize various aspects of your site, from analytics and comments to navigation and layout options.
+
+> [!info]
+> This is just a reference page documenting the correct file structure, fields and value types. To see all the site configuration options we advise you to visit [[site-settings|Site settings]] instead.
 
 ## File location
 
