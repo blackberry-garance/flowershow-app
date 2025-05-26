@@ -1,5 +1,5 @@
 ---
-title: Thanks for subscribing 🌷
+title: Thanks for subscribing!
 showToc: false
 showComments: false
 showEditLink: false
