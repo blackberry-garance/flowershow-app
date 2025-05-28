@@ -19,6 +19,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[blog/how-to-create-content-catalogs|How to Create Content Catalogs with the List Component (for Your Blog Posts, Tutorials List and More)]]
 - [[docs/sidebar|How to Enable Sidebar Navigation]]
 - [[blog/how-to-configure-google-analytics|How to Configure Your Site with Google Analytics]]
+- [[blog/how-to-debug-404-pages|How to Debug 404 Pages]]
 - 🚧 How to Add Charts and Graphs
 
 ## Reference
