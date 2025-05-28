@@ -16,15 +16,13 @@ The key to debugging 404 pages in Flowershow is understanding how URLs map to fi
 
 When someone visits a URL like `https://my.flowershow.app/@username/sitename/blog`, Flowershow has it mapped internally to one of these files in your repository:
 
-1. `/blog.md`
-2. `/blog/README.md`
+1. `/blog.md` or
+2. `/blog/README.md` or
 3. `/blog/index.md` 
 
-The system checks for these files in this exact order when creating the mapping and takes the first one it finds.
-
 In case of the root (home page) of your website (e.g. `https://my.flowershow.app/@username/sitename`), Flowershow will look for:
-1. `/README.md`
-2. `/index.md` 
+1. `/README.md` or
+2. `/index.md`
 
 ### Root directory configuration
 
