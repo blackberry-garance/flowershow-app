@@ -1,6 +1,6 @@
 ---
 title: How to Exclude Files from Publishing
-description: Learn how to control which files get published in your Flowershow site using content filtering and page-level settings
+description: Learn how to control which files get published in your Flowershow site.
 date: 2025-05-28
 authors:
   - olayway
