@@ -48,8 +48,8 @@ When Flowershow resolves file paths to URLs, it applies specific encoding rules 
    - `/docs/getting-started/index.md` becomes `/docs/getting-started`
 
 3. **URL encoding**: Special characters in file names are encoded using a custom encoding scheme:
-   - Special characters are percent-encoded using `encodeURIComponent()`
    - Spaces are converted to `+` (plus signs)
+   - Other special characters are encoded using `encodeURIComponent()` [1^]
    - Letter casing is preserved
 
 **Examples of file name encoding**:
@@ -78,7 +78,7 @@ This encoding system ensures that your file names can contain spaces and special
 
 **Problem**: Flowershow URLs are case sensitive and you've typed a wrong case in the URL.
 
-**Example 1**: Incorrect casing.
+**Example**:
 - File: `/About.md`
 - URL: `/about` ❌
 - URL should be: `/About` ✅
@@ -87,10 +87,19 @@ This encoding system ensures that your file names can contain spaces and special
 
 **Problem**: You forgot to include `.md` (or `.mdx`) extension in the file name. Or you've used incorrect extension, e.g. `.txt`.
 
-**Example 1**: Incorrect casing.
+**Example**:
 - URL: `/quick-start`
 - File: `/quick-start` ❌
 - File should be: `/quick-start.md` ✅
+
+### Spaces in file names
+
+**Problem**: Your file includes spaces and you try to visit it at the same URL path.
+
+**Example**: 
+- File: `/quick start.md`
+- URL: `/quick start` ❌
+- URL should be: `/quick+start` ✅ (Flowershow `+` signs for spaces)
 
 ### Stupid typo
 
