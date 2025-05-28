@@ -49,7 +49,7 @@ When Flowershow resolves file paths to URLs, it applies specific encoding rules 
 
 3. **URL encoding**: Special characters in file names are encoded using a custom encoding scheme:
    - Spaces are converted to `+` (plus signs)
-   - Other special characters are encoded using `encodeURIComponent()` [1^]
+   - Other special characters are encoded using `encodeURIComponent()`
    - Letter casing is preserved
 
 **Examples of file name encoding**:
@@ -91,15 +91,6 @@ This encoding system ensures that your file names can contain spaces and special
 - URL: `/quick-start`
 - File: `/quick-start` ❌
 - File should be: `/quick-start.md` ✅
-
-### Spaces in file names
-
-**Problem**: Your file includes spaces and you try to visit it at the same URL path.
-
-**Example**: 
-- File: `/quick start.md`
-- URL: `/quick start` ❌
-- URL should be: `/quick+start` ✅ (Flowershow uses encodes spaces as `+` signs)
 
 ### Stupid typo
 
