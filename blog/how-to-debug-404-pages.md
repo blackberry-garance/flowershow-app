@@ -99,7 +99,7 @@ This encoding system ensures that your file names can contain spaces and special
 **Example**: 
 - File: `/quick start.md`
 - URL: `/quick start` ❌
-- URL should be: `/quick+start` ✅ (Flowershow `+` signs for spaces)
+- URL should be: `/quick+start` ✅ (Flowershow uses encodes spaces as `+` signs)
 
 ### Stupid typo
 
