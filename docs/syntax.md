@@ -343,6 +343,34 @@ Two '-' will convert to ndash. Three '-' will convert to mdash. Three '.' with o
 **Supported callout types:**
 Flowershow supports 13 different Obsidian callout types (with aliases) like note, abstract, todo, or tip. See this [Obsidian docs page](https://help.obsidian.md/How+to/Use+callouts) to learn more about different callout types.
 
+### Comments
+
+**Example:**
+
+```md
+Here is some invisible inline comment: {/* comment! */}
+
+Here is an invisible multiline comment:
+
+{/*
+multi
+line
+comment!
+*/}
+```
+
+**Renders as:**
+
+Here is some invisible inline comment: {/* comment! */}
+
+Here is an invisible multiline comment:
+
+{/*
+multi
+line
+comment!
+*/}
+
 ### 🚧 Text highlighting
 
 ==I'm Highlighted!== is done using `==I'm Highlighted!==`
@@ -360,26 +388,3 @@ Displaying embedded [Excalidraw](https://excalidraw.com/) sketches.
 **Renders as:**  
 ![[customizability-vs-upgradeability-efficient-frontier-2022-06-26]]
 
-### 🚧 Comments
-
-**Example:**
-
-```md
-Here is some inline comments: %%You can't see this text%%
-
-Here is a block comment:
-%%
-It can span
-multiple lines
-%%
-```
-
-**Renders as:**
-
-Here is some inline comments: %%You can't see this text%%
-
-Here is a block comment:
-%%
-It can span
-multiple lines
-%%
