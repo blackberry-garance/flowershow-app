@@ -20,14 +20,13 @@ The primary way to control content filtering is through the `contentInclude` and
 
 To specify which files and directories should be excluded from your published site, use the `contentExclude` field.
 
-For example:
+For example, here we can exclude all of the drafts folder *and* a specific file `private.md`:
+
 ```json
-{
   "contentExclude": [
-    "/drafts",          // Exclude entire drafts directory
-    "private.md"        // Exclude specific file
+    "/drafts",
+    "private.md"
   ]
-}
 ```
 
 ### Including Specific Content
@@ -35,12 +34,10 @@ For example:
 If instead you want to publish only _some_ files or directories, you can use the `contentInclude` field:
 
 ```json
-{
   "contentInclude": [
-    "/blog",           // Include entire blog directory
-    "README.md",       // and the main README
+    "/blog",
+    "README.md"
   ]
-}
 ```
 
 If this config field is set, no other files or directories will be published.
@@ -50,7 +47,6 @@ If this config field is set, no other files or directories will be published.
 You can use both `contentInclude` and `contentExclude` together for more fine-grained control. For example, if you want to publish your blog but exclude the archive directory:
 
 ```json
-{
   "contentInclude": [
     "README.md"        // Include the main README
     "/blog"            // and the blog directory
@@ -58,7 +54,6 @@ You can use both `contentInclude` and `contentExclude` together for more fine-gr
   "contentExclude": [
     "/blog/_archive"   // But exclude the _archive subdirectory
   ]
-}
 ```
 
 Remember that exclude rules always take precedence over include rules.
