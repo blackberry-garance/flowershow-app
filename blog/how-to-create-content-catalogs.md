@@ -10,8 +10,6 @@ image: /assets/Pasted%20image%2020250325124121.png
 
 Whether you're managing a blog, documentation, recipes, or any other collection of markdown files, the List component makes it easy to display them in a clean, organized way.
 
-![[Pasted image 20250325124121.png]]
-
 ## Using the List Component
 
 The List component is a simple yet powerful way to display a list of markdown files from any directory in your site. Here's how to use it:
@@ -23,8 +21,6 @@ The List component is a simple yet powerful way to display a list of markdown fi
 That's it! This single line will create an elegantly formatted list of all markdown files in your `/blog` directory, displaying each file's:
 - Title
 - Description
-
-![[Pasted image 20250325124121.png]]
 
 ## How It Works
 
