@@ -1,6 +1,6 @@
 ---
 title: How to Create Blogs and Listing Pages with Flowershow
-description: Flowershow's new listing features make it super easy to create blog index pages and other kind of listing pages for tutorials, recipes, and more.
+description: Flowershow's new List component make it super easy to create blog index pages and other kind of listing pages for tutorials, recipes, and more.
 date: 2025-03-25
 modified: 2025-06-03
 authors:
@@ -8,7 +8,7 @@ authors:
 image: /assets/Pasted%20image%2020250325124121.png
 ---
 
-Whether you're managing a blog, documentation, recipes, or any other collection of markdown files, the List component makes it easy to display them in a clean, organized way.
+Whether you're managing a blog, tutorials, or any other collection of markdown files, the `List` component makes it easy to display them in a clean, organized way.
 
 ## Quick Start (2-Minute Setup)
 
@@ -18,19 +18,7 @@ Whether you're managing a blog, documentation, recipes, or any other collection 
 <List dir="/blog"/> // replace `/blog` with path to your folder 
 ```
 
-That's it! You now have a beautifully formatted list of all the markdown files within the specified directory. Read on to learn how to customize it further.
-
-## Using the List Component
-
-The `List` component is a simple way to automatically list all markdown files in any directory in your site. Here's how to use it:
-
-```markdown
-<List dir="/blog"/>
-```
-
-That's it! This single line will create an elegantly formatted list of all markdown files in your `/blog` directory, displaying each file's:
-- Title
-- Description
+That's it! You now have a beautifully formatted list of all the markdown files within the specified directory. By default, it will display their title and descriptions only. Read on to learn how to customize it further.
 
 ## Configuration Options
 
