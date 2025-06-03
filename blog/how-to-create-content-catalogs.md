@@ -10,9 +10,19 @@ image: /assets/Pasted%20image%2020250325124121.png
 
 Whether you're managing a blog, documentation, recipes, or any other collection of markdown files, the List component makes it easy to display them in a clean, organized way.
 
+## Quick Start (2-Minute Setup)
+
+1. Create a new markdown file (or pick one you already have)
+2. Add this single line:
+```jsx
+<List dir="/blog"/> // replace `/blog` with path to your folder 
+```
+
+That's it! You now have a beautifully formatted list of all the markdown files within the specified directory. Read on to learn how to customize it further.
+
 ## Using the List Component
 
-The List component is a simple yet powerful way to display a list of markdown files from any directory in your site. Here's how to use it:
+The `List` component is a simple way to automatically list all markdown files in any directory in your site. Here's how to use it:
 
 ```markdown
 <List dir="/blog"/>
@@ -21,16 +31,6 @@ The List component is a simple yet powerful way to display a list of markdown fi
 That's it! This single line will create an elegantly formatted list of all markdown files in your `/blog` directory, displaying each file's:
 - Title
 - Description
-
-## How It Works
-
-The List component:
-
-- Takes an absolute path to a directory as its `dir` prop
-- Scans the specified directory and its subdirectories for markdown files
-- Automatically ignores `README.md` and `index.md` files
-- Displays files in a clean, organized layout
-- Paginates the results
 
 ## Configuration Options
 
