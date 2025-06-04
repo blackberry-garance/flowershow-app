@@ -1,5 +1,5 @@
 ---
-title: Flowershow Blog Posts
+title: Blog
 description: A collection of blog posts about Flowershow, its features, updates, and guides.
 showToc: false
 ---
