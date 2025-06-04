@@ -48,6 +48,9 @@ Before we start, you'll need:
 > [!info] About Auto-Sync
 > By default, auto-sync is enabled for your website. This means when you push new changes to your GitHub repository, your website will automatically update to reflect those changes.
 
+> [!warning] Getting a 404 Error?
+> If you visit your site after it has finished syncing and see a 404 error, this usually means you don't have a top-level `README.md` or `index.md` file in your repository. You can learn more about fixing this issue in our [debugging guide](https://flowershow.app/blog/how-to-debug-404-pages).
+
 ## Conclusion
 
 Congratulations! Your markdown repository is now published with Flowershow. 💐
