@@ -8,6 +8,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 
 ## Tutorials & How-Tos
 
+- [[how-to-publish-repository-with-markdown|How to Publish Markdown in a GitHub Repository]]
 - [[blog/how-to-publish-vault-quickly-and-easily|How to Publish an Obsidian Vault]]
 - [[blog/how-to-configure-page-headers|How to Configure Page Headers]]
 - [[how-to-add-hero-sections|How to Add Hero Sections]]

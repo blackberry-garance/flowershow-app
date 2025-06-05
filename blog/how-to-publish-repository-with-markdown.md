@@ -1,14 +1,14 @@
 ---
-title: How to Publish Your Markdown Repository
+title: How to Publish Your Repository with Markdown Content
 date: 2025-06-04
 authors:
   - rufuspollock
   - olayway
-description: Learn how to publish your existing markdown repository with Flowershow in 2 simple steps.
+description: Learn how to publish your repository containing markdown files with Flowershow in 2 simple steps.
 image: /assets/new-site-modal.png
 ---
 
-Hi everyone! In this short guide, we'll show you how to publish your existing markdown repository quickly and easily using Flowershow. Let's get started!
+Hi everyone! In this short guide, we'll show you how to publish your existing markdown files in a GitHub repository quickly and easily using Flowershow. Let's get started!
 
 ## STEP 0: What You Need
 
@@ -45,6 +45,9 @@ Before we start, you'll need:
 4. Click **Create Website** — Flowershow will set up your site in a few moments.
 5. Once the site shows as "Synced", click **Visit** to preview your published site.
 
+> [!tip] Publishing Part of Your Repository
+> If your repository contains both code and documentation (e.g., a software project), you can use the root directory option to publish only the documentation. For example, if your docs are in a `/docs` folder, just set that as the root directory and Flowershow will only publish content from there.
+
 > [!info] About Auto-Sync
 > By default, auto-sync is enabled for your website. This means when you push new changes to your GitHub repository, your website will automatically update to reflect those changes.
 
@@ -53,7 +56,7 @@ Before we start, you'll need:
 
 ## Conclusion
 
-Congratulations! Your markdown repository is now published with Flowershow. 💐
+Congratulations! Your markdown files are now published with Flowershow. 💐
 
 Any changes you push to your repository will automatically be reflected on your published site. You can continue working with your content using your favorite markdown editor and version control workflow.
 
