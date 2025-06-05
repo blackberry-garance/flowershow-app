@@ -107,7 +107,7 @@ showComments: false
 
 <div className="overflow-hidden bg-white py-8 sm:py-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
-    <h2 className="sr-only">Features</h2>
+    <h2 id="features" className="sr-only">Features</h2>
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:ml-auto lg:pl-4 lg:pt-4">
         <div className="lg:max-w-lg">
