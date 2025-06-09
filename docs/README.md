@@ -10,6 +10,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 
 - [[how-to-publish-repository-with-markdown|How to Publish Markdown in a GitHub Repository]]
 - [[blog/how-to-publish-vault-quickly-and-easily|How to Publish an Obsidian Vault]]
+- [[how-to-set-page-title|How to Set Page Title]]
 - [[blog/how-to-configure-page-headers|How to Configure Page Headers]]
 - [[how-to-add-hero-sections|How to Add Hero Sections]]
 - [[blog/how-to-configure-navigation-bar|How to Configure the Navigation Bar]]
@@ -46,6 +47,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[mermaid|Mermaid graphs]]
 - [[hero-sections|Hero sections]]
 - [[page-headers|Page headers]]
+- [[page-titles|Page titles]]
 - [[docs/list-component|List Component]]
 - 🚧 JSX blocks styled with Tailwind classes
 
