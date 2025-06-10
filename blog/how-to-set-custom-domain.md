@@ -233,14 +233,6 @@ This process, called "DNS propagation," typically takes a few minutes to a few h
 
 ## Summary
 
-Setting up a custom domain involves:
-
-1. ✅ Adding your domain in Flowershow settings
-2. ✅ Adding a TXT record to verify ownership (if required)
-3. ✅ Adding an A record (for root domains) or CNAME record (for subdomains)
-4. ✅ Waiting for DNS propagation
-5. ✅ Enjoying your professional custom domain!
-
 While the process involves several technical steps, each one is straightforward when you follow the instructions carefully. Take your time, double-check each setting, and don't hesitate to reach out for help if needed.
 
 Your custom domain will give your Flowershow site a professional appearance and make it easier for your audience to find and remember your content.
