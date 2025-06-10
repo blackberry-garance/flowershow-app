@@ -4,6 +4,7 @@ description: Learn how to configure title, description, and social media images 
 date: 2025-06-10
 authors:
   - olayway
+image: /assets/seo-and-social-media-guide.png
 ---
 
 ## Optimizing Your Content for Search and Social
