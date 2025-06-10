@@ -1,6 +1,9 @@
 ---
 title: How to Connect Your Own Domain
 description: A complete guide for setting up a custom domain on your premium Flowershow site
+date: 2025-06-11
+authors:
+  - olayway
 ---
 
 Having your own custom domain gives your Flowershow site a professional appearance and makes it easier for visitors to find and remember. Instead of using a default Flowershow URL for your site like `my.flowershow.app/@username/sitename`, you can use your own domain like `myblog.com` or `docs.mycompany.com`.
