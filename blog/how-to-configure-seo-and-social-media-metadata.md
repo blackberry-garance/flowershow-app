@@ -1,10 +1,9 @@
 ---
-title: How to Set SEO and Social Media Metadata
+title: How to Configure SEO and Social Media Metadata
 description: Learn how to configure title, description, and social media images for better SEO and social sharing.
 date: 2025-06-10
 authors:
   - olayway
-image: /assets/seo-and-social-media-guide.png
 ---
 
 ## Optimizing Your Content for Search and Social
