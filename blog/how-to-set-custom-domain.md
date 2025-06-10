@@ -1,5 +1,5 @@
 ---
-title: How to Connect Your Own Domain to Your Flowershow Site
+title: How to Connect Your Own Domain
 description: A complete guide for setting up a custom domain on your premium Flowershow site
 ---
 
