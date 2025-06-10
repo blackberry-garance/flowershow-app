@@ -39,4 +39,5 @@ The List component:
 - Is recursive (includes files in subdirectories)
 - Sorts by date if available, otherwise by title
 
-For a detailed guide including examples and step-by-step instructions, check out our [[how-to-create-content-catalogs|this blog post]].
+> [!info]
+> For a detailed guide including examples and step-by-step instructions, check out [[how-to-create-content-catalogs|this blog post]].

@@ -12,4 +12,5 @@ description: Customize the appearance of your site with CSS.
 > [!important]
 > When using h1 tags in custom components, you must set `display: block !important;` in your CSS due to how page titles are handled internally.
 
-For a detailed guide including examples and step-by-step instructions, check out our [[how-to-customize-style|this blog post]].
+> [!info]
+> For a detailed guide including examples and step-by-step instructions, check out [[how-to-customize-style|this blog post]].

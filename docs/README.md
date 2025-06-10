@@ -25,6 +25,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[blog/how-to-debug-404-pages|How to Debug 404 Pages]]
 - [[how-to-exclude-files-from-publishing|How to Exclude Files From Publishing]]
 - [[enhance-markdown-with-styled-jsx-blocks|How to Enhance Markdown Pages with Styled JSX Blocks]]
+- [[how-to-set-custom-domain|How to Set a Custom Domain]]
 - 🚧 How to Add Charts and Graphs
 
 ## Reference
@@ -39,6 +40,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[docs/analytics|Google Analytics configuration]]
 - [[docs/custom-styles|Custom styles]]
 - [[docs/content-filtering|Excluding files from publishing]]
+- [[custom-domain|Custom domain]]
 - [[config-file|`config.json` file]]
 
 ### Page content

@@ -51,7 +51,7 @@ Set custom domain for your site.
 
 ![[custom-domain-option.png]]
 
-🚧 More instructions coming soon!
+👉 See [[custom-domain|Custom domain]] to learn more.
 
 ## Analytics
 

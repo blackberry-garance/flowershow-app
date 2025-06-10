@@ -36,4 +36,5 @@ showEditLink: true  # Enable on this page
 ---
 ```
 
-For a detailed guide including examples and step-by-step instructions, check out our [[how-to-add-edit-this-page-button|this blog post]].
+> [!info]
+> For a detailed guide including examples and step-by-step instructions, check out [[how-to-add-edit-this-page-button|this blog post]].

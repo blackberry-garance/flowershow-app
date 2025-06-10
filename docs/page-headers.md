@@ -105,4 +105,5 @@ image: https://example.com/my-image.jpg  # external URL
 - Keep image file sizes reasonable (under 1MB) for better performance
 - Use ISO date format (YYYY-MM-DD) for dates
 
-For a detailed guide including examples and step-by-step instructions, check out our [[how-to-configure-page-headers|this blog post]].
+> [!info]
+> For a detailed guide including examples and step-by-step instructions, check out [[how-to-configure-page-headers|this blog post]].

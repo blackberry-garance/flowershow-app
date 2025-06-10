@@ -29,4 +29,5 @@ Before configuring analytics, you need a Google Analytics 4 data stream:
 
 Your Measurement ID will be displayed in the stream details after creation.
 
-For detailed setup instructions and testing procedures, see our [[how-to-configure-google-analytics|analytics setup guide]].
+> [!info]
+> For detailed setup instructions and testing procedures, see our [[how-to-configure-google-analytics|analytics setup guide]].

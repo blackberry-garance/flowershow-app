@@ -144,4 +144,5 @@ Common issues and solutions:
    - Confirm you're using supported platform labels
    - Check that the `label` value matches exactly (case-sensitive)
 
-For a detailed guide including examples and step-by-step instructions, check out our [[how-to-configure-navigation-bar|this blog post]].
+>[!info]
+>For a detailed guide including examples and step-by-step instructions, check out [[how-to-configure-navigation-bar|this blog post]].

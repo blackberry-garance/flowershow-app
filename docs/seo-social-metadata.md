@@ -64,4 +64,5 @@ If a page doesn't have a `description` or `image` in frontmatter, the site-wide 
 - Use 1200x630 pixel images for optimal social sharing
 - Keep image files under 1MB
 
-For detailed examples and step-by-step instructions, see our [[how-to-configure-seo-and-social-media-metadata|SEO and social media metadata guide]].
+> [!info]
+> For detailed examples and step-by-step instructions, see our [[how-to-configure-seo-and-social-media-metadata|SEO and social media metadata guide]].
