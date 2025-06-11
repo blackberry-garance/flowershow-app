@@ -48,6 +48,8 @@ authors: ["John Doe"]           # Single author
 authors: ["John", "Jane"]       # Multiple authors
 ```
 
+See [[page-authors|Page authors]] for details on creating dedicated author pages with avatars.
+
 ### Date
 
 The `date` field sets the publication date for your page and is displayed in page header.

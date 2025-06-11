@@ -12,6 +12,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[blog/how-to-publish-vault-quickly-and-easily|How to Publish an Obsidian Vault]]
 - [[how-to-set-page-title|How to Set Page Title]]
 - [[blog/how-to-configure-page-headers|How to Configure Page Headers]]
+- [[how-to-create-author-pages|How to Create Author Pages and Show Them in Page Headers (with Avatars and Links)]]
 - [[how-to-configure-seo-and-social-media-metadata|How to Configure SEO and Social Media Metadata]]
 - [[how-to-add-hero-sections|How to Add Hero Sections]]
 - [[blog/how-to-configure-navigation-bar|How to Configure the Navigation Bar]]
