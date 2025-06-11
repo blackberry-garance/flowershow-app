@@ -1,5 +1,5 @@
 ---
-name: Rufus Pollock
+title: Rufus Pollock
 avatar: https://avatars.githubusercontent.com/rufuspollock
 ---
 
