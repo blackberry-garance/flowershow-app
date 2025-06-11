@@ -55,7 +55,6 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[page-titles|Page titles]]
 - [[docs/list-component|List Component]]
 - [[seo-social-metadata|SEO and social media metadata]]
-- 🚧 JSX blocks styled with Tailwind classes
 
 ---
 
