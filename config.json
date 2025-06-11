@@ -19,6 +19,6 @@
       { "label": "github", "href": "https://github.com/datopian/flowershow", "name": "Our GitHub" }
     ]
   },
-  "contentExclude": ["/excalidraw", "/journal", "/meta", "/people", "/notes", "/blog/archive", "/docs/self-hosted", "/self-hosted.md"],
+  "contentExclude": ["/excalidraw", "/journal", "/meta", "/notes", "/blog/archive", "/docs/self-hosted", "/self-hosted.md"],
   "showEditLink": true
 }
