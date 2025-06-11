@@ -1,5 +1,5 @@
 ---
-name: Ola Rubaj
+title: Ola Rubaj
 avatar: https://avatars.githubusercontent.com/olayway
 ---
 
