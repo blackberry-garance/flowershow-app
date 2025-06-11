@@ -51,6 +51,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[mermaid|Mermaid graphs]]
 - [[hero-sections|Hero sections]]
 - [[page-headers|Page headers]]
+- [[page-authors|Page authors]]
 - [[page-titles|Page titles]]
 - [[docs/list-component|List Component]]
 - [[seo-social-metadata|SEO and social media metadata]]
