@@ -106,8 +106,7 @@ Depending on how your form provider generates its embed code, choose one of the 
    ```
    - This ensures Flowershow injects the code exactly as provided, without JSX conflicts.
 
-> [!important]
-> ### Why JSX Adjustments Are Needed
+> [!important] Why JSX Adjustments Are Needed
 > Flowershow uses React under the hood, which means any HTML in your markdown files is actually processed as JSX (React's template syntax). JSX has slightly different requirements than standard HTML:
 > - Attributes with multiple words must use camelCase (e.g., `frameborder` becomes `frameBorder`)
 > - The `class` attribute must be written as `className`
