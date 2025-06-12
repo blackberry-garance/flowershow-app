@@ -6,6 +6,10 @@ authors:
   - olayway
 ---
 
+> [!note]
+> Custom domains are a premium feature. Check out our [pricing page](https://flowershow.app/pricing) to learn more about premium features.
+
+
 Having your own custom domain gives your Flowershow site a professional appearance and makes it easier for visitors to find and remember. Instead of using a default Flowershow URL for your site like `my.flowershow.app/@username/sitename`, you can use your own domain like `myblog.com` or `docs.mycompany.com`.
 
 This guide will walk you through the entire process of connecting your custom domain to your Flowershow site.

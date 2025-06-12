@@ -3,7 +3,8 @@ title: Custom domain
 description: Connect your own domain to your Flowershow site
 ---
 
->[!info] Premium feature
+> [!note]
+> Custom domains are a premium feature. Check out our [pricing page](https://flowershow.app/pricing) to learn more about premium features.
 
 ## Setup Process
 
