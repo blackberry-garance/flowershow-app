@@ -45,6 +45,7 @@ Show comments section at the bottom of your pages.
 Turn on content indexing and show search field in the nav bar to make finding relevant information easier for your visitors.
 
 ![[search-option.png]]
+
 ## Custom domain (⭐️ Premium feature)
 
 Set custom domain for your site.
@@ -64,6 +65,16 @@ Enable Google Analytics tracking with `analytics` field in your [[config-file|co
 ```
 
 👉 See [[/docs/analytics|Analytics]] to learn more.
+
+## Favicon (⭐️ Premium feature)
+
+Set your site's favicon by specifying the path to your favicon file in the `favicon` field in your [[config-file|config file]].
+
+```json
+{
+  "favicon": "/path/to/favicon.ico"
+}
+```
 
 ## Navigation bar
 

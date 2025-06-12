@@ -14,6 +14,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[blog/how-to-configure-page-headers|How to Configure Page Headers]]
 - [[how-to-create-author-pages|How to Show Authors of Your Content in Page Headers (With Links and Avatars)]]
 - [[how-to-configure-seo-and-social-media-metadata|How to Configure SEO and Social Media Metadata]]
+- [[how-to-set-custom-favicon|How to Set Custom Favicon (Premium)]]
 - [[how-to-add-hero-sections|How to Add Hero Sections]]
 - [[blog/how-to-configure-navigation-bar|How to Configure the Navigation Bar]]
 - [[blog/how-to-enable-page-comments|How to Enable Page Comments]]
@@ -41,7 +42,7 @@ Flowershow supports **CommonMark** and **GitHub Flavored Markdown**, but also ma
 - [[docs/analytics|Google Analytics configuration]]
 - [[docs/custom-styles|Custom styles]]
 - [[docs/content-filtering|Excluding files from publishing]]
-- [[custom-domain|Custom domain]]
+- [[custom-domain|Custom domain (Premium)]]
 - [[config-file|`config.json` file]]
 
 ### Page content
