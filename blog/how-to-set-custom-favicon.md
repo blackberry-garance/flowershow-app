@@ -6,6 +6,9 @@ authors:
   - olayway
 ---
 
+> [!note]
+> Custom favicons are a premium feature. Check out our [pricing page](https://flowershow.app/pricing) to learn more about premium features.
+
 A favicon is a small icon that appears in your browser's address bar, tabs, and bookmarks. It helps users identify your site quickly and adds a professional touch to your web presence. Premium Flowershow sites can now set custom favicons.
 
 ## Setting up your favicon
@@ -30,6 +33,3 @@ That's it! After your next deployment, your custom favicon will appear in browse
 - Ensure good contrast - your icon should be recognizable even at small sizes
 - Test different sizes - your favicon should look good both in browser tabs and bookmarks
 - Consider using .ico format for best browser compatibility
-
-> [!note]
-> Custom favicons are a premium feature. Check out our [pricing page](https://flowershow.app/pricing) to learn more about premium features.
