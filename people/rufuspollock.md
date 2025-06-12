@@ -1,6 +1,8 @@
 ---
 title: Rufus Pollock
 avatar: https://avatars.githubusercontent.com/rufuspollock
+showEditLink: false
+showComments: false
 ---
 
 <img src="/_r/-/people/rufuspollock.jpeg" alt="Author" className="h-[10rem]"/>

@@ -1,5 +1,6 @@
 ---
-name: Philippe du Preez
+title: Philippe du Preez
 avatar: /assets/phil.jpg
-isDraft: true
+showEditLink: false
+showComments: false
 ---

@@ -1,6 +1,8 @@
 ---
 title: Ola Rubaj
 avatar: https://avatars.githubusercontent.com/olayway
+showEditLink: false
+showComments: false
 ---
 
 <img src="/_r/-/people/olayway.jpeg" alt="Author" className="h-[10rem]"/>
