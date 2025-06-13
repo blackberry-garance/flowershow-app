@@ -3,27 +3,25 @@ title: Math equations
 description: Write math equestions with LaTeX syntax.
 ---
 
-## How to use
+## Inline math
 
-### Inline math
+To render your equation as a block, paste it between single `$`.
 
-- Use between `$`
-
-For example if your markdown file has the following
+**Example:**
 
 ```markdown
 $\sqrt{a^2 + b^2}$
 ```
 
-will be rendered as
+**Renders as:**
 
 $\sqrt{a^2 + b^2}$
 
-### Block math
+## Block math
 
-- Use between double `$$`
+To render your equation as a block, paste it between double `$$`.
 
-For example if your markdown has the following
+**Example:**
 
 ```markdown
 $$
@@ -33,7 +31,7 @@ c & d
 $$
 ```
 
-will be rendered as
+**Renders as:**
 
 $$
 \begin{vmatrix}a & b\\
@@ -41,4 +39,4 @@ c & d
 \end{vmatrix}=ad-bc
 $$
 
-More documentation on math syntax usage can be found in [KaTeX docs](https://katex.org/docs/support_table.html).
+More documentation on supported math syntax can be found in [KaTeX docs](https://katex.org/docs/support_table.html).
