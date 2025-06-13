@@ -47,7 +47,7 @@ showEditLink: false
           Community support
         </li>
       </ul>
-      <a href="#" aria-describedby="tier-hobby" className="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-orange-400 ring-1 ring-inset ring-orange-300 hover:ring-orange-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-400 sm:mt-10">Get started today</a>
+      <a href="https://cloud.flowershow.app/login" aria-describedby="tier-hobby" className="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-orange-400 ring-1 ring-inset ring-orange-300 hover:ring-orange-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-400 sm:mt-10">Get started today</a>
     </div>
     <div className="relative rounded-3xl bg-white p-8 shadow-2xl ring-1 ring-gray-900/10 sm:p-10">
       <h3 id="tier-enterprise" className="text-base/7 font-semibold text-orange-400">Premium</h3>
@@ -88,7 +88,7 @@ showEditLink: false
           Priority support
         </li>
       </ul>
-      <a href="#" aria-describedby="tier-enterprise" className="mt-8 block rounded-md bg-orange-400 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-orange-400/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-400 sm:mt-10">Get started today</a>
+      <a href="https://cloud.flowershow.app/login" aria-describedby="tier-enterprise" className="mt-8 block rounded-md bg-orange-400 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-orange-400/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-400 sm:mt-10">Get started today</a>
     </div>
   </div>
 </div>
