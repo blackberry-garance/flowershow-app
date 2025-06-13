@@ -96,6 +96,7 @@ showEditLink: false
 
 ## Feature Comparison
 
+<div className="font-title">
 | | Feature | Free | Premium |
 |----------|---------|------|---------|
 | **Core Features** | Wiki-style links | ✓ | ✓ |
@@ -112,9 +113,9 @@ showEditLink: false
 | **Support** | Community support | ✓ | ✓ |
 | | Priority support | - | ✓ |
 | | Onboarding assistance | - | - |
+</div>
 
 Note: 🚧 indicates features that are currently in development.
-
 
 <div style={{ textAlign: 'center' }}><h2>Empower Flowershow Development</h2><p>Join us in making digital gardens bloom! Your contribution helps us build better tools for knowledge sharing.</p><a href="https://buy.stripe.com/8wM9BeckD0vKfLi6ox" target="_blank" style={{
     borderRadius: '0.75rem',
