@@ -97,7 +97,7 @@ showEditLink: false
 ## Feature Comparison
 
 <div className="font-title">
-| | Feature | Free | Premium |
+| | | Free | Premium |
 |----------|---------|------|---------|
 | **Core Features** | Wiki-style links | ✓ | ✓ |
 | | Mermaid diagrams | ✓ | ✓ |
