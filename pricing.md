@@ -119,9 +119,9 @@ Note: 🚧 indicates features that are currently in development.
 
 
 <div className="not-prose font-title px-6 py-6 sm:px-6 sm:py-12 lg:px-8">
-  <div className="mx-auto max-w-3xl text-center">
+  <div className="mx-auto max-w-4xl text-center">
     <h2 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Empower Flowershow Development</h2>
-    <p className="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-gray-600">Join us in making digital gardens bloom! Your contribution helps us build better tools for knowledge sharing.</p>
+    <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg/8 text-gray-600">Join us in making digital gardens bloom! Your contribution helps us build better tools for knowledge sharing.</p>
     <div className="mt-10 flex items-center justify-center gap-x-6">
       <a href="https://buy.stripe.com/8wM9BeckD0vKfLi6ox" className="rounded-md bg-gray-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-700">❤️ Become a Supporter by making a one-off contribution</a>
     </div>
