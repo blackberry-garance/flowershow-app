@@ -6,7 +6,7 @@ showComments: false
 showEditLink: false
 ---
 
-<div className="not-prose font-title relative isolate bg-white px-6 lg:px-8">
+<div className="not-prose font-title relative isolate bg-white px-6 py-6 sm:px-6 sm:py-12 lg:px-8">
   <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
     <div className="rounded-3xl rounded-t-3xl bg-white/60 p-8 ring-1 ring-gray-900/10 sm:mx-8 sm:rounded-b-none sm:p-10 lg:mx-0 lg:rounded-bl-3xl lg:rounded-tr-none">
       <h3 id="tier-hobby" className="text-base/7 font-semibold text-orange-400">Free</h3>
@@ -94,7 +94,7 @@ showEditLink: false
 </div>
 
 
-<div className="font-title py-6 sm:py-12">
+<div className="font-title px-6 py-6 sm:px-6 sm:py-12 lg:px-8">
 | |  | Free | Premium |
 |----------|---------|------|---------|
 | **Core Features** | [CommonMark, GFM & extensions](https://flowershow.app/docs/syntax) | ✓ | ✓ |
