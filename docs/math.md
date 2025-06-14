@@ -39,4 +39,4 @@ c & d
 \end{vmatrix}=ad-bc
 $$
 
-More documentation on supported math syntax can be found in [KaTeX docs](https://katex.org/docs/support_table.html).
+Documentation on supported math syntax can be found in [KaTeX docs](https://katex.org/docs/support_table.html).

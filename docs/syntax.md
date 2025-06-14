@@ -248,15 +248,53 @@ Roses are red... [^1]
 
 ### Math
 
+Place your math equation between single `$` for inline math, or double `$$` for a math block.
+
 **Example:**
 
-```md
-$$\begin{vmatrix}a & b\\ c & d \end{vmatrix}=ad-bc$$
+```markdown
+Example of an inline equation: $\sqrt{a^2 + b^2}$
 ```
 
 **Renders as:**
 
-$$\begin{vmatrix}a & b\\ c & d \end{vmatrix}=ad-bc$$
+Example of an inline equation: $\sqrt{a^2 + b^2}$
+
+**Example:**
+
+```md
+Example of a block equation: $$\begin{vmatrix}a & b\\ c & d \end{vmatrix}=ad-bc$$
+```
+
+**Renders as:**
+
+Example of a block equation: $$\begin{vmatrix}a & b\\ c & d \end{vmatrix}=ad-bc$$
+
+Documentation on supported math syntax can be found in [KaTeX docs](https://katex.org/docs/support_table.html).
+
+### Mermaid diagrams
+
+Embed your diagram inside a code block with `mermaid` type.
+
+**Example:**
+
+````md
+```mermaid
+graph LR
+
+a --> b
+```
+````
+
+**Renders as:**
+
+```mermaid
+graph LR
+
+a --> b
+```
+
+Read more about Mermaid diagrams on the [Mermaid website](https://mermaid.js.org/)..
 
 ### Dashes/Ellipse
 
