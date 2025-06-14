@@ -95,18 +95,32 @@ showEditLink: false
 
 
 <div className="font-title py-6 sm:py-12">
-| | | Free | Premium |
+| | | | Free | Premium |
 |----------|---------|------|---------|
-| **Core Features** | Wiki-style links | ✓ | ✓ |
-| | Mermaid diagrams | ✓ | ✓ |
+| **Core Features** | [CommonMark, GFM & extensions](https://flowershow.app/docs/syntax) | ✓ | ✓ |
 | | Math equations | ✓ | ✓ |
+| | Mermaid diagrams | ✓ | ✓ |
+| | Sidebar navigation | ✓ | ✓ |
 | | Table of contents | ✓ | ✓ |
-| | Obsidian plugin | ✓ | ✓ |
+| | Content catalogs with pagination | ✓ | ✓ |
+| | Page authors with avatars | ✓ | ✓ |
+| | Hero sections | ✓ | ✓ |
+| | Page comments | ✓ | ✓ |
+| | Forms support (newsletter, contact) | ✓ | ✓ |
+| | Google Analytics integration | ✓ | ✓ |
+| | "Edit this page" button | ✓ | ✓ |
+| | Content publishing control (exclude/include) | ✓ | ✓ |
 | **Customization** | Custom CSS | ✓ | ✓ |
-| | Custom domain | - | ✓ |
+| | Branch selection | ✓ | ✓ |
+| | Root directory config | ✓ | ✓ |
+| | Auto-sync with GitHub | ✓ | ✓ |
+| | Obsidian plugin | ✓ | ✓ |
 | | Removed Flowershow branding | - | ✓ |
+| | Custom domain | - | ✓ |
+| | Custom favicon | - | ✓ |
+| | Custom social-share image | - | ✓ |
 | | Full-text search | - | ✓ |
-| **Content** | Unlimited public sites | - | ✓ |
+| **Limits** | Unlimited public sites | - | ✓ |
 | | Unlimited site size | - | ✓ |
 | **Support** | Community support | ✓ | ✓ |
 | | Priority support | - | ✓ |
@@ -125,4 +139,3 @@ Note: 🚧 indicates features that are currently in development.
     </div>
   </div>
 </div>
-
