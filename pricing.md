@@ -95,7 +95,7 @@ showEditLink: false
 
 
 <div className="font-title py-6 sm:py-12">
-| | | | Free | Premium |
+| |  | Free | Premium |
 |----------|---------|------|---------|
 | **Core Features** | [CommonMark, GFM & extensions](https://flowershow.app/docs/syntax) | ✓ | ✓ |
 | | Math equations | ✓ | ✓ |
