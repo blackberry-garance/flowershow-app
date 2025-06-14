@@ -119,7 +119,7 @@ Note: 🚧 indicates features that are currently in development.
 
 
 <div className="not-prose px-6 py-6 sm:px-6 sm:py-12 lg:px-8">
-  <div className="mx-auto max-w-2xl text-center">
+  <div className="mx-auto max-w-3xl text-center">
     <h2 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Empower Flowershow Development</h2>
     <p className="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-gray-600">Join us in making digital gardens bloom! Your contribution helps us build better tools for knowledge sharing.</p>
     <div className="mt-10 flex items-center justify-center gap-x-6">
