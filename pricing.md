@@ -125,8 +125,6 @@ showEditLink: false
 | **Support** | Community support | ✓ | ✓ |
 | | Priority support | - | ✓ |
 | | Onboarding assistance | - | - |
-
-Note: 🚧 indicates features that are currently in development.
 </div>
 
 
