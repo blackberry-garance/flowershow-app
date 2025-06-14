@@ -100,6 +100,8 @@ Here is a description of some of the classes used above:
 
 > [!tip] Tailwind Playground
 > To make component development easier, you can use [Tailwind Play](https://play.tailwindcss.com/) - an online playground for quickly prototyping and testing your Tailwind-styled components. Note that the playground uses HTML syntax, so when copying your final version to Flowershow, you'll need to convert HTML `class` attributes to `className` for JSX compatibility.
+>
+> **Pro tip**: When you're happy with your component in the playground, use ctrl+f to find all `class` attributes, then click the `>` button to open the replacement panel and quickly replace them with `className` before copying the code to your markdown file.
 
 > [!info] Why `not-prose` is Essential
 > The `not-prose` class is crucial when creating custom JSX components in Flowershow. By default, Flowershow applies Tailwind's typography plugin styles (prose classes) to all markdown content, which includes automatic styling for headings, paragraphs, links, and other elements.
@@ -156,7 +158,7 @@ We've transformed a simple markdown list into a neat features grid. The progress
 1. **Start with content**: Always begin with clean, well-structured markdown. This ensures your content is accessible and readable on Flowershow even without styling, so you can publish it quickly.
 2. **Enhance progressively**: Build your components incrementally. Start simple and add complexity.
 3. **Semantic HTML**: Even when using JSX, maintain semantic HTML structure for accessibility and SEO.
-4. **Use Tailwind Playground for development**: Instead of styling directly in your markdown files (e.g., in GitHub's web editor), use [Tailwind Playground](https://play.tailwindcss.com/) to prototype and test your components. This is much faster as you can preview your components live without waiting for your site to sync after each change. It also keeps your commit history clean by avoiding incomplete styling iterations. Only paste the final, polished component into your markdown when you're satisfied with the result.
+4. **Use Tailwind Playground for development**: Instead of styling directly in your markdown files (e.g., in GitHub's web editor), use [Tailwind Playground](https://play.tailwindcss.com/) to prototype and test your components. This is much faster as you can preview your components live without waiting for your site to sync after each change. It also keeps your commit history clean by avoiding incomplete styling iterations.
 5. **Leverage free Tailwind component libraries**: Don't reinvent the wheel.
 6. **Ask ChatGPT for some help with styling and quick prototyping 😉**
 
