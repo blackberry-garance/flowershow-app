@@ -248,27 +248,17 @@ Roses are red... [^1]
 
 ### Math
 
-Place your math equation between single `$` for inline math, or double `$$` for a math block.
+Place your math equation between `$`.
 
 **Example:**
 
 ```markdown
-Example of an inline equation: $\sqrt{a^2 + b^2}$
+$\sqrt{a^2 + b^2}$
 ```
 
 **Renders as:**
 
-Example of an inline equation: $\sqrt{a^2 + b^2}$
-
-**Example:**
-
-```md
-Example of a block equation: $$\begin{vmatrix}a & b\\ c & d \end{vmatrix}=ad-bc$$
-```
-
-**Renders as:**
-
-Example of a block equation: $$\begin{vmatrix}a & b\\ c & d \end{vmatrix}=ad-bc$$
+$\sqrt{a^2 + b^2}$
 
 Documentation on supported math syntax can be found in [KaTeX docs](https://katex.org/docs/support_table.html).
 
