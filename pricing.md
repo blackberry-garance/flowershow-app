@@ -51,10 +51,16 @@ showEditLink: false
     </div>
     <div className="relative rounded-3xl bg-white p-8 shadow-2xl ring-1 ring-gray-900/10 sm:p-10">
       <h3 id="tier-enterprise" className="text-base/7 font-semibold text-orange-400">Premium</h3>
-      <p className="mt-4 flex items-baseline gap-x-2">
-        <span className="text-5xl font-semibold tracking-tight text-gray-900">$5</span>
-        <span className="text-base text-gray-500">/month (per site)</span>
-      </p>
+      <div className="mt-4 flex items-baseline gap-x-4">
+        <div>
+          <span className="text-5xl font-semibold tracking-tight text-gray-900">$5</span>
+          <span className="text-base text-gray-500">/month</span>
+        </div>
+        <div className="border-l pl-4 border-gray-400">
+          <span className="text-5xl font-semibold tracking-tight text-orange-400">$50</span>
+          <span className="text-base text-orange-400">/year</span>
+        </div>
+      </div>
       <p className="mt-6 text-base/7 text-gray-600">For businesses and creators who need advanced features and a customization capabilities.</p>
       <ul role="list" className="mt-8 space-y-3 text-sm/6 text-gray-600 sm:mt-10">
         <li className="flex gap-x-3">
