@@ -94,9 +94,7 @@ showEditLink: false
 </div>
 
 
-<div className="text-center font-title">
-## Feature Comparison
-
+<div className="font-title py-6 sm:py-12">
 | | | Free | Premium |
 |----------|---------|------|---------|
 | **Core Features** | Wiki-style links | ✓ | ✓ |
