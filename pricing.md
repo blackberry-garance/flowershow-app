@@ -1,12 +1,14 @@
 ---
-title: Pricing
-description: Build beautiful blogs and professional websites with Flowershow. Perfect for creators and businesses alike.
 showToc: false
 showComments: false
 showEditLink: false
 ---
 
 <div className="not-prose font-title relative isolate bg-white px-6 lg:px-8">
+  <div class="mx-auto max-w-4xl text-center">
+    <h1 class="mt-2 text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-6xl">Pricing</h1>
+  </div>
+  <p class="mx-auto mt-6 max-w-2xl text-pretty text-center text-lg font-medium text-gray-600 sm:text-xl/8">Build beautiful blogs and professional websites with Flowershow. Perfect for creators and businesses alike.</p>
   <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
     <div className="rounded-3xl rounded-t-3xl bg-white/60 p-8 ring-1 ring-gray-900/10 sm:mx-8 sm:rounded-b-none sm:p-10 lg:mx-0 lg:rounded-bl-3xl lg:rounded-tr-none">
       <h3 id="tier-hobby" className="text-base/7 font-semibold text-orange-400">Free</h3>
@@ -94,9 +96,9 @@ showEditLink: false
 </div>
 
 
+<div className="text-center font-title">
 ## Feature Comparison
 
-<div className="font-title">
 | | | Free | Premium |
 |----------|---------|------|---------|
 | **Core Features** | Wiki-style links | ✓ | ✓ |
@@ -113,9 +115,10 @@ showEditLink: false
 | **Support** | Community support | ✓ | ✓ |
 | | Priority support | - | ✓ |
 | | Onboarding assistance | - | - |
-</div>
 
 Note: 🚧 indicates features that are currently in development.
+</div>
+
 
 <div style={{ textAlign: 'center' }}><h2>Empower Flowershow Development</h2><p>Join us in making digital gardens bloom! Your contribution helps us build better tools for knowledge sharing.</p><a href="https://buy.stripe.com/8wM9BeckD0vKfLi6ox" target="_blank" style={{
     borderRadius: '0.75rem',
