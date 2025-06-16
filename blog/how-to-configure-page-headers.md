@@ -2,6 +2,7 @@
 title: How to Configure Page Headers
 description: Learn how to customize your page headers in Flowershow Cloud with frontmatter configuration options for titles, descriptions, authors, dates, and featured images.
 date: 2025-03-06
+modified: 2025-06-16
 authors:
   - olayway
 ---
@@ -50,17 +51,6 @@ description: "Join me on a mesmerizing journey beneath the Arctic skies, where n
 
 ![[header-description.png]]
 
-### Authors
-
-Whether you're running a solo blog or managing a team publication, you can easily attribute content to its creators by setting `authors` frontmatter field.
-
-Example:
-```yaml
-authors: ["Jane Doe"]
-```
-
-![[header-author.png]]
-
 ### Publication date
 
 Adding publication dates helps visitors understand when content was created. You can configure it with `date` frontmatter field.
@@ -74,14 +64,14 @@ date: 2024-04-17               # Use YYYY-MM-DD format
 
 ### Featured Image
 
-Featured images make your content more engaging and improve social sharing. You can set them with `image` frontmatter field.
+Featured images make your content more engaging and improve social sharing[^1]. You can set them with `image` frontmatter field.
 
 You have several options for adding them:
 
 1. **Repository Images**:
 ```yaml
-image: content/assets/my-image.jpg    # relative path
-image: /content/assets/my-image.jpg   # absolute path
+image: my-image.jpg    # relative path
+image: /blog/my-image.jpg   # absolute path
 ```
 
 2. **External Images**:
@@ -90,6 +80,12 @@ image: https://example.com/my-image.jpg
 ```
 
 ![[header-image.png]]
+
+### Authors
+
+Learn how to display and configure page authors in [[how-to-create-author-pages|this blog post]].
+
+![[header-authors.png]]
 
 ## Best Practices for Header Configuration
 
@@ -112,7 +108,8 @@ To get the most out of your page headers:
 
 4. **Maintain Consistency**
    - Use consistent date formats (YYYY-MM-DD)
-   - Standardize author names across posts
    - Follow a consistent image naming convention
 
 By following these guidelines and utilizing all available configuration options, you can create professional-looking pages that are both user-friendly and optimized for search engines and social sharing.
+
+[^1]: Custom social share image is only set on premium sites.
