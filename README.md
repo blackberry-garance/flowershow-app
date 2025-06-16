@@ -155,7 +155,7 @@ showComments: false
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:ml-auto lg:pl-4 lg:pt-4">
         <div className="lg:max-w-lg">
-          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Table of Contents and Sitemap</h2>
+          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Table of Contents and Sidebar Navigation</h2>
           <p className="mt-6 text-lg/8 text-gray-600">Every markdown page comes with a table of contents enabled by default. You can also add a site-wide table of contents in a LHS sidebar to allow your users to easily navigate to other pages on your website.</p>
         </div>
       </div>
