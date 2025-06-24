@@ -4,6 +4,7 @@ description: Learn how to troubleshoot and fix 404 errors in your Flowershow sit
 date: 2025-05-28
 authors:
   - olayway
+image: /assets/404.png
 ---
 
 In this guide, I'll walk you through the most common causes of 404 errors in Flowershow and how to fix them.
