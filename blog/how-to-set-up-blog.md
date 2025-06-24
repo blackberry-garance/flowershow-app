@@ -21,7 +21,15 @@ While you can name and place your blog content anywhere in your site's structure
 This folder will contain:
   - Individual blog post files (e.g., `my-first-post.md`)
   - A landing page (`README.md` or `index.md`)
-  - Optional subdirectories for organization (e.g., `archive`, `drafts`, `tutorials`)
+  - Optional subdirectories for organization
+
+> [!tip] Organizing Blog Posts
+> You can use subdirectories to organize your posts by:
+> - Categories (e.g., `/blog/tutorials`, `/blog/news`)
+> - Status (e.g., `/blog/drafts`, `/blog/archive`)
+> - Date (e.g., `/blog/2025/06` for June 2025 posts)
+>
+> The List component will automatically include posts from all subdirectories.
 
 ## Step 2: Add Your First Blog Post
 
@@ -44,7 +52,7 @@ Your blog post content goes here...
 The frontmatter fields explained:
 - `title`: The post's title
 - `description`: A brief summary
-- `date`: Publication date in YYYY-MM-DD format
+- `date`: Publication date in YYYY-MM-DD format (used for sorting)
 - `image`: Featured image path (relative to site root) or URL
 
 > [!info] Learn about different options to set a page title
@@ -77,7 +85,13 @@ The `List` component will automatically display all markdown files in the direct
 
 ![[Pasted image 20250624183244.png]]
 >[!info] `List` Component Options
-> Learn how to customize the List component in the [[list-component|List Component Docs]].
+> Learn how to customize the List component in the [List Component Docs](/docs/list-component).
+
+The List component will:
+- Sort posts by date (newest first) if available, otherwise by title
+- Paginate posts (10 per page by default)
+- Include files from subdirectories (useful for organizing posts by year/month)
+- Ignore README.md and index.md files
 
 ## Step 4: Set Up Author Pages
 
