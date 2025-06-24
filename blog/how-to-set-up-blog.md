@@ -1,5 +1,5 @@
 ---
-title: How to Add a Blog to Your Flowershow Site
+title: How to Set Up a Blog
 description: A comprehensive guide to setting up a blog on your Flowershow site, including creating a blog section, configuring the List component, and adding navigation
 date: 2025-06-24
 authors:
