@@ -4,6 +4,7 @@ description: A complete guide for setting up a custom domain on your Flowershow 
 date: 2025-06-11
 authors:
   - olayway
+image: /assets/custom-domain.png
 ---
 
 > [!note]
