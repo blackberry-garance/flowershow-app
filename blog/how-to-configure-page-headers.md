@@ -5,6 +5,7 @@ date: 2025-03-06
 modified: 2025-06-16
 authors:
   - olayway
+image: /assets/page-headers.png
 ---
 
 If you're using Flowershow Cloud to build your website, one of the first things you'll want to customize is how your pages look. The page header is particularly important as it's the first thing visitors see and plays a crucial role in SEO and social sharing. Let's dive into how you can configure your page headers to look exactly the way you want.
