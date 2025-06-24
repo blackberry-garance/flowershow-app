@@ -7,5 +7,4 @@ showComments: false
 
 <img src="/_r/-/people/olayway.jpeg" alt="Author" className="h-[10rem]"/>
 
-Ola is a front-end developer with a keen eye for details and aesthetics. She strives for excellence and thrives on challenges. She's also an optimist who can turn any adversity into an opportunity. She also has a "thing" for flowers.
-
+Hello! 👋 I'm a Flowershow developer and my goal is to make this tool intuitive and accessible for everyone—even those with no technical background—so you can focus on creativity rather than complexity. I'd love to hear from you!
