@@ -4,6 +4,7 @@ description: Learn how to integrate newsletter signup forms, contact forms, and 
 date: 2025-06-12
 authors:
   - olayway
+image: /assets/newsletters.png
 ---
 
 Forms are essential for engaging with your audience - whether you're collecting newsletter signups, gathering feedback, or creating contact forms. In this guide, we'll walk through how to add forms to your Flowershow site.

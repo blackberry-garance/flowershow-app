@@ -4,8 +4,8 @@ description: Learn how to set a custom favicon for your Flowershow site
 date: 2025-06-12
 authors:
   - olayway
+image: /assets/custom-favicon.png
 ---
-
 > [!note]
 > Custom favicons are a premium feature. Check out our [pricing page](https://flowershow.app/pricing) to learn more about premium features.
 
