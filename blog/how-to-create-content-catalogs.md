@@ -1,6 +1,6 @@
 ---
 title: How to Create Content Catalogs and Listing Pages with the List Component
-description: Flowershow's new List component make it super easy to create blog index pages and other kind of listing pages for tutorials, recipes, and more.
+description: Flowershow's new List component makes it super easy to create blog index pages and other kind of listing pages for tutorials, recipes, and more.
 date: 2025-03-25
 modified: 2025-06-03
 authors:
