@@ -4,8 +4,8 @@ description: Learn the three different ways to set page titles and understand th
 date: 2025-06-09
 authors:
   - olayway
+image: /assets/page-titles.png
 ---
-
 ## The Three Ways to Set Page Titles
 
 Flowershow offers three methods to set your page titles, listed here in order of precedence (highest to lowest):
