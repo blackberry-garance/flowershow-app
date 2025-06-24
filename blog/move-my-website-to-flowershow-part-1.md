@@ -1,9 +1,10 @@
 ---
-title: "Moving My Personal Website to Flowershow — Part 1"
+title: Moving My Personal Website to Flowershow — Part 1
 date: 2025-05-19
 authors:
   - rufuspollock
-description: "I’m migrating my personal webiste to Flowershow so I can write once and publish without shuffling files. Flowershow works with the folder structure I already have and eliminates the 'two-copy' workflow that’s been slowing me down."
+description: I’m migrating my personal webiste to Flowershow so I can write once and publish without shuffling files. Flowershow works with the folder structure I already have and eliminates the 'two-copy' workflow that’s been slowing me down.
+image: /assets/moving-my-website-pt1.png
 ---
 
 https://youtu.be/5qtoko0S5nI
