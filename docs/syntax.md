@@ -399,10 +399,6 @@ line
 comment!
 */}
 
-### 🚧 Text highlighting
-
-==I'm Highlighted!== is done using `==I'm Highlighted!==`
-
 ### 🚧 Excalidraw sketches support
 
 Displaying embedded [Excalidraw](https://excalidraw.com/) sketches.
