@@ -12,7 +12,7 @@ showEditLink: false
       <h3 id="tier-hobby" className="text-base/7 font-semibold text-orange-400">Free</h3>
       <p className="mt-4 flex items-baseline gap-x-2">
         <span className="text-5xl font-semibold tracking-tight text-gray-900">$0</span>
-        <span className="text-base text-gray-500">/month (per site)</span>
+        <span className="text-base text-gray-500">/month/site</span>
       </p>
       <p className="mt-6 text-base/7 text-gray-600">Perfect for personal blogs and small business websites.</p>
       <ul role="list" className="mt-8 space-y-3 text-sm/6 text-gray-600 sm:mt-10">
@@ -55,11 +55,11 @@ showEditLink: false
       <div className="mt-4 flex items-baseline gap-x-4">
         <div>
           <span className="text-5xl font-semibold tracking-tight text-gray-900">$5</span>
-          <span className="text-base text-gray-500">/month</span>
+          <span className="text-base text-gray-500">/month/site</span>
         </div>
         <div className="border-l pl-4 border-gray-400">
-          <span className="text-5xl font-semibold tracking-tight text-orange-400">$50</span>
-          <span className="text-base text-orange-400">/year</span>
+          <span className="text-5xl font-semibold tracking-tight text-gray-900">$50</span>
+          <span className="text-base text-gray-500">/year/site</span>
         </div>
       </div>
       <p className="mt-6 text-base/7 text-gray-600">For businesses and creators who need advanced features and a customization capabilities.</p>
