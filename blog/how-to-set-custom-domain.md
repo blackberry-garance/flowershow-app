@@ -166,6 +166,9 @@ In your Flowershow dashboard, you'll see one of these statuses:
 - **🔴 Invalid Configuration**: Your DNS records aren't set up correctly (or your changes hasn't propagated yet)
 - **🔵 (Valid Configuration)**: Everything is working! Your domain is live.
 
+> [!important]
+> The domain status in your Flowershow dashboard only checks the SSL configuration on Vercel (our hosting provider). This means your domain may show as "Valid Configuration" even if you're seeing SSL handshake errors in your browser. This happens because Flowershow can only verify the SSL status on its own servers, not any additional SSL certificates that might be in the process of being set up by your DNS provider. If you're using a DNS provider that offers SSL/proxy services (like Cloudflare), you might experience temporary SSL handshake errors while their certificates are being provisioned. See the "SSL Certificates and Handshake Errors" section below for more details.
+
 ## Troubleshooting Common Issues
 
 ### "Invalid Configuration" Status Won't Clear
@@ -187,20 +190,35 @@ This could happen for two reasons:
 
 2. **Multiple A Records**: If you have multiple A records for your root domain (@), DNS resolvers will use round-robin load balancing between them. This means some requests will go to Flowershow's servers (working) while others go to different servers (not working). Check your DNS settings and remove any extra A records for the @ host.
 
+### SSL Certificates and Handshake Errors
+
+You might encounter SSL handshake errors during the initial setup if you're using a DNS provider that offers SSL/proxy services. This happens because there are actually two SSL certificates involved in securing your site:
+
+1. **Vercel's SSL Certificate**:
+   - Vercel (Flowershow's hosting provider) automatically provisions an SSL certificate for your domain
+   - This certificate handles HTTPS for direct connections to Vercel's servers
+   - It's used when traffic goes directly to Vercel (when not using a DNS provider's proxy)
+
+2. **DNS Provider's SSL Certificate**:
+   - If you're using your DNS provider's proxy/SSL features (like Cloudflare's proxy or similar services)
+   - Your DNS provider provisions its own SSL certificate
+   - This certificate handles HTTPS between users and the DNS provider's servers
+   - The DNS provider then forwards traffic to Vercel using Vercel's SSL certificate
+
+The SSL handshake errors occur because:
+- Users connect to your DNS provider's servers first
+- During initial setup, your DNS provider's certificate isn't ready yet
+- This causes temporary handshake failures until their certificate is fully provisioned
+- Once both certificates are in place, you get end-to-end HTTPS encryption: User ↔️ DNS Provider ↔️ Vercel
+
+For example, with Cloudflare:
+- This happens when using their proxy feature (orange cloud icon in DNS settings)
+- The errors are temporary and typically resolve within 5-10 minutes
+- No action is needed - just wait for Cloudflare's SSL certificate provisioning to complete
+
+Similar temporary SSL handshake errors can occur with other DNS providers that offer SSL/proxy services. These issues typically resolve themselves once the provider's SSL certificate is fully provisioned.
+
 ## Understanding DNS
-
-### DNS Glossary
-
-- **DNS (Domain Name System)**: The internet's directory system that converts human-readable domain names (like myblog.com) into IP addresses that computers use to communicate.
-- **DNS Record**: An instruction that lives on DNS servers and provides information about a domain, including where to direct traffic.
-- **A Record**: A fundamental DNS record that points a domain directly to an IP address. It's primarily used for root/apex domains.
-- **CNAME Record**: A DNS record that points one domain name to another domain name (rather than to an IP address). Commonly used for subdomains.
-- **TXT Record**: A DNS record type that holds text information. Often used for domain ownership verification and security settings.
-- **TTL (Time To Live)**: The amount of time (in seconds) that DNS servers should cache a DNS record before checking for updates.
-- **DNS Propagation**: The time it takes for DNS changes to spread across all DNS servers globally.
-- **Root/Apex Domain**: The main domain without any subdomain (e.g., example.com).
-- **Subdomain**: A domain that's part of a larger domain (e.g., blog.example.com).
-- **DNS Provider/Nameserver**: Servers that store your DNS records and respond to DNS queries about your domain.
 
 ### What is DNS?
 
@@ -235,6 +253,22 @@ This process, called "DNS propagation," typically takes a few minutes to a few h
 
 > [!info]
 > You can't speed up DNS propagation - it's a fundamental part of how the internet works to reduce load on DNS servers and make domain name resolution faster for everyone.
+
+### DNS Glossary
+
+- **DNS (Domain Name System)**: The internet's directory system that converts human-readable domain names (like myblog.com) into IP addresses that computers use to communicate.
+- **DNS Record**: An instruction that lives on DNS servers and provides information about a domain, including where to direct traffic.
+- **A Record**: A fundamental DNS record that points a domain directly to an IP address. It's primarily used for root/apex domains.
+- **CNAME Record**: A DNS record that points one domain name to another domain name (rather than to an IP address). Commonly used for subdomains.
+- **TXT Record**: A DNS record type that holds text information. Often used for domain ownership verification and security settings.
+- **TTL (Time To Live)**: The amount of time (in seconds) that DNS servers should cache a DNS record before checking for updates.
+- **DNS Propagation**: The time it takes for DNS changes to spread across all DNS servers globally.
+- **Root/Apex Domain**: The main domain without any subdomain (e.g., example.com).
+- **Subdomain**: A domain that's part of a larger domain (e.g., blog.example.com).
+- **DNS Provider/Nameserver**: Servers that store your DNS records and respond to DNS queries about your domain.
+- **SSL Certificate**: A digital certificate that enables secure HTTPS connections by encrypting data between a user's browser and a web server.
+- **SSL Handshake**: The process where a browser and server establish a secure connection by verifying SSL certificates and agreeing on encryption methods.
+- **DNS Proxy**: A service offered by some DNS providers that sits between users and your web server, potentially offering additional features like caching, SSL, or security.
 
 ## Summary
 

@@ -54,8 +54,14 @@ Changes can take up to 24 hours to propagate fully (depending on previous TTL va
    - Wait for DNS propagation
 
 3. **Intermittent access**
-   - Check for multiple A records
-   - Wait for full DNS propagation
+    - Check for multiple A records
+    - Wait for full DNS propagation
+
+4. **SSL handshake errors with Cloudflare**
+    - When using Cloudflare as your DNS provider, you may see SSL handshake errors for a few minutes after initial setup
+    - This is normal and temporary - Cloudflare needs time to provision and propagate SSL certificates
+    - The issue typically resolves itself within 5-10 minutes
+    - No action needed, just wait for Cloudflare's SSL certificate provisioning to complete
 
 >[!info]
->For a detailed guide including examples and step-by-step instructions, check out [[how-to-set-custom-domain|this guide]].
+>For a detailed guide including examples, step-by-step instructions, and troubleshooting tips check out [[how-to-set-custom-domain|this guide]].
