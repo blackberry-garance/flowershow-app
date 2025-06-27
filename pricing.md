@@ -140,8 +140,9 @@ showEditLink: false
 | | Custom favicon | - | ✓ |
 | | Custom social-share image | - | ✓ |
 | | Full-text search | - | ✓ |
-| **Limits** | Unlimited public sites | - | ✓ |
-| | Unlimited site size | - | ✓ |
+| **Limits** | Storage | 100MB | 5GB |
+| | Monthly visits | 50k | 500k |
+| | Notes | Unlimited | Unlimited |
 | **Support** | Community support | ✓ | ✓ |
 | | Priority support | - | ✓ |
 | | Onboarding assistance | - | - |
