@@ -107,7 +107,7 @@ showEditLink: false
         <h3 className="text-2xl font-semibold text-white">Custom</h3>
         <p className="mt-6 text-base/7 text-gray-300">Get in touch if you are interested in higher limit or the option to purchase multiple sites at a discount.</p>
       </div>
-      <a href="https://tally.so/r/mDod1q" className="rounded-md bg-white/10 px-3.5 py-2 text-sm/6 font-semibold text-white ring-1 ring-inset ring-gray-200 hover:bg-white/20 hover:ring-gray-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"> Contact us to get a quote <span aria-hidden="true">&rarr;</span> </a>
+      <a href="https://tally.so/r/mDod1q" target="_blank" rel="noopener noreferrer" className="rounded-md bg-white/10 px-3.5 py-2 text-sm/6 font-semibold text-white ring-1 ring-inset ring-gray-200 hover:bg-white/20 hover:ring-gray-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"> Contact us to get a quote <span aria-hidden="true">&rarr;</span> </a>
     </div>
   </div>
 </div>
