@@ -4,7 +4,7 @@ description: Learn how to enhance your site's typography by using custom fonts f
 date: 2025-06-29
 authors:
   - olayway
-image: /assets/custom-fonts-4.png
+image: /assets/custom-fonts-featured.png
 ---
 
 This guide will show you how to use fonts from Google Fonts to customize your site's typography. You'll learn how to select fonts, import them using CSS, and apply them to different elements of your site.
