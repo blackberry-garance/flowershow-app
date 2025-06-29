@@ -1,6 +1,6 @@
 ---
 title: How to Set Customize the Fonts on Your Site
-description: Learn how to enhance your site's typography by using custom fonts from Google Fonts
+description: Learn how to enhance your site's typography with Google Fonts
 date: 2025-06-29
 authors:
   - olayway
