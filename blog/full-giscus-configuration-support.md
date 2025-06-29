@@ -1,6 +1,6 @@
 ---
 title: Full Giscus Configuration Is Now Supported
-description: Flowershow now supports full Giscus configuration, giving you complete control over how comments appear on your site.
+description: Flowershow now supports customizing Giscus comments with themes, languages, reactions, and other settings.
 date: 2025-06-29
 authors:
   - olayway
