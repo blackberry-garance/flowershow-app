@@ -1,5 +1,5 @@
 ---
-title: How to Set Custom Fonts Using Google Fonts
+title: How to Set Customize the Fonts on Your Site
 description: Learn how to enhance your site's typography by using custom fonts from Google Fonts
 date: 2025-06-29
 authors:
