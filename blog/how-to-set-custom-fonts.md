@@ -80,10 +80,14 @@ article :not(h1, h2, h3, h4, h5, h6) {
 > Example:
 > ```css
 > /* ❌ Don't */
-> .font-semibold { font-weight: 400 }
+> .font-semibold {
+>   font-weight: 400 !important;
+> }
 > 
 > /* ✅ Do */
->  h2 { font-weight: 400 }
+>  h2 {
+>    font-weight: 400 !important;
+>  }
 > ```
 
 Now, let's modify the heading fonts even more and let's change the font used in the sidebar, table of contents and the top navigation bar.
