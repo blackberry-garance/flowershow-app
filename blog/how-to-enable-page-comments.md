@@ -30,9 +30,9 @@ This tutorial will guide you through the process of enabling comments on your Fl
    - Repository ID (starts with 'R_')
    - Category ID (starts with 'DIC_')
 
-Note: You can ignore other settings as they are pre-configured in Flowershow Cloud.
+With these IDs, you can proceed with either basic or advanced configuration.
 
-## Step 4: Configure Your Site
+## Step 4: Basic Configuration
 
 1. Go to your site's Settings page in the Flowershow Cloud dashboard
 2. Find the "Comments" section
@@ -40,8 +40,40 @@ Note: You can ignore other settings as they are pre-configured in Flowershow Clo
 4. Enter the Repository ID and Category ID from Step 3
 5. Save your changes
 
-
 ![](/assets/cloud-comments-demo.mp4)
+
+## Step 5: Advanced Configuration (Optional)
+
+For more control over your comment section, you can configure additional Giscus settings through your site's `config.json` file. This allows you to customize:
+
+- Theme appearance
+- Language preferences
+- Reaction settings
+- Comment input position
+- Category configuration
+- and more...
+
+Example configuration:
+
+```json
+{
+  "giscus": {
+    "repo": "username/different-repo",
+    "repoId": "R_xxx",
+    "category": "Discussions",
+    "categoryId": "DIC_xxx",
+    "theme": "transparent_dark",
+    "lang": "en",
+    "mapping": "title",
+    "strict": "0",
+    "reactionsEnabled": "1",
+    "inputPosition": "top"
+  }
+}
+```
+
+> [!note]
+> Any settings in your `config.json` will override the defaults and values configured in the site dashboard.
 
 ## Features and Benefits
 

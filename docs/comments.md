@@ -16,7 +16,7 @@ Visit [giscus.app](https://giscus.app):
 2. Select your preferred discussion category
 3. Find the Repository ID (R_...) and Category ID (DIC_...) in the `script` snippet at the bottom of the page.
 
-## Configuration
+## Basic Configuration
 
 To enable comments, turn on the "Comments" option in your site's settings in the dashboard.
 
@@ -25,6 +25,38 @@ To enable comments, turn on the "Comments" option in your site's settings in the
 Then, enter your Giscus Repository ID and Category ID.
 
 ![[giscus-config.png]]
+
+## Advanced Configuration
+
+For more control over your comment section, you can configure additional Giscus settings through your site's [[config-file|config.json]] file:
+
+```json
+{
+  "giscus": {
+    "repo": "username/different-repo",
+    "repoId": "R_xxx",
+    "category": "Discussions",
+    "categoryId": "DIC_xxx",
+    "theme": "transparent_dark",
+    "lang": "en",
+    "mapping": "title",
+    "strict": "0",
+    "reactionsEnabled": "1",
+    "inputPosition": "top"
+  }
+}
+```
+
+This advanced configuration allows you to customize:
+- Theme appearance
+- Language preferences
+- Reaction settings
+- Comment input position
+- Category configuration
+- and more...
+
+> [!important]
+> Any settings in your `config.json` will override the defaults and values configured in the site dashboard.
 
 ## Default behavior and customization
 
