@@ -95,7 +95,7 @@ Now, let's modify the heading fonts even more and let's change the font used in 
 ```css
 article :is(h1, h2, h3, h4, h5, h6) {
     font-family: 'Playfair Display', serif !important;
-    color: #414833 !important; /* Change the color */
+    color: #606c38 !important; /* Change the color */
 }
 
 ...
