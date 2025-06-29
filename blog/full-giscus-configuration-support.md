@@ -27,9 +27,9 @@ If you want to use Giscus with the same repository as your site, the easiest way
    - Repository ID (starts with 'R_')
    - Category ID (starts with 'DIC_')
 
-With this minimal setup, a comment section will appear on your site. Flowershow will use your site’s GitHub repository and the default “Announcements” and set some default values for other Giscus options, like the position of the comment box or the theme.
+With this minimal setup, a comment section will appear on your site. Flowershow will use your site's GitHub repository and the default "Announcements" and set some default values for other Giscus options, like the position of the comment box or the theme.
 
-However, if you need more control over the comment section, you can now override any Giscus settings using your site’s [[config-file|config.json]]. This gives you access to the full range of Giscus options:
+However, if you need more control over the comment section, you can now override any Giscus settings using your site's [[config-file|config.json]]. This gives you access to the full range of Giscus options:
 
 ```json
 {
@@ -59,4 +59,6 @@ This advanced configuration is particularly useful when:
 
 ---
 
-Let us know what you’d like to see next!
+For a detailed guide on setting up comments, including step-by-step instructions and troubleshooting tips, check out our [[how-to-enable-page-comments|how-to guide]].
+
+Let us know what you'd like to see next!
