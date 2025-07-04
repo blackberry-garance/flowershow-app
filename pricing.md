@@ -6,7 +6,7 @@ showComments: false
 showEditLink: false
 ---
 
-<div className="not-prose font-title relative isolate bg-white px-6 py-6 sm:px-6 sm:py-12 lg:px-8">
+<div className="not-prose font-inter relative isolate bg-white px-6 py-6 sm:px-6 sm:py-12 lg:px-8">
   <div className="mx-auto grid max-w-md grid-cols-1 gap-8 lg:max-w-4xl lg:grid-cols-2">
     <div className="flex flex-col justify-between rounded-3xl bg-white p-8 shadow-xl ring-1 ring-gray-900/10 sm:p-10">
       <div className="grow">
@@ -114,7 +114,7 @@ showEditLink: false
 
 
 
-<div className="font-title px-6 py-6 sm:px-6 sm:py-12 lg:px-8">
+<div className="font-inter px-6 py-6 sm:px-6 sm:py-12 lg:px-8">
 | |  | Free | Premium |
 |----------|---------|------|---------|
 | **Core Features** | [CommonMark, GFM & extensions](https://flowershow.app/docs/syntax) | ✓ | ✓ |
@@ -149,7 +149,7 @@ showEditLink: false
 </div>
 
 
-<div className="not-prose font-title px-6 py-6 sm:px-6 sm:py-12 lg:px-8">
+<div className="not-prose font-inter px-6 py-6 sm:px-6 sm:py-12 lg:px-8">
   <div className="mx-auto max-w-4xl text-center">
     <h2 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Empower Flowershow Development</h2>
     <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg/8 text-gray-600">Join us in making digital gardens bloom! Your contribution helps us build better tools for knowledge sharing.</p>
