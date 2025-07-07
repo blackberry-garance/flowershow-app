@@ -68,11 +68,12 @@ Enable Google Analytics tracking with `analytics` field in your [[config-file|co
 
 ## Favicon (⭐️ Premium feature)
 
-Set your site's favicon by specifying the path to your favicon file in the `favicon` field in your [[config-file|config file]].
+Set your site's favicon by specifying the path to your favicon file in the `favicon` field in your [[config-file|config file]]. You can also set it to an emoji using the same field.
 
 ```json
 {
   "favicon": "/path/to/favicon.ico"
+  // or "favicon": "🐶"
 }
 ```
 

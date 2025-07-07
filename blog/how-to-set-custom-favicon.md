@@ -6,6 +6,7 @@ authors:
   - olayway
 image: /assets/custom-favicon.png
 ---
+
 > [!note]
 > Custom favicons are a premium feature. Check out our [pricing page](https://flowershow.app/pricing) to learn more about premium features.
 
@@ -26,6 +27,18 @@ A favicon is a small icon that appears in your browser's address bar, tabs, and 
 ```
 
 That's it! After your next deployment, your custom favicon will appear in browser tabs and bookmarks.
+
+## Using Emoji Favicons
+
+For a quick and fun way to set your favicon, you can use an emoji! Simply pass the emoji character directly to the `favicon` field in your `config.json`:
+
+```json
+{
+  "favicon": "🐶"
+}
+```
+
+This is a great option if you want to quickly set a distinctive favicon without creating image files.
 
 ## Tips for creating a good favicon
 

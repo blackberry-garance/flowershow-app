@@ -20,7 +20,7 @@ Here is an overview of all the site-wide configuration options that you can set 
 {
   "title": "Your Site Title",
   "description": "Your site description",
-  "favicon": "/path/to/favicon.png",
+  "favicon": "/path/to/favicon.png", // Path or an emoji, e.g. "🐶"
   "nav": {
     "logo": "logo.jpeg",           // Path to your logo file or external URL
     "title": "My Digital Garden",  // Site title displayed next to the logo
