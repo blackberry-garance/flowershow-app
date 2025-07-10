@@ -71,19 +71,24 @@ The result:
 ## Step 4: Add Social Media Links
 
 Add social media links to the `nav.social` array. Each social link requires:
-- `label`: Platform identifier (see supported platforms below)
 - `name`: Text label (used in sidebar mode)
 - `href`: Your social media profile URL
+- `label`: Platform identifier from the list below
 
 Supported social platforms:
-- github
-- discord
-- linkedin
-- twitter
-- x
-- facebook
-- instagram
-- youtube
+- `bluesky` (or `bsky`)
+- `discord`
+- `facebook`
+- `github`
+- `instagram`
+- `linkedin`
+- `mastodon`
+- `twitter` (or `x`)
+- `youtube`
+
+> [!info] Is your favorite platform missing from the list?
+> If the social platform you want to use isn’t listed above, you can skip the `label` and Flowershow will display a generic 🌐 icon.
+We encourage you to submit an issue, too. 😉
 
 Example:
 ```json
