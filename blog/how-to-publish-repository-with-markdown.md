@@ -2,8 +2,8 @@
 title: How to Publish a GitHub Repository with Markdown Content
 date: 2025-06-04
 authors:
-  - rufuspollock
   - garance
+  - rufuspollock
 description: Learn how to publish your repository containing markdown files with Flowershow in 2 simple steps.
 image: /assets/publish-gh-repo.jpeg
 ---
