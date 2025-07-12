@@ -6,7 +6,7 @@ authors:
   - olayway
   - garance
 description: Learn how to publish your repository containing markdown files with Flowershow in 2 simple steps.
-image: /assets/publish-gh-repo.png
+image: /assets/publish-gh-repo.jpeg
 ---
 
 https://www.youtube.com/watch?v=Pe1c737A3p0
