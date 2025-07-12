@@ -5,8 +5,10 @@ authors:
   - rufuspollock
   - olayway
 description: Learn how to publish your repository containing markdown files with Flowershow in 2 simple steps.
-image: /assets/new-site-modal.png
+image: /assets/publish-gh-repo.png
 ---
+
+https://www.youtube.com/watch?v=Pe1c737A3p0
 
 Hi everyone! In this short guide, we'll show you how to publish your existing markdown files in a GitHub repository quickly and easily using Flowershow. Let's get started!
 
