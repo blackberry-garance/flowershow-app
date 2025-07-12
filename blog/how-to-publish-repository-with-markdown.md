@@ -9,9 +9,9 @@ description: Learn how to publish your repository containing markdown files with
 image: /assets/publish-gh-repo.jpeg
 ---
 
-https://www.youtube.com/watch?v=Pe1c737A3p0
-
 Hi everyone! In this short guide, we'll show you how to publish your existing markdown files in a GitHub repository quickly and easily using Flowershow. Let's get started!
+
+https://www.youtube.com/watch?v=Pe1c737A3p0
 
 ## STEP 0: What You Need
 
