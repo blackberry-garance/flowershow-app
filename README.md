@@ -7,7 +7,7 @@ showEditLink: false
 showComments: false
 ---
 
-<div className="bg-white py-12 sm:py-24">
+<div className="py-12 sm:py-24">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto max-w-3xl text-center">
       <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-6xl">The best way to publish markdown powered websites</h1>
@@ -34,7 +34,17 @@ showComments: false
   </div>
 </div>
 
-<div className="bg-white py-8 sm:py-12">
+<div className="py-12 sm:py-24 my-12">
+  <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <div className="mx-auto max-w-3xl lg:text-center">
+      https://www.youtube.com/watch?v=Pe1c737A3p0
+    </div>
+  </div>
+</div>
+
+
+
+<div className="py-8 sm:py-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto max-w-3xl lg:text-center">
       <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl lg:text-balance">What is Flowershow?</h2>
@@ -105,7 +115,7 @@ showComments: false
   </div>
 </div>
 
-<div className="bg-white py-12 sm:py-24 my-12">
+<div className="py-12 sm:py-24 my-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <h2 className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-balance lg:text-center">Community sites</h2>
     <div className="mt-6 grid grid-cols-1 gap-x-8 gap-y-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
@@ -178,7 +188,7 @@ showComments: false
 </div>
     
 <h2 id="features" className="sr-only">Features</h2>
-<div className="overflow-hidden bg-white py-8 sm:py-12">
+<div className="overflow-hidden py-8 sm:py-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:ml-auto lg:pl-4 lg:pt-4">
@@ -201,7 +211,7 @@ showComments: false
   </div>
 </div>
 
-<div className="overflow-hidden bg-white py-8 sm:py-12">
+<div className="overflow-hidden py-8 sm:py-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:pr-8 lg:pt-4">
@@ -222,7 +232,7 @@ showComments: false
   </div>
 </div>
 
-<div className="overflow-hidden bg-white py-8 sm:py-12">
+<div className="overflow-hidden py-8 sm:py-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:ml-auto lg:pl-4 lg:pt-4">
@@ -244,7 +254,7 @@ showComments: false
   </div>
 </div>
 
-<div className="overflow-hidden bg-white py-8 sm:py-12">
+<div className="overflow-hidden py-8 sm:py-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:pr-8 lg:pt-4">
@@ -265,7 +275,7 @@ showComments: false
 </div>
 
 
-<div className="overflow-hidden bg-white py-8 sm:py-12">
+<div className="overflow-hidden py-8 sm:py-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:ml-auto lg:pl-4 lg:pt-4">
@@ -287,7 +297,7 @@ showComments: false
   </div>
 </div>
 
-<div className="bg-white py-12 sm:py-24 my-12">
+<div className="py-12 sm:py-24 my-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
       <h2 className="mb-4 text-pretty text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:mb-6 sm:text-5xl">Be the first to know about new features</h2>
       <CustomHtml html={`<iframe data-tally-src="https://tally.so/embed/mYy8k6?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" width="100%" height="157" frameBorder="0" marginHeight="0" marginWidth="0" title="Want product news and updates? Sign up for our newsletter."></iframe><script async src="https://tally.so/widgets/embed.js"></script>`}/>
