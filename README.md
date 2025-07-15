@@ -108,67 +108,67 @@ showComments: false
 <div className="bg-white py-12 sm:py-24 my-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <h2 className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-balance lg:text-center">Community sites</h2>
-    <div class="mt-6 grid grid-cols-1 gap-x-8 gap-y-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
-      <div class="mb-8">
+    <div className="mt-6 grid grid-cols-1 gap-x-8 gap-y-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
+      <div>
         <a href="https://www.wet-vermilion-crowd.com/">
-          <img alt="Wet Vermilion Crowd of Things" src="/_r/-/assets/showcases/wet-vermillion.png" class="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
-          <div class="mt-4 text-lg font-medium text-gray-900">
+          <img alt="Wet Vermilion Crowd of Things" src="/_r/-/assets/showcases/wet-vermillion.png" className="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
+          <div className="mt-4 text-lg font-medium text-gray-900">
             <h3>Wet Vermilion Crowd of Things</h3>
           </div>
         </a>
       </div>
-      <div class="mb-8">
+      <div>
         <a href="https://digi.dana.nyc/">
-          <img alt="Digi Dana NYC" src="/_r/-/assets/showcases/digi-dana-nyc.png" class="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
-          <div class="mt-4 text-lg font-medium text-gray-900">
+          <img alt="Digi Dana NYC" src="/_r/-/assets/showcases/digi-dana-nyc.png" className="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
+          <div className="mt-4 text-lg font-medium text-gray-900">
             <h3>Digi Dana NYC</h3>
           </div>
         </a>
       </div>
-      <div class="mb-8">
+      <div>
         <a href="https://givewiser.org/">
-          <img alt="Give Wiser" src="/_r/-/assets/showcases/give-wiser.png" class="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
-          <div class="mt-4 text-lg font-medium text-gray-900">
+          <img alt="Give Wiser" src="/_r/-/assets/showcases/give-wiser.png" className="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
+          <div className="mt-4 text-lg font-medium text-gray-900">
             <h3>Give Wiser</h3>
           </div>
         </a>
       </div>
-      <div class="mb-8">
+      <div>
         <a href="https://research.lifeitself.org/">
-          <img alt="LifeItself Research" src="/_r/-/assets/showcases/life-itself-research.png" class="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
-          <div class="mt-4 text-lg font-medium text-gray-900">
+          <img alt="LifeItself Research" src="/_r/-/assets/showcases/life-itself-research.png" className="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
+          <div className="mt-4 text-lg font-medium text-gray-900">
             <h3>Life Itself Research</h3>
           </div>
         </a>
       </div>
-      <div class="mb-8">
+      <div>
         <a href="https://comparethe.co/">
-          <img alt="CompareThe＿" src="/_r/-/assets/showcases/comparethe.png" class="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
-          <div class="mt-4 text-lg font-medium text-gray-900">
+          <img alt="CompareThe＿" src="/_r/-/assets/showcases/comparethe.png" className="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
+          <div className="mt-4 text-lg font-medium text-gray-900">
             <h3>CompareThe＿</h3>
           </div>
         </a>
       </div>
-      <div class="mb-8">
+      <div>
         <a href="https://my.flowershow.app/@je7remy/linuxknowledge">
-          <img alt="Linux & Cybersecurity Knowledge Hub" src="/_r/-/assets/showcases/jeremy-linux-knowledge.png" class="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
-          <div class="mt-4 text-lg font-medium text-gray-900">
+          <img alt="Linux & Cybersecurity Knowledge Hub" src="/_r/-/assets/showcases/jeremy-linux-knowledge.png" className="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
+          <div className="mt-4 text-lg font-medium text-gray-900">
             <h3>Linux & Cybersecurity Knowledge Hub</h3>
           </div>
         </a>
       </div>
-      <div class="mb-8">
+      <div>
         <a href="https://my.flowershow.app/@robsonfvilela/professorrobson">
-          <img alt="Professor Robson" src="/_r/-/assets/showcases/professor-robson.png" class="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
-          <div class="mt-4 text-lg font-medium text-gray-900">
+          <img alt="Professor Robson" src="/_r/-/assets/showcases/professor-robson.png" className="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
+          <div className="mt-4 text-lg font-medium text-gray-900">
             <h3>Professor Robson</h3>
           </div>
         </a>
       </div>
-      <div class="mb-8">
+      <div>
         <a href="https://my.flowershow.app/@TheCyberWeaver/obvault">
-          <img alt="Thomas Lu - Digital Garden" src="/_r/-/assets/showcases/cyber-weaver.png" class="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
-          <div class="mt-4 text-lg font-medium text-gray-900">
+          <img alt="Thomas Lu - Digital Garden" src="/_r/-/assets/showcases/cyber-weaver.png" className="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
+          <div className="mt-4 text-lg font-medium text-gray-900">
             <h3>Thomas Lu - Digital Garden</h3>
           </div>
         </a>
