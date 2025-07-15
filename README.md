@@ -117,11 +117,11 @@ showComments: false
 
 <div className="py-12 sm:py-24 my-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
-    <h2 className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-balance lg:text-center">Community sites</h2>
+    <h2 className="my-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-balance lg:text-center">Community sites</h2>
     <div className="mt-6 grid grid-cols-1 gap-x-8 gap-y-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-3">
       <div>
         <a href="https://www.wet-vermilion-crowd.com/">
-          <img alt="Wet Vermilion Crowd of Things" src="/_r/-/assets/showcases/wet-vermillion.png" className="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
+          <img alt="Wet Vermilion Crowd of Things" src="/_r/-/assets/showcases/wet-vermillion.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
           <div className="mt-4 text-lg font-medium text-gray-900">
             <h3>Wet Vermilion Crowd of Things</h3>
           </div>
@@ -129,7 +129,7 @@ showComments: false
       </div>
       <div>
         <a href="https://digi.dana.nyc/">
-          <img alt="Digi Dana NYC" src="/_r/-/assets/showcases/digi-dana-nyc.png" className="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
+          <img alt="Digi Dana NYC" src="/_r/-/assets/showcases/digi-dana-nyc.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
           <div className="mt-4 text-lg font-medium text-gray-900">
             <h3>Digi Dana NYC</h3>
           </div>
@@ -137,7 +137,7 @@ showComments: false
       </div>
       <div>
         <a href="https://givewiser.org/">
-          <img alt="Give Wiser" src="/_r/-/assets/showcases/give-wiser.png" className="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
+          <img alt="Give Wiser" src="/_r/-/assets/showcases/give-wiser.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
           <div className="mt-4 text-lg font-medium text-gray-900">
             <h3>Give Wiser</h3>
           </div>
@@ -145,7 +145,7 @@ showComments: false
       </div>
       <div>
         <a href="https://research.lifeitself.org/">
-          <img alt="LifeItself Research" src="/_r/-/assets/showcases/life-itself-research.png" className="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
+          <img alt="LifeItself Research" src="/_r/-/assets/showcases/life-itself-research.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
           <div className="mt-4 text-lg font-medium text-gray-900">
             <h3>Life Itself Research</h3>
           </div>
@@ -153,7 +153,7 @@ showComments: false
       </div>
       <div>
         <a href="https://comparethe.co/">
-          <img alt="CompareThe＿" src="/_r/-/assets/showcases/comparethe.png" className="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
+          <img alt="CompareThe＿" src="/_r/-/assets/showcases/comparethe.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
           <div className="mt-4 text-lg font-medium text-gray-900">
             <h3>CompareThe＿</h3>
           </div>
@@ -161,7 +161,7 @@ showComments: false
       </div>
       <div>
         <a href="https://my.flowershow.app/@je7remy/linuxknowledge">
-          <img alt="Linux & Cybersecurity Knowledge Hub" src="/_r/-/assets/showcases/jeremy-linux-knowledge.png" className="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
+          <img alt="Linux & Cybersecurity Knowledge Hub" src="/_r/-/assets/showcases/jeremy-linux-knowledge.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
           <div className="mt-4 text-lg font-medium text-gray-900">
             <h3>Linux & Cybersecurity Knowledge Hub</h3>
           </div>
@@ -169,7 +169,7 @@ showComments: false
       </div>
       <div>
         <a href="https://my.flowershow.app/@robsonfvilela/professorrobson">
-          <img alt="Professor Robson" src="/_r/-/assets/showcases/professor-robson.png" className="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
+          <img alt="Professor Robson" src="/_r/-/assets/showcases/professor-robson.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
           <div className="mt-4 text-lg font-medium text-gray-900">
             <h3>Professor Robson</h3>
           </div>
@@ -177,9 +177,17 @@ showComments: false
       </div>
       <div>
         <a href="https://my.flowershow.app/@TheCyberWeaver/obvault">
-          <img alt="Thomas Lu - Digital Garden" src="/_r/-/assets/showcases/cyber-weaver.png" className="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
+          <img alt="Thomas Lu - Digital Garden" src="/_r/-/assets/showcases/cyber-weaver.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
           <div className="mt-4 text-lg font-medium text-gray-900">
             <h3>Thomas Lu - Digital Garden</h3>
+          </div>
+        </a>
+      </div>
+      <div>
+        <a href="https://tech.datopian.com/">
+          <img alt="Datopian Tech" src="/_r/-/assets/showcases/tech-datopian.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
+          <div className="mt-4 text-lg font-medium text-gray-900">
+            <h3>Datopian Tech</h3>
           </div>
         </a>
       </div>
@@ -193,7 +201,7 @@ showComments: false
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:ml-auto lg:pl-4 lg:pt-4">
         <div className="lg:max-w-lg">
-          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Rich Markdown Syntax Support</h2>
+          <h3 className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">Rich Markdown Syntax Support</h3>
           <p className="mt-6 text-lg/8 text-gray-600">From basic CommonMark to advanced GitHub Flavoured Markdown and Obsidian Wiki links, we've got you covered. Enhance your content with Mermaid diagrams for clear visualizations and LaTeX for beautiful mathematical equations.</p>
           <a href="/docs/syntax" className="inline-block mt-4 text-lg/6 font-semibold text-gray-900 underline">Learn more <span aria-hidden="true">→</span></a>
         </div>
@@ -216,7 +224,7 @@ showComments: false
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:pr-8 lg:pt-4">
         <div className="lg:max-w-lg">
-          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Page Comments</h2>
+          <h3 className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">Page Comments</h3>
           <p className="mt-6 text-lg/8 text-gray-600">Foster community engagement with built-in commenting functionality powered by Giscus. Enable discussions on any page, manage comments through GitHub Discussions, and build a vibrant community around your content.</p>
           <a href="/docs/comments" className="inline-block mt-4 text-lg/6 font-semibold text-gray-900 underline">Learn more <span aria-hidden="true">→</span></a>
         </div>
@@ -237,7 +245,7 @@ showComments: false
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:ml-auto lg:pl-4 lg:pt-4">
         <div className="lg:max-w-lg">
-          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Table of Contents and Sidebar Navigation</h2>
+          <h3 className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">Table of Contents and Sidebar Navigation</h3>
           <p className="mt-6 text-lg/8 text-gray-600">Every markdown page comes with a table of contents enabled by default. You can also add a site-wide table of contents in a LHS sidebar to allow your users to easily navigate to other pages on your website.</p>
         </div>
       </div>
@@ -259,7 +267,7 @@ showComments: false
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:pr-8 lg:pt-4">
         <div className="lg:max-w-lg">
-          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Elegant Layout</h2>
+          <h3 className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">Elegant Layout</h3>
           <p className="mt-6 text-lg/8 text-gray-600">Display your content in an elegant format supporting title, description, authors, publish date, featured image and more.</p>
         </div>
       </div>
@@ -280,7 +288,7 @@ showComments: false
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:ml-auto lg:pl-4 lg:pt-4">
         <div className="lg:max-w-lg">
-          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Hero Section</h2>
+          <h3 className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">Hero Section</h3>
           <p className="mt-6 text-lg/8 text-gray-600">Transform your page headers into stunning, full-width hero sections with customizable backgrounds, text, and call-to-action buttons. Create impactful landing pages that capture your visitors' attention.</p>
         </div>
       </div>
