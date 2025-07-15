@@ -150,14 +150,6 @@ showComments: false
         </a>
       </div>
       <div class="mb-8">
-        <a href="https://tech.datopian.com/">
-          <img alt="Datopian Tech" src="/_r/-/assets/showcases/tech-datopian.png" class="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
-          <div class="mt-4 text-lg font-medium text-gray-900">
-            <h3>Datopian Tech</h3>
-          </div>
-        </a>
-      </div>
-      <div class="mb-8">
         <a href="https://my.flowershow.app/@je7remy/linuxknowledge">
           <img alt="Linux & Cybersecurity Knowledge Hub" src="/_r/-/assets/showcases/jeremy-linux-knowledge.png" class="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
           <div class="mt-4 text-lg font-medium text-gray-900">
