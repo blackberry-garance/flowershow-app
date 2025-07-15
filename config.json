@@ -16,7 +16,10 @@
       { "href": "https://cloud.flowershow.app", "name": "Login/Signup" }
     ],
     "social": [
-      { "label": "github", "href": "https://github.com/datopian/flowershow", "name": "Our GitHub" }
+      { "label": "github", "href": "https://github.com/flowershow/flowershow", "name": "GitHub" },
+      { "label": "x", "href": "https://x.com/flowershowapp", "name": "X" },
+      { "label": "bluesky", "href": "https://bsky.app/profile/flowershowapp.bsky.social", "name": "Bluesky" },
+      { "label": "linkedin", "href": "https://www.linkedin.com/company/flowershowapp/", "name": "LinkedIn" }
     ]
   },
   "contentExclude": ["/excalidraw", "/journal", "/meta", "/notes", "/blog/archive", "/docs/self-hosted", "/self-hosted.md"],
