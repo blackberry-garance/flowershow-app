@@ -141,6 +141,46 @@ showComments: false
           </div>
         </a>
       </div>
+      <div class="mb-8">
+        <a href="https://comparethe.co/">
+          <img alt="CompareThe＿" src="/_r/-/assets/showcases/comparethe.png" class="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
+          <div class="mt-4 text-lg font-medium text-gray-900">
+            <h3>CompareThe＿</h3>
+          </div>
+        </a>
+      </div>
+      <div class="mb-8">
+        <a href="https://tech.datopian.com/">
+          <img alt="Datopian Tech" src="/_r/-/assets/showcases/tech-datopian.png" class="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
+          <div class="mt-4 text-lg font-medium text-gray-900">
+            <h3>Datopian Tech</h3>
+          </div>
+        </a>
+      </div>
+      <div class="mb-8">
+        <a href="https://my.flowershow.app/@je7remy/linuxknowledge">
+          <img alt="Linux & Cybersecurity Knowledge Hub" src="/_r/-/assets/showcases/jeremy-linux-knowledge.png" class="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
+          <div class="mt-4 text-lg font-medium text-gray-900">
+            <h3>Linux & Cybersecurity Knowledge Hub</h3>
+          </div>
+        </a>
+      </div>
+      <div class="mb-8">
+        <a href="https://my.flowershow.app/@robsonfvilela/professorrobson">
+          <img alt="Professor Robson" src="/_r/-/assets/showcases/professor-robson.png" class="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
+          <div class="mt-4 text-lg font-medium text-gray-900">
+            <h3>Professor Robson</h3>
+          </div>
+        </a>
+      </div>
+      <div class="mb-8">
+        <a href="https://my.flowershow.app/@TheCyberWeaver/obvault">
+          <img alt="Thomas Lu - Digital Garden" src="/_r/-/assets/showcases/cyber-weaver.png" class="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
+          <div class="mt-4 text-lg font-medium text-gray-900">
+            <h3>Thomas Lu - Digital Garden</h3>
+          </div>
+        </a>
+      </div>
     </div>
   </div>
 </div>
