@@ -118,7 +118,7 @@ showComments: false
 <div className="py-12 sm:py-24 my-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <h2 className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-balance lg:text-center">Community sites</h2>
-    <div className="mt-6 grid grid-cols-1 gap-x-8 gap-y-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
+    <div className="mt-6 grid grid-cols-1 gap-x-8 gap-y-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-3">
       <div>
         <a href="https://www.wet-vermilion-crowd.com/">
           <img alt="Wet Vermilion Crowd of Things" src="/_r/-/assets/showcases/wet-vermillion.png" className="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
