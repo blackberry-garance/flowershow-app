@@ -36,7 +36,7 @@ showComments: false
 
 <div className="my-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
-    <div className="mx-auto max-w-4xl">
+    <div className="mx-auto max-w-4xl rounded-lg overflow-hidden">
       https://www.youtube.com/watch?v=Pe1c737A3p0
     </div>
   </div>
