@@ -104,6 +104,45 @@ showComments: false
     </div>
   </div>
 </div>
+
+<div className="bg-white py-12 sm:py-24 my-12">
+  <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mt-6 grid grid-cols-1 gap-x-8 gap-y-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
+      <div>
+        <a href="https://www.wet-vermilion-crowd.com/">
+          <img alt="Wet Vermilion Crowd of Things" src="/_r/-/assets/showcases/wet-vermillion.png" class="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
+          <div class="mt-4 text-lg font-medium text-gray-900">
+            <h3>Wet Vermilion Crowd of Things</h3>
+          </div>
+        </a>
+      </div>
+      <div>
+        <a href="https://digi.dana.nyc/">
+          <img alt="Digi Dana NYC" src="/_r/-/assets/showcases/digi-dana-nyc.png" class="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
+          <div class="mt-4 text-lg font-medium text-gray-900">
+            <h3>Digi Dana NYC</h3>
+          </div>
+        </a>
+      </div>
+      <div>
+        <a href="https://givewiser.org/">
+          <img alt="Give Wiser" src="/_r/-/assets/showcases/give-wiser.png" class="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
+          <div class="mt-4 text-lg font-medium text-gray-900">
+            <h3>Give Wiser</h3>
+          </div>
+        </a>
+      </div>
+      <div>
+        <a href="https://research.lifeitself.org/">
+          <img alt="LifeItself Research" src="/_r/-/assets/showcases/life-itself-research.png" class="aspect-[4/3] w-full rounded-lg bg-gray-100 object-cover" />
+          <div class="mt-4 text-lg font-medium text-gray-900">
+            <h3>Life Itself Research</h3>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
     
 <h2 id="features" className="sr-only">Features</h2>
 <div className="overflow-hidden bg-white py-8 sm:py-12">
