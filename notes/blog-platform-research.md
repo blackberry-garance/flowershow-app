@@ -1,4 +1,4 @@
-# Best blog solutions for Obsidian users
+# 🚧 Best blog solutions for Obsidian users
 
 ## Cloud
 
