@@ -4,7 +4,7 @@
 
 **Need:** I'm authoring my blog in Obsidian. What are the best hosted (cloud) platforms where I could publish my blog? I want to keep authoring in Obsidian.
 
-## Obsidian Publish
+### Obsidian Publish
 
 - **Workflow**: click “Publish” from any note (or a folder) inside Obsidian and your site is live.
 - **Hosting & price**: $8 / month per site when billed annually, includes CDN, search, custom domain, and theme tweaks.  ￼
