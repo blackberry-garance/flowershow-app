@@ -57,9 +57,11 @@ Enable Hashnode’s “Publish articles from GitHub”. Every markdown file push
 
 Hashnode gives you comments, reactions, built-in newsletter, custom domain, and a dev-centric audience.
 
-**Pros**: 
+**Pros**:
+- ...
 
-**Cons**: Publishin from GitHub is only available
+**Cons**:
+- Publishin from GitHub is only available on the Pro plan
 
 ### Blot.im
 
