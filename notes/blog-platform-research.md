@@ -14,10 +14,13 @@ Click “Publish” from any note (or a folder) inside Obsidian and your site is
 
 All the core Obsidian syntax features supported.
 
-**Pricing & features**:
+**Pricing**:
 
 - $8 / month per site when billed annually
 - $10 / month when billed monthly)
+
+**Features:**
+- ...
 
 **Pros**:
 - minutes to set up,
