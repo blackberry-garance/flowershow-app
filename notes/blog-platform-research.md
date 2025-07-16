@@ -6,34 +6,45 @@
 
 ### Obsidian Publish
 
-- **Workflow**: click “Publish” from any note (or a folder) inside Obsidian and your site is live.
-- **Hosting & price**: $8 / month per site when billed annually, includes CDN, search, custom domain, and theme tweaks.  ￼
+- **How it works**: click “Publish” from any note (or a folder) inside Obsidian and your site is live.
+- **Pricing**: $8 / month per site when billed annually ($10 / month when billed monthly). Includes CDN, search, custom domain, and theme tweaks.  ￼
 - **Pros**: minutes to set up, no build pipeline, Obsidian page links and graph just work.
 - **Cons**: limited theming/extensibility compared with full static-site stacks; no plugins, and only basic analytics.
-
 
 ### Ghost(Pro) + Obsidian plugin
 
 - **How it works**: Obsidian "Send to Ghost" plugin lets you push a note straight to your Ghost site via its Admin API.  ￼
 - **Hosting & price**: Ghost(Pro) starts at $9 / month for fully managed hosting with CDN, email newsletter, memberships, Stripe integration, backups, and security.  ￼
-- **When to choose**: you want a business-ready publishing stack (paywalls, tiers, analytics) but prefer writing in Obsidian instead of Ghost’s editor.
 - **Pros**: Managed “everything-in-one” stack—blog, newsletter, paid memberships, Stripe—so you can monetise and control branding without self-hosting.
 - **Cons**: Starts at $9/month and scales with audience; custom themes require developer effort.
 
 ### HashNode (Pro)
 
-- **How it works**: enable Hashnode’s “Publish articles from GitHub”. Every markdown file pushed to a chosen repo is auto-published (or updated) on your Hashnode blog; front-matter controls title, tags, draft state, etc. Use the free Obsidian Git community plugin to sync your vault (or just a /blog folder) to GitHub on save or on demand.
-- **Hosting & price**: Hashnode gives you comments, reactions, built-in newsletter, custom domain, and a dev-centric audience.
-- **Pros**: 
-- **Cons**: Publishin from GitHub is only available
+**Workflow**:
+
+Enable Hashnode’s “Publish articles from GitHub”. Every markdown file pushed to a chosen repo is auto-published (or updated) on your Hashnode blog; front-matter controls title, tags, draft state, etc. Use the free Obsidian Git community plugin to sync your vault (or just a /blog folder) to GitHub on save or on demand.
+
+**Pricing**
+
+Hashnode gives you comments, reactions, built-in newsletter, custom domain, and a dev-centric audience.
+
+**Pros**: 
+
+**Cons**: Publishin from GitHub is only available
 
 ### Blot.im
 
-- **How it works**: Keep (part of) your vault in a Dropbox, Google Drive, or Git folder → Blot watches the folder and turns each Markdown file into a page automatically.
+**How it works**
+
+Blot watches a folder you control (via Dropbox, Git, Google Drive, or iCloud). Any Markdown file you save there from Obsidian is auto-converted into static HTML and published within seconds—no manual builds or dashboards required.
+
+**Markdown syntax support**
+
+Blot renders standard CommonMark plus most Pandoc-style extras—tables, footnotes, definition lists, fenced-code with syntax highlighting, and KaTeX maths. Crucially for Obsidian users, it resolves `[[wikilinks]]` for pages, provided you keep Obsidian’s New link format → Relative path to file. It doesn't support `![[…]]` embeds for images or other files.
 
 ### Micro.blog
 
-**How it works**
+**Workflow**:
 
 Write your post in Obsidian, then run the free "Micro.publish" community plugin. After you paste an app-token from Micro.blog into the plugin’s settings, a single command (“Post to Micro.blog”) pushes the note over the Micropub API, letting Micro.blog host it instantly under your custom domain. You can override title, categories, visibility, or a future publish-date in a review dialog before sending, and the post’s URL is written back into the note so you can update it later.
 
