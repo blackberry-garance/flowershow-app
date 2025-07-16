@@ -6,17 +6,46 @@
 
 ### Obsidian Publish
 
-- **How it works**: click “Publish” from any note (or a folder) inside Obsidian and your site is live.
-- **Pricing**: $8 / month per site when billed annually ($10 / month when billed monthly). Includes CDN, search, custom domain, and theme tweaks.  ￼
-- **Pros**: minutes to set up, no build pipeline, Obsidian page links and graph just work.
-- **Cons**: limited theming/extensibility compared with full static-site stacks; no plugins, and only basic analytics.
+**Workflow**:
+
+Click “Publish” from any note (or a folder) inside Obsidian and your site is live.
+
+**Markdown syntax support**:
+
+All the core Obsidian syntax features supported.
+
+**Pricing & features**:
+
+- $8 / month per site when billed annually
+- $10 / month when billed monthly)
+
+**Pros**:
+- minutes to set up,
+- all core Obsidian syntax features supported.
+
+**Cons**:
+- pricey,
+- ...
 
 ### Ghost(Pro) + Obsidian plugin
 
-- **How it works**: Obsidian "Send to Ghost" plugin lets you push a note straight to your Ghost site via its Admin API.  ￼
-- **Hosting & price**: Ghost(Pro) starts at $9 / month for fully managed hosting with CDN, email newsletter, memberships, Stripe integration, backups, and security.  ￼
-- **Pros**: Managed “everything-in-one” stack—blog, newsletter, paid memberships, Stripe—so you can monetise and control branding without self-hosting.
-- **Cons**: Starts at $9/month and scales with audience; custom themes require developer effort.
+**Workflow**:
+
+Obsidian "Send to Ghost" plugin lets you push a note straight to your Ghost site via its Admin API.
+
+**Markdown syntax support**:
+
+Ghost renders standard Markdown (plus GitHub-flavoured features like tables and footnotes when used inside a Markdown card) and lets you mix in rich “cards” for images, embeds or raw HTML. Math or Mermaid require adding your own JS/CSS, and Obsidian-style [[wikilinks]] are not recognised—you’d need a pre-publish conversion or switch to regular Markdown links.
+
+**Pricing**:
+
+Ghost(Pro) starts at $9 / month for fully managed hosting with CDN, email newsletter, memberships, Stripe integration, backups, and security.  
+￼
+**Pros**:
+- Managed “everything-in-one” stack—blog, newsletter, paid memberships, Stripe—so you can monetise and control branding without self-hosting.
+
+**Cons**:
+- Starts at $9/month and scales with audience; custom themes require developer effort.
 
 ### HashNode (Pro)
 
