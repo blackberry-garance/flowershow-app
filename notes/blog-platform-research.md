@@ -27,6 +27,9 @@
 - **Pros**: 
 - **Cons**: Publishin from GitHub is only available
 
+### Blot.im
+
+- **How it works**: Keep (part of) your vault in a Dropbox, Google Drive, or Git folder → Blot watches the folder and turns each Markdown file into a page automatically.
 
 
 ## Self-hosted
