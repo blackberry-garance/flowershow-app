@@ -189,16 +189,29 @@ Choose Micro.blog if you enjoy a blend of blogging and social sharing – essent
 
 **Workflow**:
 
-Enable Hashnode’s “Publish articles from GitHub”. Every markdown file pushed to a chosen repo is auto-published (or updated) on your Hashnode blog; front-matter controls title, tags, draft state, etc. Use the free Obsidian Git community plugin to sync your vault (or just a /blog folder) to GitHub on save or on demand.
+You can publish Obsidian notes to Hashnode in several ways: copy-and-paste your Markdown into the WYSIWYG editor (uploading images separately), use the Hash-Dian community plugin to push drafts or posts via Hashnode’s API, connect a GitHub repo (with YAML frontmatter) for automatic builds on paid plans, or run a one-time bulk import/export of Markdown files. Each approach preserves your vault structure while giving you choices between manual control, one-click automation, or continuous deployment.
+
+**Markdown syntax support**:
+
+Hashnode supports CommonMark and GitHub-flavored Markdown—including tables, task lists, and fenced code with syntax highlighting—and honors YAML frontmatter when publishing via API or GitHub. While Obsidian-style wiki-links and embeds must be converted to standard links, you can embed Mermaid diagrams in mermaid blocks and render LaTeX math with \(…\\) or $$…$$. Callouts, footnotes, and Obsidian-specific syntax aren’t natively styled, so minor preprocessing is required for those elements.
 
 **Pricing**
 
-Hashnode gives you comments, reactions, built-in newsletter, custom domain, and a dev-centric audience.
+On the Free plan you get unlimited posts, a custom domain, basic analytics, newsletter tools, and GitHub backups at no cost (with Hashnode branding). The individual Pro upgrade (~ $7/month or $70/year) removes branding, unlocks advanced AI features, and enables official GitHub publishing. The Startup plan ($199/month) adds team seats, collaborative editing, custom CSS, and built-in GitHub integration. Enterprise pricing is custom and includes SSO, SLAs, and unlimited users.
 
 **Pros**:
-- ...
+- Seamless Markdown support (code, math, diagrams) with multiple publishing routes
+- Free custom domain, global CDN, and built-in newsletter/email subscriber management
+- Strong developer community reach and SEO/analytics out of the box
+- Content ownership guaranteed via export tools and GitHub backups
 
 **Cons**:
-- Publishin from GitHub is only available on the Pro plan
+- Publishing from GitHub is only available on the Pro plan
+- Obsidian-specific syntax (wiki links, embeds, callouts) needs manual conversion
+- No native on-site search for readers without custom workarounds
+- Full theming/custom CSS often requires paid tier or ambassador access
+- Platform dependence means limited control vs. self-hosted or purely file-based blogs
 
-...
+**When to choose**:
+
+Hashnode is ideal if you write technical or developer-focused content in Obsidian but want a hassle-free, feature-rich blog and newsletter platform. It shines for those who prefer writing locally in Markdown yet need community reach, built-in email distribution, and automatic backups. If you require advanced theming, reader search, or complete self-hosting control, however, a static-site generator or self-hosted CMS may be a better fit.
