@@ -42,6 +42,8 @@ A published Obsidian site retains unique Obsidian features like the **interactiv
 
 ### Flowershow
 
+<img width="1454" height="908" alt="image" src="https://github.com/user-attachments/assets/df3ca630-52bc-4a78-8e74-ab4ef2c9bf0b" />
+
 **Workflow:**
 
 Flowershow is a cloud platform specifically designed to publish Markdown/Obsidian content as a beautiful website. It offers both an **Obsidian plugin** and a GitHub-integrated workflow. In practice, you create a GitHub repository for your notes and the Flowershow platform will auto-sync the content and build the site. The Obsidian plugin (Flowershow Publish) can help by pushing notes to GitHub for you and tracking which are published. Once set up, your editing remains in Obsidian; whenever you commit changes (or use the plugin to sync), Flowershow regenerates the site. Overall, for a user, the flow is: **Write in Obsidian → push/sync to GitHub (with Flowershow Obsidian plugin) → Flowershow auto-updates site.**
