@@ -1,34 +1,40 @@
-# 🚧 Best blog solutions for Obsidian users
+# Best Cloud Blogging Platforms for Obsidian Users
 
-## Cloud
+Obsidian users looking to publish a blog directly from their vault have a few hosted options. Below, we compare the top platforms and how they support an Obsidian-centric workflow, including setup, Markdown features (CommonMark, GFM, Obsidian wiki links, embeds, Mermaid diagrams, and LaTeX math), pricing, key features (search, newsletter sign-ups, sidebars, indices), pros, cons, and ideal use cases.
 
-**Need:** I'm authoring my blog in Obsidian. What are the best hosted (cloud) platforms where I could publish my blog? I want to keep authoring in Obsidian.
+### Obsidian Publish (Official Service)
 
-### Obsidian Publish
+**Workflow**
 
-**Workflow**:
+Obsidian Publish is Obsidian’s official hosted publishing service. It requires **no technical setup** – you simply sign up and use the **built-in Publish plugin** in Obsidian to select which notes to publish. Once enabled, you can keep writing in Obsidian and with a few clicks push updates to your published site. Your vault’s folder structure and internal links become a website automatically, with Obsidian’s familiar navigation sidebar showing folders and notes.
 
-Click “Publish” from any note (or a folder) inside Obsidian and your site is live.
+**Markdown syntax support**
 
-**Markdown syntax support**:
+Obsidian Publish fully supports **standard Markdown (CommonMark)** and **GitHub Flavored Markdow**n elements (tables, task lists, etc.) since it essentially mirrors Obsidian’s preview. Critically, it supports **Obsidian’s wiki-links and embeds** out of the box – your `[[Internal Links]]` between notes work seamlessly online. **Mermaid diagrams** (in mermaid code blocks) and **LaTeX math** (using $...$ or $$...$$) render as they do in Obsidian, since these are core features of Obsidian. However, note that third-party Obsidian plugins (especially those using code fences for things like dataview queries or charts) do not run on Publish, so any content relying on community plugin-specific syntax might not display as expected.
 
-All the core Obsidian syntax features supported.
+**Pricing**
 
-**Pricing**:
-
-- $8 / month per site when billed annually
-- $10 / month when billed monthly)
+Obsidian Publish is a paid add-on, **$8 USD per site per month (annual billing)** or **$10 month-to-month**. This is charged **per published site** (vault). There’s no free tier.
 
 **Features:**
-- ...
 
-**Pros**:
-- minutes to set up,
-- all core Obsidian syntax features supported.
+A published Obsidian site retains unique Obsidian features like the **interactive graph view** of your notes and backlink lists. You can apply a **custom theme or CSS for styling**. A **sidebar with folder navigation** is standard, and recent updates allow customizing which pages appear in the sidebar and in what order. Obsidian Publish sites now include a search bar with **full-text search**. There is **no built-in newsletter or commenting system** – Publish is oriented toward a knowledge-base or digital garden style site rather than a traditional blog with subscriptions. Likewise, there’s no automatic blog index by date, but you can create index pages or use tags to organize posts manually. **SEO metadata** is supported via frontmatter. 
 
-**Cons**:
-- pricey,
-- ...
+**Pros:**
+- Easiest setup: entirely managed solution with no technical skills required.
+- Native Obsidian features: supports wiki links, embeds, graph view, backlinks, Mermaid, math, etc., preserving the feel of Obsidian in the browser.
+- Instant updates: changes can be published within seconds via the Obsidian interface.
+- Customizable look: can use Obsidian themes/snippets for styling.
+- Reliable and secure: official service maintained by the Obsidian team, with priority support for subscribers.
+
+**Cons:**
+- Cost: $96/year per site may be expensive for hobby blogging.
+- Limited extensibility: Does not support third-party plugins or dynamic features like comment sections, forms, or certain advanced Markdown extensions (e.g. dataview queries).
+- Single site per subscription: If you want multiple separate sites from different vaults, you pay per site (no multi-site bundle) ￼.
+- No built-in newsletter: Followers can’t “subscribe” via email (but there is a basic RSS feed generated).
+- No build-in comments: Visitors can't comment on the content.
+
+**When to Choose:**: Obsidian Publish is ideal if you want the most hassle-free experience and full fidelity with Obsidian’s features. It’s great for publishing a digital garden, wiki, or notes collection where interactive graph and internal links shine. If you don’t mind the subscription cost and don’t need fancy blog-specific features (comments, newsletters), Publish offers a polished experience with minimal setup. Less tech-savvy users who want their Obsidian vault online with just a few clicks will appreciate this official solution. However, if budget is a concern or you need advanced blog features or plugin support, consider the alternatives below.
 
 ### Ghost(Pro) + Obsidian plugin
 
