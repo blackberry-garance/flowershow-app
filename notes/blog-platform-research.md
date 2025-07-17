@@ -2,7 +2,9 @@
 
 Obsidian users looking to publish a blog directly from their vault have a few hosted options. Below, we compare the top platforms and how they support an Obsidian-centric workflow, including setup, Markdown features (CommonMark, GFM, Obsidian wiki links, embeds, Mermaid diagrams, and LaTeX math), pricing, key features (search, newsletter sign-ups, sidebars, indices), pros, cons, and ideal use cases.
 
-### [Obsidian Publish (Official Service)](https://obsidian.md/publish)
+### Obsidian Publish (Official Service)
+
+https://obsidian.md/publish
 
 <img width="1454" height="908" alt="image" src="https://github.com/user-attachments/assets/ed7e41e9-7fb6-49d3-b4b8-01a017591754" />
 
