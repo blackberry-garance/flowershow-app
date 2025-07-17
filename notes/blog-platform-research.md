@@ -78,6 +78,9 @@ Flowershow comes with many features out of the box:
 - **Missing Graph view:** If the interactive graph of Obsidian is important to you, Flowershow currently does not provide a graph visualization of your notes on the site (unlike Obsidian Publish or Markbase). It focuses on content and navigation over visual graphs.
 - **Learning curve for advanced customization:** While powerful, using features like custom React components or deeply altering the theme will require technical knowledge. The out-of-box style is nice but might not please everyone (though you can change it with CSS).
 
+**When to choose:**
+
+Flowershow is an excellent choice if you want a **full-featured blog or knowledge site** and don’t mind a bit of initial configuration. It shines for users who desire Obsidian’s benefits and traditional blogging features like newsletters, comments, and structured indexes. If you have some comfort with tools like GitHub (or are willing to follow step-by-step instructions to set it up), you’ll be rewarded with a very powerful platform at minimal cost. Flowershow is ideal for content creators or small businesses using Obsidian: for example, a personal blog, a documentation site for a project, or an academic digital garden that needs search and taxonomy. Less tech-savvy users can use it too – the interface guides you – but it’s best if you’re not completely allergic to using an extra service (GitHub) during setup. Choose Flowershow if you value extensive Markdown support and blog features and are looking for a cost-effective, community-driven solution.
 
 ### Ghost(Pro) + Obsidian plugin
 
