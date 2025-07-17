@@ -8,6 +8,7 @@ https://obsidian.md/publish
 
 <img width="1454" height="908" alt="image" src="https://github.com/user-attachments/assets/ed7e41e9-7fb6-49d3-b4b8-01a017591754" />
 
+
 **Workflow**
 
 Obsidian Publish is Obsidian’s official hosted publishing service. It requires **no technical setup** – you simply sign up and use the **built-in Publish plugin** in Obsidian to select which notes to publish. Once enabled, you can keep writing in Obsidian and with a few clicks push updates to your published site. Your vault’s folder structure and internal links become a website automatically, with Obsidian’s familiar navigation sidebar showing folders and notes.
