@@ -65,7 +65,6 @@ Flowershow comes with many features out of the box:
 - **Customization**: Both free and paid users can apply custom CSS to style their site. You can also customize social share images, favicon, etc. on Premium plan. It basically provides a modern, professional website setup for your Obsidian content.
 - **Integration & plugin**: The official Flowershow Obsidian plugin helps automate publishing so you never need to leave Obsidian to publish changes, after initial setup.
 
-
 **Pros:**
 - **Excellent Obsidian syntax support:** CommonMark, GFM, wiki-links, embeds, Mermaid, math, callouts, footnotes – all just work ￼ ￼. Minimal friction in publishing your notes.
 - **Rich feature set:** Even the free version includes features like comments, forms (for newsletter sign-ups), theme customization, blog indexes, etc., which can make your Obsidian vault feel like a polished blog or documentation site.
@@ -82,70 +81,61 @@ Flowershow comes with many features out of the box:
 
 Flowershow is an excellent choice if you want a **full-featured blog or knowledge site** and don’t mind a bit of initial configuration. It shines for users who desire Obsidian’s benefits and traditional blogging features like newsletters, comments, and structured indexes. If you have some comfort with tools like GitHub (or are willing to follow step-by-step instructions to set it up), you’ll be rewarded with a very powerful platform at minimal cost. Flowershow is ideal for content creators or small businesses using Obsidian: for example, a personal blog, a documentation site for a project, or an academic digital garden that needs search and taxonomy. Less tech-savvy users can use it too – the interface guides you – but it’s best if you’re not completely allergic to using an extra service (GitHub) during setup. Choose Flowershow if you value extensive Markdown support and blog features and are looking for a cost-effective, community-driven solution.
 
-### Ghost(Pro) + Obsidian plugin
+### Ghost(Pro)
 
 **Workflow**:
 
-Obsidian "Send to Ghost" plugin lets you push a note straight to your Ghost site via its Admin API.
+Ghost does not natively integrate with Obsidian but you can use a **community plugin (Obsidian Ghost Publish)** to send a note directly to Ghost as a draft post using the Ghost API. With this plugin, you write in Obsidian and click a Ghost icon to upload the post. Without the plugin, the common workflow is manual: create a new post in Ghost Admin, switch to Markdown mode (/md command in the editor), then paste the Markdown. Ghost’s editor will automatically convert Markdown to its native format for editing. For bulk publishing of many Markdown files, Ghost provides migration tools and an Admin API that accepts raw HTML or Markdown, but some scripting is required. 
 
 **Markdown syntax support**:
 
-Ghost renders standard Markdown (plus GitHub-flavoured features like tables and footnotes when used inside a Markdown card) and lets you mix in rich “cards” for images, embeds or raw HTML. Math or Mermaid require adding your own JS/CSS, and Obsidian-style [[wikilinks]] are not recognised—you’d need a pre-publish conversion or switch to regular Markdown links.
+Ghost has solid Markdown support built in. The Ghost editor will auto-parse standard Markdown as you type or paste, turning it into formatted content. Most CommonMark and basic GFM elements work (headings, bold/italic, code blocks, links, lists, etc.), but there are a few limitations. Ghost does not support Markdown tables natively (tables must be inserted as HTML or via a specialized card) ￼ ￼. Nested lists and blockquotes are only partially supported in the editor ￼. Ghost does support strikethrough, inline code, syntax-highlighted code fences, and even footnotes (via a special “Markdown card”) ￼ ￼. For example, you can insert a Markdown card in Ghost and write footnote syntax; Ghost will render a footnotes section at the end of that card ￼ ￼. Obsidian’s wiki-links ([[Internal Link]]) are not understood by Ghost out-of-the-box – you would need to manually convert those to normal hyperlinks. Mermaid diagrams and LaTeX math are not supported natively by Ghost’s editor; achieving these requires adding custom scripts or using theme modifications (e.g. injecting a MathJax script for LaTeX, or a Mermaid.js script and an HTML card for diagrams). In summary, Ghost handles standard Markdown well ￼ but will require workarounds for Obsidian-specific syntax, tables, and advanced extensions.
 
 **Pricing**:
 
-Ghost(Pro) starts at $9 / month for fully managed hosting with CDN, email newsletter, memberships, Stripe integration, backups, and security.  
+No free tier (aside from a 14-day trial). Pricing is tiered by audience size. The Starter plan is $9/month (billed yearly) for up to 500 members ￼. The Creator plan is $25/month (yearly) for up to 1,000 members. Higher tiers like Team ($50/mo) and Business ($199/mo) raise member limits (Team still 1,000 members, Business 10,000) and add staff users and support. All plans include the core Ghost features: custom domain, CDN, SSL, etc. Notably, the Starter plan is limited to 1 staff user and 18 free themes only (no custom themes on Starter) ￼ ￼. Upgrading to Creator or above allows unlimited custom themes and integrations. Ghost does not have a free hosted plan, but you can self-host Ghost for free if you have your own server (this requires technical know-how). For Obsidian bloggers just starting out, the $9/mo Ghost(Pro) is the entry point (with the constraint of using official themes only on that tier).
 ￼
 **Pros**:
-- Managed “everything-in-one” stack—blog, newsletter, paid memberships, Stripe—so you can monetise and control branding without self-hosting.
+- Powerful Publishing Platform: Rich feature set (memberships, newsletters, analytics, SEO settings) all in one. Great if you want your blog to also serve as a newsletter or a community hub with memberships ￼.
+- Polished Editing Experience: Ghost’s web editor is user-friendly with formatting cards and preview. Even if you write in Obsidian, it’s nice that Ghost can handle the content well and let you refine it in the Ghost editor if needed.
+- Customizability: If you want a custom design or advanced site structure, Ghost can accommodate with custom themes and robust theming options. No coding limitation if on a higher tier ￼.
+- Scalability: Handles large audiences (with higher plans) and content heavy blogs. Built-in caching/CDN means performance is solid.
+- Official Support and Community: As a mature platform, Ghost has good documentation and a community/forum (as well as Ghost staff support on paid plans).
 
-**Cons**:
-- Starts at $9/month and scales with audience; custom themes require developer effort.
-
-### HashNode (Pro)
-
-**Workflow**:
-
-Enable Hashnode’s “Publish articles from GitHub”. Every markdown file pushed to a chosen repo is auto-published (or updated) on your Hashnode blog; front-matter controls title, tags, draft state, etc. Use the free Obsidian Git community plugin to sync your vault (or just a /blog folder) to GitHub on save or on demand.
-
-**Pricing**
-
-Hashnode gives you comments, reactions, built-in newsletter, custom domain, and a dev-centric audience.
-
-**Pros**:
-- ...
-
-**Cons**:
-- Publishin from GitHub is only available on the Pro plan
+**Cons:**
+- Complex Setup for Obsidian Workflow: No native Obsidian integration – you must rely on a plugin or manual copy-paste ￼ ￼. This is more cumbersome than Blot’s seamless folder sync. If the plugin or API setup glitches, it’s extra overhead.
+- Higher Cost: $9/mo (annual) is the minimum for Ghost(Pro), which is higher than Blot or Micro.blog’s basic options. And that Starter tier has theme limitations ￼. If you need multiple users or many members, costs rise quickly (Ghost can get pricey for large newsletters because of member count billing).
+- Overkill for Simple Needs: If you just want a straightforward blog for notes, Ghost’s features might be overkill. It’s like using a professional publishing suite for a personal notebook – powerful, but you might not use 80% of its capabilities.
+- Markdown Quirks: Some Obsidian-written content might need tweaking (e.g., tables won’t render without adjustment ￼, wiki-links not recognized). You may need to pre-process or edit after paste. That adds friction for large volumes of content.
+- Hosting Lock-In: Using Ghost(Pro) means your content is in a database on their server. It’s exportable (Ghost can export JSON/HTML), but you can’t just pull the Markdown files back easily. In contrast, Blot keeps your source as Markdown files on your drive.
 
 ### Blot.im
 
-**How it works**
+**Workflow**
 
-Blot watches a folder you control (via Dropbox, Git, Google Drive, or iCloud). Any Markdown file you save there from Obsidian is auto-converted into static HTML and published within seconds—no manual builds or dashboards required.
+Blot is designed for file-based publishing. It “turns a folder into a website". The workflow is extremely simple: you sync a folder (via Dropbox, Google Drive, Git, iCloud, or local folder) with your Blot blog, and any Markdown files in that folder become blog posts automatically. For Obsidian users, this means your Obsidian vault (or a subset of it) can be your blog – just save or drag-and-drop a Markdown file into the synced folder and it publishes. There’s no web UI for writing posts; you use Obsidian (or any text editor) and let Blot detect file changes. Blot will generate the site within seconds of file sync. You can also organize content with subfolders (e.g. a _drafts folder for unpublished drafts). Images placed in the folder are uploaded and served by Blot as well. In short, Blot offers a mostly automated Obsidian-to-blog workflow with minimal setup.
 
 **Markdown syntax support**
 
-Blot renders standard CommonMark plus most Pandoc-style extras—tables, footnotes, definition lists, fenced-code with syntax highlighting, and KaTeX maths. Crucially for Obsidian users, it resolves `[[wikilinks]]` for pages, provided you keep Obsidian’s New link format → Relative path to file. It doesn't support `![[…]]` embeds for images or other files.
+Blot directly converts your Markdown files to HTML and has excellent support for Markdown (including some Obsidian goodies). Under the hood, Blot uses a parser (similar to Goldmark/Pandoc) that supports GFM features like tables, footnotes, and more. Notably, Blot supports Obsidian wiki-links: you can enable “wikilinks” in your blog settings, allowing [[Wiki Link]] syntax to link between posts ￼ ￼. Blot will resolve a [[Linked Note]] by finding the post with that title or filename and inserting the correct URL ￼ ￼. This is a huge plus for Obsidian users with interlinked notes. Blot also supports Markdown footnotes, strikethrough, and tables (since these are part of standard Markdown specs or extensions). For images, you simply use the usual ![alt](image.png) syntax and ensure the image file is in the folder – Blot will handle it ￼. Regarding diagrams and math: Blot has built-in TeX/LaTeX math rendering support. By wrapping expressions in $$…$$, you can include LaTeX math, which Blot will typeset (it likely uses KaTeX under the hood) ￼. This means equations will display properly without extra effort. For Mermaid diagrams (flowcharts, etc.), Blot doesn’t natively render them, but you can achieve it by adding the Mermaid JS library. Blot allows custom JavaScript in posts or templates, so if you include the Mermaid script in your theme (or within an HTML segment of a post), you can render mermaid code blocks. In fact, Blot users have successfully embedded scripts like Mermaid.js by ensuring the script links use HTTPS and are included in the post’s HTML head ￼ ￼. Once the script is loaded, any Mermaid code fence in your Markdown will render as a diagram when the page loads ￼. Overall, Blot is very Markdown-friendly (with complete GFM support) and Obsidian-friendly (wiki-links, math, etc.), but Mermaid diagrams or other JS-based extensions require a bit of manual setup.
+
+**Pricing**
+
+Blot keeps pricing simple – there is one plan at $6 per month per site ￼. This includes hosting, all features, and support. You can create multiple sites, and each would be $6/mo. There’s no free tier, but Blot’s source code is open source (AGPL) ￼, so technically you could self-host it for free; however, most users will opt for the hosted service for convenience. Blot allows an annual payment after signup if you prefer (with no discount mentioned, it would be $72/year) ￼. All features (publishing via folder, templates, etc.) are included at the $6 price – there are no higher tiers. This flat pricing is quite affordable compared to Ghost and Micro.blog’s higher plans. Keep in mind Blot doesn’t impose member limits or anything, since it doesn’t have membership features built-in. It’s just one price for the blog.
 
 ### Micro.blog
 
 **Workflow**:
 
-Write your post in Obsidian, then run the free "Micro.publish" community plugin. After you paste an app-token from Micro.blog into the plugin’s settings, a single command (“Post to Micro.blog”) pushes the note over the Micropub API, letting Micro.blog host it instantly under your custom domain. You can override title, categories, visibility, or a future publish-date in a review dialog before sending, and the post’s URL is written back into the note so you can update it later.
+Micro.blog is a hybrid of a blogging platform and a social network. It doesn’t use a folder sync; instead, you publish via Micro.blog’s apps, web interface, or API. For Obsidian users wanting automation, Micro.blog supports the Micropub API and has a **community plugin called Micro.publish** that lets you publish notes from Obsidian to your Micro.blog-hosted site with one command. After obtaining an API token, the plugin can send your Markdown post to Micro.blog as either a blog post or a page. (Notably, the developer collaborated with Micro.blog’s founder to extend the API for creating pages via Micropub.) Without the plugin, you would copy-paste from Obsidian into Micro.blog’s web editor or use a third-party app like MarsEdit. Micro.blog treats short, titleless posts as “microblog” entries and longer notes with titles as full blog posts. Content you publish appears on your blog and in the Micro.blog social timeline for others to read. Overall, Micro.blog’s workflow can be semi-automated (with the Obsidian plugin) or manual via its posting interfaces.
 
 **Markdown syntax support**:
 
-Standard Markdown works, but Micro.blog purposely strips or truncates heavy markup in its social “timeline” view to keep micro-posts readable. Anything over 300 characters loses inline Markdown/HTML in the timeline excerpt (your full post still keeps it). 
+Micro.blog’s publishing system is based on Hugo (a static site generator), which means it supports Markdown (CommonMark via Goldmark) and many GFM extensions. In practice, you can use standard Markdown for formatting posts on Micro.blog-hosted blogs: headings, bold/italic, lists, blockquotes, links, images, and code fences all work as expected. Hugo’s Markdown processor supports tables and footnotes by default, so those should work on Micro.blog (e.g. a Markdown table will be rendered to HTML, and footnote syntax [^1] will produce footnotes). One caveat is that Micro.blog’s social timeline will strip out complex HTML or styling for consistency ￼ ￼. They recommend sticking to simple formatting (no advanced embeds) so that your posts also look good in the Micro.blog feed ￼. Obsidian’s wiki-links are not natively supported on Micro.blog – a [[Note]] will just appear as literal text unless you convert it. The Obsidian-to-Micro.blog plugin may eventually handle such conversion, but currently you’d need to replace wiki-links with standard Markdown links manually. Mermaid diagrams are not directly supported out-of-the-box. However, because you can use custom Hugo templates or plugins on Micro.blog (with the $5/mo plan or above), it’s possible to enable Mermaid via a Hugo Diagrams render hook or a shortcode. In fact, Micro.blog now allows using Hugo 0.117, which supports an internal tool called Goat for diagrams ￼ ￼. Enabling this requires a custom theme or opting into the newer Hugo version in your blog settings ￼. Some users have managed to use Mermaid by adding a custom render hook template and the Mermaid JS library in a custom theme ￼. For LaTeX math, Micro.blog similarly has no native support, but you can add MathJax via a theme customization ￼. The Micro.blog help docs confirm that to use LaTeX, you need to edit your theme to include MathJax (there are tutorials guiding this) ￼. In summary, Micro.blog handles basic Markdown well, including GFM elements, but requires custom theme work for advanced features (diagrams, math). Users on the lower-tier plan (which doesn’t allow custom themes) might be limited to simpler Markdown.
 
-**Featues and Pricing**: https://micro.blog/about/pricing
+**Pricing**: 
 
-| Plan | Price | Key features |
-| --- | --- | --- |
-| Micro.one | $1/month | Use your own domain name; Short or long posts; Photo hosting; Podcast hosting; Publish from the web or native apps |
-| Micro.blog | $5/month | Everything in Micro.one plus: Automatic cross-posting to Mastodon, Threads, Bluesky, and other services; Manual cross-posting to Twitter / X; Photo and video hosting; Custom themes |
-| Micro.blog Premium | $10/month | All standard Micro.blog features plus: Up to 5 blogs; Email newsletters; Private and shared notes; Strata mobile app for notes; Bookmark archiving and highlighting |
-| Micro.blog Family | — | Add up to 5 people to any of your blogs; Members can write or edit blog posts; Includes everything from Micro.blog Premium |
+Micro.blog offers a free social-only account and several paid plans for hosting. If you just join Micro.blog without paying, you get a username and can follow/reply to others, and even connect an external RSS feed, but no hosted blog of your own ￼. For a hosted blog, the entry plan is Micro.one at $1/month ￼. Micro.one gives you a hosted microblog (username.micro.blog or custom domain), with basic features: you can post via web or apps, include photos, short videos (up to 75 MB), basic podcast hosting (75 MB episodes), custom CSS, and use a custom domain ￼ ￼. However, Micro.one does not include cross-posting or full theme editing. The next level, Micro.blog (standard) at $5/month, includes everything in Micro.one plus automatic cross-posting to other networks (Mastodon, Threads, Bluesky, Medium, Tumblr, LinkedIn, etc.) ￼. It also unlocks custom themes (you can edit the HTML templates or use community themes) and features like posting to private blogs or shared blogs ￼. Above that, Micro.blog Premium at $10/month adds the ability to create up to 5 blogs and includes an email newsletter feature, bookmarks and highlights, and a beta notes app ￼. There’s also a Family plan at $15/month which is basically Premium + up to 5 collaborators (family or friends) who can post to your blogs ￼. All paid plans include a 7-day free trial, and there are yearly billing options with discounts (e.g. standard plan is $50/year instead of $60) ￼. In summary, Micro.blog can cost as little as $1/month for a basic blog, but Obsidian users might want at least the $5/month plan to get custom theme support (for better Obsidian integration and features). The $10 plan is relevant if you want the integrated newsletter or multiple blogs.
 
 **When to choose:**
 
@@ -165,6 +155,20 @@ Pick Micro.blog if you want a “write in Obsidian → publish anywhere” flow 
 - No built-in advanced SEO or monetization tools (ads, paywalls, etc.) — you would add those manually in a theme.
 
 
-## Self-hosted
+### HashNode (Pro)
+
+**Workflow**:
+
+Enable Hashnode’s “Publish articles from GitHub”. Every markdown file pushed to a chosen repo is auto-published (or updated) on your Hashnode blog; front-matter controls title, tags, draft state, etc. Use the free Obsidian Git community plugin to sync your vault (or just a /blog folder) to GitHub on save or on demand.
+
+**Pricing**
+
+Hashnode gives you comments, reactions, built-in newsletter, custom domain, and a dev-centric audience.
+
+**Pros**:
+- ...
+
+**Cons**:
+- Publishin from GitHub is only available on the Pro plan
 
 ...
