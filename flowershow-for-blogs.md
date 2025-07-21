@@ -40,6 +40,14 @@ showComments: false
         </div>
         <div>
           <dt className="font-semibold text-gray-900">
+            📑 Flexible Blog Index
+          </dt>
+          <dd className="mt-2 text-gray-600">
+            Add blog post listings to any page using the List component. Perfect for creating multiple blog sections or content catalogs.
+          </dd>
+        </div>
+        <div>
+          <dt className="font-semibold text-gray-900">
             🎨 Beautiful Blog Layout
           </dt>
           <dd className="mt-2 text-gray-600">
@@ -67,15 +75,7 @@ showComments: false
             🔍 SEO Optimized
           </dt>
           <dd className="mt-2 text-gray-600">
-            Built-in SEO features including meta tags, social cards, and structured data for better visibility.
-          </dd>
-        </div>
-        <div>
-          <dt className="font-semibold text-gray-900">
-            📑 Flexible Blog Index
-          </dt>
-          <dd className="mt-2 text-gray-600">
-            Add blog post listings to any page using the List component. Perfect for creating multiple blog sections or content catalogs.
+            Built-in SEO features including meta tags and social cards for better visibility.
           </dd>
         </div>
       </dl>
@@ -88,13 +88,13 @@ showComments: false
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:pr-8 lg:pt-4">
         <div className="lg:max-w-lg">
-          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Flexible Blog Structure</h2>
-          <p className="mt-6 text-lg/8 text-gray-600">Use the List component anywhere you want to display an index of your blog posts. Keep drafts private and control what gets published.</p>
+          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Flexible Blog Index</h2>
+          <p className="mt-6 text-lg/8 text-gray-600">Use the List component anywhere you want to display an index of your blog posts.</p>
         </div>
       </div>
       <img
         alt="Blog layout showcase"
-        src="/_r/-/assets/blog-showcase.png"
+        src="/_r/-/assets/blog-index.png"
         width={2432}
         height={1442}
         className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
@@ -115,7 +115,7 @@ showComments: false
       <div className="flex items-start justify-end lg:order-first">
         <img
           alt="Post header showcase"
-          src="/_r/-/assets/page_header.png"
+          src="/_r/-/assets/blog-header.png"
           width={2432}
           height={1442}
           className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
@@ -145,9 +145,9 @@ showComments: false
   </div>
 </div>
 
-<div className="bg-white py-12 sm:py-24 my-12">
+<div className="py-12 sm:py-24 my-12">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
-      <h2 className="mb-4 text-pretty text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:mb-6 sm:text-5xl">Be the first to know about new blogging features</h2>
+      <h2 className="mb-4 text-pretty text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:mb-6 sm:text-5xl">Be the first to know about new features</h2>
       <CustomHtml html={`<iframe data-tally-src="https://tally.so/embed/mYy8k6?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" width="100%" height="157" frameBorder="0" marginHeight="0" marginWidth="0" title="Want product news and updates? Sign up for our newsletter."></iframe><script async src="https://tally.so/widgets/embed.js"></script>`}/>
   </div>
 </div>
