@@ -273,7 +273,7 @@ showComments: false
       </div>
       <img
         alt="Product screenshot"
-        src="/_r/-/assets/page_header.png"
+        src="/_r/-/assets/blog-header.png"
         width={2432}
         height={1442}
         className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
@@ -295,7 +295,7 @@ showComments: false
       <div className="flex items-start justify-end lg:order-first">
         <img
           alt="Product screenshot"
-          src="/_r/-/assets/hero-layout.png"
+          src="/_r/-/assets/hero-section.png"
           width={2432}
           height={1442}
           className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
