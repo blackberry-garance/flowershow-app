@@ -19,18 +19,6 @@ showComments: false
         >Start blogging for free</a>
       </div>
     </div>
-    <!-- <div className="mt-16 flow-root sm:mt-24">
-      <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
-        <img
-          alt="Blog showcase"
-          src="/_r/-/assets/blog-showcase.png"
-          width={2432}
-          height={1442}
-          className="rounded-md shadow-2xl ring-1 ring-gray-900/10"
-        />
-      </div>
-    </div>
-  </div> -->
 </div>
 
 <div className="bg-white py-8 sm:py-12">
