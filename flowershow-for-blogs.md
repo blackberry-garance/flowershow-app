@@ -32,10 +32,10 @@ showComments: false
       <dl className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 lg:gap-y-16">
         <div>
           <dt className="font-semibold text-gray-900">
-            📝 Write in Pure Markdown
+            📝 Zero Configuration
           </dt>
           <dd className="mt-2 text-gray-600">
-            Use your favorite markdown editor. Compatible with CommonMark, GitHub Flavored Markdown, and Obsidian-style Wiki links.
+            Keep your existing folder structure and file naming. Flowershow works with any markdown files organization, no special setup needed.
           </dd>
         </div>
         <div>
@@ -72,10 +72,10 @@ showComments: false
         </div>
         <div>
           <dt className="font-semibold text-gray-900">
-            📱 Responsive Design
+            📑 Flexible Blog Index
           </dt>
           <dd className="mt-2 text-gray-600">
-            Your blog looks great on all devices, from mobile phones to desktop computers.
+            Add blog post listings to any page using the List component. Perfect for creating multiple blog sections or content catalogs.
           </dd>
         </div>
       </dl>
@@ -88,13 +88,13 @@ showComments: false
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:pr-8 lg:pt-4">
         <div className="lg:max-w-lg">
-          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Organized Blog Structure</h2>
-          <p className="mt-6 text-lg/8 text-gray-600">Automatically generate blog indexes with the List component. Organize posts by categories, dates, or status. Keep drafts private and control what gets published.</p>
+          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Flexible Blog Structure</h2>
+          <p className="mt-6 text-lg/8 text-gray-600">Use the List component anywhere you want to display an index of your blog posts. Keep drafts private and control what gets published.</p>
         </div>
       </div>
       <img
         alt="Blog layout showcase"
-        src="/_r/-/assets/blog-layout.png"
+        src="/_r/-/assets/blog-showcase.png"
         width={2432}
         height={1442}
         className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
