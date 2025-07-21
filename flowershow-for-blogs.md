@@ -19,6 +19,7 @@ showComments: false
         >Start blogging for free</a>
       </div>
     </div>
+  </div>
 </div>
 
 <div className="bg-white py-8 sm:py-12">
