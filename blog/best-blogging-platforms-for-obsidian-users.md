@@ -23,7 +23,7 @@ Obsidian Publish fully supports standard Markdown (CommonMark) and GitHub Flavor
 
 **Pricing**
 
-Obsidian Publish is a paid add-on, $8 USD per site per month (annual billing) or $10 month-to-month. This is charged per published site (vault). There’s no free tier.
+Obsidian Publish is a paid add-on, USD8 USD per site per month (annual billing) or USD10 month-to-month. This is charged per published site (vault). There’s no free tier.
 
 **Features**
 
@@ -37,7 +37,7 @@ A published Obsidian site retains unique Obsidian features like the interactive 
 - Reliable and secure: official service maintained by the Obsidian team, with priority support for subscribers.
 
 **Cons:**
-- Cost: $96/year per site may be expensive for hobby blogging.
+- Cost: USD96/year per site may be expensive for hobby blogging.
 - Limited extensibility: Does not support third-party plugins or dynamic features like comment sections, forms, or certain advanced Markdown extensions (e.g. dataview queries).
 - Single site per subscription: If you want multiple separate sites from different vaults, you pay per site (no multi-site bundle) ￼.
 - No built-in newsletter: Followers can’t “subscribe” via email (but there is a basic RSS feed generated).
@@ -59,12 +59,12 @@ Flowershow was built with Obsidian users in mind and strives for full Obsidian M
 
 **Pricing**
 
-Flowershow offers a generous free tier. Free plan: $0/month for a site, which includes all core markdown support and basic site features. The free plan does require you to use a Flowershow subdomain and includes attributions in the footer. The Premium plan is $5/month (or $50/year). Premium unlocks using a custom domain, removal of the “Built with Flowershow” branding, and adds advanced features like full-text search for your site. Premium users also get unlimited site size and priority support. Notably, most features are available on free sites – even math, Mermaid, custom styles, and even forms and comments are included in free tier. This makes Flowershow’s free tier very functional for personal blogs or notes, while serious bloggers or businesses can pay a modest fee for professional touches.
+Flowershow offers a generous free tier. Free plan: USD0/month for a site, which includes all core markdown support and basic site features. The free plan does require you to use a Flowershow subdomain and includes attributions in the footer. The Premium plan is USD5/month (or USD50/year). Premium unlocks using a custom domain, removal of the “Built with Flowershow” branding, and adds advanced features like full-text search for your site. Premium users also get unlimited site size and priority support. Notably, most features are available on free sites – even math, Mermaid, custom styles, and even forms and comments are included in free tier. This makes Flowershow’s free tier very functional for personal blogs or notes, while serious bloggers or businesses can pay a modest fee for professional touches.
 
 **Pros:**
 - Excellent Obsidian syntax support: CommonMark, GFM, wiki-links, embeds, Mermaid, math, callouts, footnotes – all just work ￼ ￼. Minimal friction in publishing your notes.
 - Rich feature set: Even the free version includes features like comments, forms (for newsletter sign-ups), theme customization, blog indexes, etc., which can make your Obsidian vault feel like a polished blog or documentation site.
-- Affordable premium: At $5/month, you get custom domain, full search, and branding removal ￼ – cheaper than Obsidian Publish and on par with Markbase’s paid tier, but arguably with more features.
+- Affordable premium: At USD5/month, you get custom domain, full search, and branding removal ￼ – cheaper than Obsidian Publish and on par with Markbase’s paid tier, but arguably with more features.
 - Active development: Flowershow is actively developed. You benefit from regular improvements and can get help instantly.
 - Auto-sync and Obsidian plugin: Publishing updates is relatively easy after setup. The integration with GitHub means your content is version-controlled too. Non-technical users get a UI-driven setup, and tech-savvy users can customize their workflow.
 
@@ -91,7 +91,7 @@ Ghost has solid Markdown support built in, but note, that Ghost doesn’t store 
 
 **Pricing**
 
-No free tier (aside from a 14-day trial). Pricing is tiered by audience size. The Starter plan is $9/month (billed yearly) for up to 500 members ￼. The Creator plan is $25/month (yearly) for up to 1,000 members. Higher tiers like Team ($50/mo) and Business ($199/mo) raise member limits (Team still 1,000 members, Business 10,000) and add staff users and support. All plans include the core Ghost features: custom domain, CDN, SSL, etc. Notably, the Starter plan is limited to 1 staff user and 18 free themes only (no custom themes on Starter). Upgrading to Creator or above allows unlimited custom themes and integrations. Ghost does not have a free hosted plan, but you can self-host Ghost for free if you have your own server (this requires technical know-how). For Obsidian bloggers just starting out, the $9/mo Ghost(Pro) is the entry point (with the constraint of using official themes only on that tier).
+No free tier (aside from a 14-day trial). Pricing is tiered by audience size. The Starter plan is USD9/month (billed yearly) for up to 500 members ￼. The Creator plan is USD25/month (yearly) for up to 1,000 members. Higher tiers like Team (USD50/mo) and Business (USD199/mo) raise member limits (Team still 1,000 members, Business 10,000) and add staff users and support. All plans include the core Ghost features: custom domain, CDN, SSL, etc. Notably, the Starter plan is limited to 1 staff user and 18 free themes only (no custom themes on Starter). Upgrading to Creator or above allows unlimited custom themes and integrations. Ghost does not have a free hosted plan, but you can self-host Ghost for free if you have your own server (this requires technical know-how). For Obsidian bloggers just starting out, the USD9/mo Ghost(Pro) is the entry point (with the constraint of using official themes only on that tier).
 ￼
 **Pros:**
 - Rich all-in-one feature set (memberships, newsletters, analytics, SEO) makes Ghost ideal for turning your blog into a newsletter or community hub.
@@ -102,7 +102,7 @@ No free tier (aside from a 14-day trial). Pricing is tiered by audience size. Th
 
 **Cons:**
 - Lacking native Obsidian integration, Ghost requires a plugin or manual copy-paste for workflow syncing, which can add overhead if the setup glitches.
-- Ghost(Pro) starts at $9/month annually with theme limitations, and costs can escalate quickly with multiple users or large member-billed newsletters.
+- Ghost(Pro) starts at USD9/month annually with theme limitations, and costs can escalate quickly with multiple users or large member-billed newsletters.
 - For a simple personal blog, Ghost’s extensive features can feel overkill if you only need basic note publishing.
 - Obsidian Markdown quirks (e.g., non-rendering tables, unrecognized wiki-links) often require pre-processing or manual edits after pasting into Ghost.
 - With Ghost(Pro), your content lives in their hosted database (exportable as JSON/HTML), unlike Blot which retains your source Markdown files locally.
@@ -125,12 +125,12 @@ Blot’s parser fully supports CommonMark/GFM features like tables, footnotes an
 
 **Pricing**
 
-Blot keeps pricing simple – there is one plan at $6 per month per site ￼. This includes hosting, all features, and support. You can create multiple sites, and each would be $6/mo. There’s no free tier, but Blot’s source code is open source (AGPL) ￼, so technically you could self-host it for free; however, most users will opt for the hosted service for convenience. Blot allows an annual payment after signup if you prefer (with no discount mentioned, it would be $72/year) ￼. All features (publishing via folder, templates, etc.) are included at the $6 price – there are no higher tiers. This flat pricing is quite affordable compared to Ghost and Micro.blog’s higher plans. Keep in mind Blot doesn’t impose member limits or anything, since it doesn’t have membership features built-in. It’s just one price for the blog.
+Blot keeps pricing simple – there is one plan at USD6 per month per site ￼. This includes hosting, all features, and support. You can create multiple sites, and each would be USD6/mo. There’s no free tier, but Blot’s source code is open source (AGPL) ￼, so technically you could self-host it for free; however, most users will opt for the hosted service for convenience. Blot allows an annual payment after signup if you prefer (with no discount mentioned, it would be USD72/year) ￼. All features (publishing via folder, templates, etc.) are included at the USD6 price – there are no higher tiers. This flat pricing is quite affordable compared to Ghost and Micro.blog’s higher plans. Keep in mind Blot doesn’t impose member limits or anything, since it doesn’t have membership features built-in. It’s just one price for the blog.
 
 **Pros:**
 - Blot.im seamlessly publishes your Obsidian Markdown files—including wikilinks and relative links—by simply saving them in a watched folder.
 - Publishing is as easy as saving a file, with instant automation via Dropbox/Git and no dashboard required.
-- At $6/month you get generous storage, a 1 TB/year bandwidth soft limit, and direct developer support.
+- At USD6/month you get generous storage, a 1 TB/year bandwidth soft limit, and direct developer support.
 - It accepts multiple file types (Markdown, Word, Google Docs, Jupyter Notebooks), so you can drop in content from any source.
 - You retain full control and local copies of your content, with easy export options if you decide to move on.
 - Built-in LaTeX and advanced Markdown support make it feel like an extension of Obsidian for technical blogs.
@@ -155,14 +155,14 @@ Micro.blog is a hybrid of a blogging platform and a social network. You can publ
 
 **Markdown syntax support**
 
-Micro.blog’s publishing system is based on Hugo (a static site generator), which means it supports Markdown (CommonMark via Goldmark) and many GFM extensions. Obsidian’s wiki-links are not natively supported on Micro.blog. The Obsidian Micro.publish plugin may eventually handle such conversion, but currently you’d need to replace wiki-links with standard Markdown links. Mermaid diagrams are not directly supported out-of-the-box. However, because you can use custom Hugo templates or plugins on Micro.blog (with the $5/mo plan or above), it’s possible to enable Mermaid via a Hugo Diagrams render hook or a shortcode. For LaTeX math, Micro.blog similarly has no native support, but you can add MathJax via a theme customization. In summary, Micro.blog handles basic Markdown well, including GFM elements, but requires custom theme work for advanced features (diagrams, math). Users on the lower-tier plan (which doesn’t allow custom themes) might be limited to simpler Markdown.
+Micro.blog’s publishing system is based on Hugo (a static site generator), which means it supports Markdown (CommonMark via Goldmark) and many GFM extensions. Obsidian’s wiki-links are not natively supported on Micro.blog. The Obsidian Micro.publish plugin may eventually handle such conversion, but currently you’d need to replace wiki-links with standard Markdown links. Mermaid diagrams are not directly supported out-of-the-box. However, because you can use custom Hugo templates or plugins on Micro.blog (with the USD5/mo plan or above), it’s possible to enable Mermaid via a Hugo Diagrams render hook or a shortcode. For LaTeX math, Micro.blog similarly has no native support, but you can add MathJax via a theme customization. In summary, Micro.blog handles basic Markdown well, including GFM elements, but requires custom theme work for advanced features (diagrams, math). Users on the lower-tier plan (which doesn’t allow custom themes) might be limited to simpler Markdown.
 
 **Pricing**
 
-- Micro.one ($1/mo): Hosted microblog on your domain (or username.micro.blog) with posts via web/apps, photos, short videos, basic podcast support, custom CSS—but no cross-posting or theme editing.
-- Standard ($5/mo): Everything in Micro.one plus automatic cross-posting to major networks and full custom-theme support.
-- Premium ($10/mo): Includes Standard features, up to five blogs, and built-in email newsletters.
-- Family ($15/mo): Premium plan plus posting access for up to five collaborators.
+- Micro.one (USD1/mo): Hosted microblog on your domain (or username.micro.blog) with posts via web/apps, photos, short videos, basic podcast support, custom CSS—but no cross-posting or theme editing.
+- Standard (USD5/mo): Everything in Micro.one plus automatic cross-posting to major networks and full custom-theme support.
+- Premium (USD10/mo): Includes Standard features, up to five blogs, and built-in email newsletters.
+- Family (USD15/mo): Premium plan plus posting access for up to five collaborators.
 - Annual Discount: Save roughly 15–20% by choosing yearly billing.
 
 **Pros:**
@@ -171,7 +171,7 @@ Micro.blog’s publishing system is based on Hugo (a static site generator), whi
 - Cross-Posting: Auto-syndicates your content to Twitter (X), Mastodon, Tumblr, Medium, LinkedIn, and more with a single click.
 - Adaptable Length: Handles untitled micro-posts and titled long-form articles on the same site without extra setup.
 - Newsletter & Podcast in One: Premium plans let you send posts as email newsletters and host podcasts with auto-generated RSS feeds.
-- Low Cost Entry: Plans start at $1/month (with the $5 tier unlocking theming and integrations), making it budget-friendly.
+- Low Cost Entry: Plans start at USD1/month (with the USD5 tier unlocking theming and integrations), making it budget-friendly.
 - Content Ownership & Export: Offers Markdown/JSON exports and Hugo-based portability so you retain full control of your content.
 
 **Cons:**
@@ -199,7 +199,7 @@ Hashnode supports CommonMark and GitHub-flavored Markdown—including tables, ta
 
 **Pricing**
 
-On the Free plan you get unlimited posts, a custom domain, basic analytics, newsletter tools, and GitHub backups at no cost (with Hashnode branding). The individual Pro upgrade (~ $7/month or $70/year) removes branding, unlocks advanced AI features, and enables official GitHub publishing. The Startup plan ($199/month) adds team seats, collaborative editing, custom CSS, and built-in GitHub integration. Enterprise pricing is custom and includes SSO, SLAs, and unlimited users.
+On the Free plan you get unlimited posts, a custom domain, basic analytics, newsletter tools, and GitHub backups at no cost (with Hashnode branding). The individual Pro upgrade (~ USD7/month or USD70/year) removes branding, unlocks advanced AI features, and enables official GitHub publishing. The Startup plan (USD199/month) adds team seats, collaborative editing, custom CSS, and built-in GitHub integration. Enterprise pricing is custom and includes SSO, SLAs, and unlimited users.
 
 **Pros:**
 - Seamless Markdown support (code, math, diagrams) with multiple publishing routes
