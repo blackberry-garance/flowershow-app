@@ -11,7 +11,7 @@ Obsidian users looking to publish a blog directly from their vault have a few ho
 
 ## Obsidian Publish
 
-![[Pasted image 20250723231424.png]]
+![[obsidian-publish.png]]
 
 **Workflow**
 
@@ -79,7 +79,7 @@ Flowershow is an excellent choice if you want a full-featured blog or knowledge 
 
 ## Ghost
 
-![[Pasted image 20250723221340.png]]
+![[ghost.png]]
 
 **Workflow**
 
@@ -113,7 +113,7 @@ Choose Ghost if you need a full-featured publishing platform and don’t mind so
 
 ## Blot.im
 
-![[Pasted image 20250723221623.png]]
+![[blot-im.png]]
 
 **Workflow**
 
@@ -147,7 +147,7 @@ Blot.im is perfect if you want your Obsidian vault to power your website with ze
 
 ## Micro.blog
 
-![[Pasted image 20250723221949.png]]
+![[micro-blog.png]]
 
 **Workflow**
 
@@ -187,7 +187,7 @@ Choose Micro.blog if you want a seamless blend of microblogging and long-form po
 
 ## HashNode
 
-![[Pasted image 20250723222111.png]]
+![[hashnode.png]]
 
 **Workflow**
 
