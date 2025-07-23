@@ -220,4 +220,4 @@ Hashnode is ideal if you write technical or developer-focused content in Obsidia
 
 ---
 
-Did you spot something that’s out of date or not quite right? Let us know in the comments below—we’ll update it ASAP!
+Did you spot something that’s out of date or not quite right? Let us know in the comments below—we’ll update it ASAP! Even better–click on the "Edit this page" button below and contribute!
