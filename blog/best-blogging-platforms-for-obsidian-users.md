@@ -9,6 +9,38 @@ image: /assets/demo.png
 
 Obsidian users looking to publish a blog directly from their vault have a few hosted options. Below, we compare the top platforms and how they support an Obsidian-centric workflow, including setup, Markdown features (CommonMark, GFM, Obsidian wiki links, embeds, Mermaid diagrams, and LaTeX math), pricing, key features (search, newsletter sign-ups, sidebars, indices), pros, cons, and ideal use cases.
 
+## Flowershow
+
+![[assets/demo.png]]
+
+**Workflow**
+
+Flowershow is a cloud platform specifically designed to publish Markdown/Obsidian content as a beautiful website. It offers both an Obsidian plugin and a GitHub-integrated workflow. In practice, you create a GitHub repository for your notes and the Flowershow platform will auto-sync the content and build the site. The Obsidian plugin (Flowershow Publish) can help by pushing notes to GitHub for you and tracking which are published. Once set up, your editing remains in Obsidian; whenever you commit changes (or use the plugin to sync), Flowershow regenerates the site. Overall, for a user, the flow is: Write in Obsidian → push/sync to GitHub (with Flowershow Obsidian plugin) → Flowershow auto-updates site.
+
+**Markdown syntax support**
+
+Flowershow was built with Obsidian users in mind and strives for full Obsidian Markdown compatibility. It explicitly supports CommonMark and GFM specs, plus Obsidian’s extensions like wiki-links, embeds and callouts – essentially all core Markdown and Obsidian syntax. Mermaid diagrams render natively by just including a mermaid code block. Math is supported via KaTeX. One current limitation: Flowershow does not yet support the Obsidian graph view visualization – it focuses on content rendering rather than replicating the entire Obsidian UI. In summary, content compatibility is excellent – you won’t need to rewrite or re-arrange your notes to publish with Flowershow.
+
+**Pricing**
+
+Flowershow offers a generous free tier. Free plan: USD0/month for a site, which includes all core markdown support and basic site features. The free plan does require you to use a Flowershow subdomain and includes attributions in the footer. The Premium plan is USD5/month (or USD50/year). Premium unlocks using a custom domain, removal of the “Built with Flowershow” branding, and adds advanced features like full-text search for your site. Premium users also get unlimited site size and priority support. Notably, most features are available on free sites – even math, Mermaid, custom styles, and even forms and comments are included in free tier. This makes Flowershow’s free tier very functional for personal blogs or notes, while serious bloggers or businesses can pay a modest fee for professional touches.
+
+**Pros:**
+- Excellent Obsidian syntax support: CommonMark, GFM, wiki-links, embeds, Mermaid, math, callouts, footnotes – all just work. Minimal friction in publishing your notes.
+- Rich feature set: Even the free version includes features like comments, forms (for newsletter sign-ups), theme customization, blog indexes, etc., which can make your Obsidian vault feel like a polished blog or documentation site.
+- Affordable premium: At USD5/month, you get custom domain, full search, and branding removal – cheaper than Obsidian Publish and on par with Markbase’s paid tier, but arguably with more features.
+- Active development: Flowershow is actively developed. You benefit from regular improvements and can get help instantly.
+- Auto-sync and Obsidian plugin: Publishing updates is relatively easy after setup. The integration with GitHub means your content is version-controlled too. Non-technical users get a UI-driven setup, and tech-savvy users can customize their workflow.
+
+**Cons:**
+- Initial setup complexity: Compared to Obsidian Publish, Flowershow’s onboarding is a bit more involved. You need a GitHub account and must create a repo for your notes.
+- Missing Graph view: If the interactive graph of Obsidian is important to you, Flowershow currently does not provide a graph visualization of your notes on the site (unlike Obsidian Publish or Markbase). It focuses on content and navigation over visual graphs.
+- Learning curve for advanced customization: While powerful, using features like custom React components or deeply altering the theme will require technical knowledge. The out-of-box style is nice but might not please everyone (though you can change it with CSS).
+
+**When to choose**
+
+Flowershow is an excellent choice if you want a full-featured blog or knowledge site and don’t mind a bit of initial configuration. It shines for users who desire Obsidian’s benefits and traditional blogging features like newsletters, comments, and structured indexes. If you have some comfort with tools like GitHub (or are willing to follow step-by-step instructions to set it up), you’ll be rewarded with a very powerful platform at minimal cost. Flowershow is ideal for content creators or small businesses using Obsidian: for example, a personal blog, a documentation site for a project, or an academic digital garden that needs search and taxonomy. Less tech-savvy users can use it too – the interface guides you – but it’s best if you’re not completely allergic to using an extra service (GitHub) during setup. Choose Flowershow if you value extensive Markdown support and blog features and are looking for a cost-effective, community-driven solution.
+
 ## Obsidian Publish
 
 ![[obsidian-publish.png]]
@@ -42,38 +74,6 @@ Obsidian Publish is a paid add-on, USD8 USD per site per month (annual billing) 
 **When to Choose**
 
 Obsidian Publish is ideal if you want the most hassle-free experience and full fidelity with Obsidian’s features. It’s great for publishing a digital garden, wiki, or notes collection where interactive graph and internal links shine. If you don’t mind the subscription cost and don’t need fancy blog-specific features (comments, newsletters), Publish offers a polished experience with minimal setup. Less tech-savvy users who want their Obsidian vault online with just a few clicks will appreciate this official solution. However, if budget is a concern or you need advanced blog features or plugin support, consider the alternatives below.
-
-## Flowershow
-
-![[assets/demo.png]]
-
-**Workflow**
-
-Flowershow is a cloud platform specifically designed to publish Markdown/Obsidian content as a beautiful website. It offers both an Obsidian plugin and a GitHub-integrated workflow. In practice, you create a GitHub repository for your notes and the Flowershow platform will auto-sync the content and build the site. The Obsidian plugin (Flowershow Publish) can help by pushing notes to GitHub for you and tracking which are published. Once set up, your editing remains in Obsidian; whenever you commit changes (or use the plugin to sync), Flowershow regenerates the site. Overall, for a user, the flow is: Write in Obsidian → push/sync to GitHub (with Flowershow Obsidian plugin) → Flowershow auto-updates site.
-
-**Markdown syntax support**
-
-Flowershow was built with Obsidian users in mind and strives for full Obsidian Markdown compatibility. It explicitly supports CommonMark and GFM specs, plus Obsidian’s extensions like wiki-links, embeds and callouts – essentially all core Markdown and Obsidian syntax. Mermaid diagrams render natively by just including a mermaid code block. Math is supported via KaTeX. One current limitation: Flowershow does not yet support the Obsidian graph view visualization – it focuses on content rendering rather than replicating the entire Obsidian UI. In summary, content compatibility is excellent – you won’t need to rewrite or re-arrange your notes to publish with Flowershow.
-
-**Pricing**
-
-Flowershow offers a generous free tier. Free plan: USD0/month for a site, which includes all core markdown support and basic site features. The free plan does require you to use a Flowershow subdomain and includes attributions in the footer. The Premium plan is USD5/month (or USD50/year). Premium unlocks using a custom domain, removal of the “Built with Flowershow” branding, and adds advanced features like full-text search for your site. Premium users also get unlimited site size and priority support. Notably, most features are available on free sites – even math, Mermaid, custom styles, and even forms and comments are included in free tier. This makes Flowershow’s free tier very functional for personal blogs or notes, while serious bloggers or businesses can pay a modest fee for professional touches.
-
-**Pros:**
-- Excellent Obsidian syntax support: CommonMark, GFM, wiki-links, embeds, Mermaid, math, callouts, footnotes – all just work. Minimal friction in publishing your notes.
-- Rich feature set: Even the free version includes features like comments, forms (for newsletter sign-ups), theme customization, blog indexes, etc., which can make your Obsidian vault feel like a polished blog or documentation site.
-- Affordable premium: At USD5/month, you get custom domain, full search, and branding removal – cheaper than Obsidian Publish and on par with Markbase’s paid tier, but arguably with more features.
-- Active development: Flowershow is actively developed. You benefit from regular improvements and can get help instantly.
-- Auto-sync and Obsidian plugin: Publishing updates is relatively easy after setup. The integration with GitHub means your content is version-controlled too. Non-technical users get a UI-driven setup, and tech-savvy users can customize their workflow.
-
-**Cons:**
-- Initial setup complexity: Compared to Obsidian Publish, Flowershow’s onboarding is a bit more involved. You need a GitHub account and must create a repo for your notes.
-- Missing Graph view: If the interactive graph of Obsidian is important to you, Flowershow currently does not provide a graph visualization of your notes on the site (unlike Obsidian Publish or Markbase). It focuses on content and navigation over visual graphs.
-- Learning curve for advanced customization: While powerful, using features like custom React components or deeply altering the theme will require technical knowledge. The out-of-box style is nice but might not please everyone (though you can change it with CSS).
-
-**When to choose**
-
-Flowershow is an excellent choice if you want a full-featured blog or knowledge site and don’t mind a bit of initial configuration. It shines for users who desire Obsidian’s benefits and traditional blogging features like newsletters, comments, and structured indexes. If you have some comfort with tools like GitHub (or are willing to follow step-by-step instructions to set it up), you’ll be rewarded with a very powerful platform at minimal cost. Flowershow is ideal for content creators or small businesses using Obsidian: for example, a personal blog, a documentation site for a project, or an academic digital garden that needs search and taxonomy. Less tech-savvy users can use it too – the interface guides you – but it’s best if you’re not completely allergic to using an extra service (GitHub) during setup. Choose Flowershow if you value extensive Markdown support and blog features and are looking for a cost-effective, community-driven solution.
 
 ## Ghost
 
