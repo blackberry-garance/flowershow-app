@@ -119,7 +119,7 @@ Blot is designed for file-based publishing. It “turns a folder into a website"
 
 **Markdown syntax support**
 
-Blot’s parser fully supports CommonMark/GFM features like tables, footnotes and strikethrough, and it natively resolves Obsidian [[wiki-links]] to the correct URLs. Math works out of the box via built-in LaTeX rendering. Mermaid diagrams aren’t rendered by default, but you can enable them by adding the Mermaid JS script to your theme or post head. Images and other standard Markdown syntax just work—drop them in and Blot handles the rest. Overall, it feels like an Obsidian extension for technical blogging with minimal setup.
+Blot’s parser fully supports CommonMark/GFM features like tables, footnotes and strikethrough, and it natively resolves Obsidian wiki-links to the correct URLs. Math works out of the box via built-in LaTeX rendering. Mermaid diagrams aren’t rendered by default, but you can enable them by adding the Mermaid JS script to your theme or post head. Images and other standard Markdown syntax just work—drop them in and Blot handles the rest. Overall, it feels like an Obsidian extension for technical blogging with minimal setup.
 
 **Pricing**
 
