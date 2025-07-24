@@ -35,7 +35,7 @@ Obsidian Publish is a paid add-on, USD8 USD per site per month (annual billing) 
 **Cons:**
 - Cost: USD96/year per site may be expensive for hobby blogging.
 - Limited extensibility: Does not support third-party plugins or dynamic features like comment sections, forms, or certain advanced Markdown extensions (e.g. dataview queries).
-- Single site per subscription: If you want multiple separate sites from different vaults, you pay per site (no multi-site bundle) ￼.
+- Single site per subscription: If you want multiple separate sites from different vaults, you pay per site (no multi-site bundle).
 - No built-in newsletter: Followers can’t “subscribe” via email (but there is a basic RSS feed generated).
 - No build-in comments: Visitors can't comment on the content.
 
