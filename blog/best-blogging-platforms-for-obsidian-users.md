@@ -62,7 +62,7 @@ Flowershow offers a generous free tier. Free plan: USD0/month for a site, which 
 **Pros:**
 - Excellent Obsidian syntax support: CommonMark, GFM, wiki-links, embeds, Mermaid, math, callouts, footnotes – all just work. Minimal friction in publishing your notes.
 - Rich feature set: Even the free version includes features like comments, forms (for newsletter sign-ups), theme customization, blog indexes, etc., which can make your Obsidian vault feel like a polished blog or documentation site.
-- Affordable premium: At USD5/month, you get custom domain, full search, and branding removal ￼ – cheaper than Obsidian Publish and on par with Markbase’s paid tier, but arguably with more features.
+- Affordable premium: At USD5/month, you get custom domain, full search, and branding removal – cheaper than Obsidian Publish and on par with Markbase’s paid tier, but arguably with more features.
 - Active development: Flowershow is actively developed. You benefit from regular improvements and can get help instantly.
 - Auto-sync and Obsidian plugin: Publishing updates is relatively easy after setup. The integration with GitHub means your content is version-controlled too. Non-technical users get a UI-driven setup, and tech-savvy users can customize their workflow.
 
