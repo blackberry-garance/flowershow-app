@@ -25,10 +25,6 @@ Obsidian Publish fully supports standard Markdown (CommonMark) and GitHub Flavor
 
 Obsidian Publish is a paid add-on, USD8 USD per site per month (annual billing) or USD10 month-to-month. This is charged per published site (vault). There’s no free tier.
 
-**Features**
-
-A published Obsidian site retains unique Obsidian features like the interactive graph view of your notes and backlink lists. You can apply a custom theme or CSS for styling. A sidebar with folder navigation is standard, and recent updates allow customizing which pages appear in the sidebar and in what order. Obsidian Publish sites now include a search bar with full-text search. There is no built-in newsletter or commenting system – Publish is oriented toward a knowledge-base or digital garden style site rather than a traditional blog with subscriptions. Likewise, there’s no automatic blog index by date, but you can create index pages or use tags to organize posts manually. SEO metadata is supported via frontmatter. 
-
 **Pros:**
 - Easiest setup: entirely managed solution with no technical skills required.
 - Native Obsidian features: supports wiki links, embeds, graph view, backlinks, Mermaid, math, etc., preserving the feel of Obsidian in the browser.
@@ -43,7 +39,9 @@ A published Obsidian site retains unique Obsidian features like the interactive 
 - No built-in newsletter: Followers can’t “subscribe” via email (but there is a basic RSS feed generated).
 - No build-in comments: Visitors can't comment on the content.
 
-When to Choose:: Obsidian Publish is ideal if you want the most hassle-free experience and full fidelity with Obsidian’s features. It’s great for publishing a digital garden, wiki, or notes collection where interactive graph and internal links shine. If you don’t mind the subscription cost and don’t need fancy blog-specific features (comments, newsletters), Publish offers a polished experience with minimal setup. Less tech-savvy users who want their Obsidian vault online with just a few clicks will appreciate this official solution. However, if budget is a concern or you need advanced blog features or plugin support, consider the alternatives below.
+**When to Choose**
+
+Obsidian Publish is ideal if you want the most hassle-free experience and full fidelity with Obsidian’s features. It’s great for publishing a digital garden, wiki, or notes collection where interactive graph and internal links shine. If you don’t mind the subscription cost and don’t need fancy blog-specific features (comments, newsletters), Publish offers a polished experience with minimal setup. Less tech-savvy users who want their Obsidian vault online with just a few clicks will appreciate this official solution. However, if budget is a concern or you need advanced blog features or plugin support, consider the alternatives below.
 
 ## Flowershow
 
@@ -92,7 +90,7 @@ Ghost has solid Markdown support built in, but note, that Ghost doesn’t store 
 **Pricing**
 
 No free tier (aside from a 14-day trial). Pricing is tiered by audience size. The Starter plan is USD9/month (billed yearly) for up to 500 members ￼. The Creator plan is USD25/month (yearly) for up to 1,000 members. Higher tiers like Team (USD50/mo) and Business (USD199/mo) raise member limits (Team still 1,000 members, Business 10,000) and add staff users and support. All plans include the core Ghost features: custom domain, CDN, SSL, etc. Notably, the Starter plan is limited to 1 staff user and 18 free themes only (no custom themes on Starter). Upgrading to Creator or above allows unlimited custom themes and integrations. Ghost does not have a free hosted plan, but you can self-host Ghost for free if you have your own server (this requires technical know-how). For Obsidian bloggers just starting out, the USD9/mo Ghost(Pro) is the entry point (with the constraint of using official themes only on that tier).
-￼
+
 **Pros:**
 - Rich all-in-one feature set (memberships, newsletters, analytics, SEO) makes Ghost ideal for turning your blog into a newsletter or community hub.
 - Ghost’s user-friendly web editor with formatting cards and live preview lets you refine Obsidian-written content directly in the platform.
