@@ -202,17 +202,20 @@ showComments: false
       <div className="lg:ml-auto lg:pl-4 lg:pt-4">
         <div className="lg:max-w-lg">
           <h3 className="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">Rich Markdown Syntax Support</h3>
-          <p className="mt-6 text-lg/8 text-gray-600">From basic CommonMark to advanced GitHub Flavoured Markdown and Obsidian Wiki links, we've got you covered. Enhance your content with Mermaid diagrams for clear visualizations and LaTeX for beautiful mathematical equations.</p>
-          <a href="/docs/syntax" className="inline-block mt-4 text-lg/6 font-semibold text-gray-900 underline">Learn more <span aria-hidden="true">→</span></a>
+          <p className="mt-6 text-lg/8 text-gray-600">
+            From basic CommonMark to advanced GitHub Flavoured Markdown and Obsidian Wiki links, we've got you covered.
+            Enhance your content with Mermaid diagrams for clear visualizations and LaTeX for beautiful mathematical equations.
+          </p>
+          <a href="/docs/syntax" className="inline-block mt-4 text-lg/6 font-semibold text-gray-900 underline">
+            Learn more <span aria-hidden="true">→</span>
+          </a>
         </div>
       </div>
       <div className="flex items-start justify-end lg:order-first">
         <img
           alt="Product screenshot"
           src="/_r/-/assets/syntax-support.png"
-          width={2432}
-          height={1442}
-          className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
+          className="max-w-full h-auto rounded-xl shadow-xl ring-1 ring-gray-400/10 lg:max-w-[700px]"
         />
       </div>
     </div>
