@@ -24,7 +24,7 @@ showComments: false
       <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
         <img
           alt="App screenshot"
-          src="/_r/-/assets/hero.png"
+          src="@blackberry-garance/flowershow-app/_r/-/assets/hero.png"
           width={2432}
           height={1442}
           className="rounded-md shadow-2xl ring-1 ring-gray-900/10"
@@ -121,7 +121,7 @@ showComments: false
     <div className="mt-6 grid grid-cols-1 gap-x-8 gap-y-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-3">
       <div>
         <a href="https://www.wet-vermilion-crowd.com/">
-          <img alt="Wet Vermilion Crowd of Things" src="/_r/-/assets/showcases/wet-vermillion.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
+          <img alt="Wet Vermilion Crowd of Things" src="@blackberry-garance/flowershow-app/_r/-/assets/showcases/wet-vermillion.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
           <div className="mt-4 text-lg font-medium text-gray-900">
             <h3>Wet Vermilion Crowd of Things</h3>
           </div>
@@ -129,7 +129,7 @@ showComments: false
       </div>
       <div>
         <a href="https://digi.dana.nyc/">
-          <img alt="Digi Dana NYC" src="/_r/-/assets/showcases/digi-dana-nyc.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
+          <img alt="Digi Dana NYC" src="@blackberry-garance/flowershow-app/_r/-/assets/showcases/digi-dana-nyc.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
           <div className="mt-4 text-lg font-medium text-gray-900">
             <h3>Digi Dana NYC</h3>
           </div>
@@ -137,7 +137,7 @@ showComments: false
       </div>
       <div>
         <a href="https://givewiser.org/">
-          <img alt="Give Wiser" src="/_r/-/assets/showcases/give-wiser.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
+          <img alt="Give Wiser" src="@blackberry-garance/flowershow-app/_r/-/assets/showcases/give-wiser.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
           <div className="mt-4 text-lg font-medium text-gray-900">
             <h3>Give Wiser</h3>
           </div>
@@ -145,7 +145,7 @@ showComments: false
       </div>
       <div>
         <a href="https://research.lifeitself.org/">
-          <img alt="LifeItself Research" src="/_r/-/assets/showcases/life-itself-research.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
+          <img alt="LifeItself Research" src="@blackberry-garance/flowershow-app/_r/-/assets/showcases/life-itself-research.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
           <div className="mt-4 text-lg font-medium text-gray-900">
             <h3>Life Itself Research</h3>
           </div>
@@ -153,7 +153,7 @@ showComments: false
       </div>
       <div>
         <a href="https://comparethe.co/">
-          <img alt="CompareThe＿" src="/_r/-/assets/showcases/comparethe.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
+          <img alt="CompareThe＿" src="@blackberry-garance/flowershow-app/_r/-/assets/showcases/comparethe.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
           <div className="mt-4 text-lg font-medium text-gray-900">
             <h3>CompareThe＿</h3>
           </div>
@@ -161,7 +161,7 @@ showComments: false
       </div>
       <div>
         <a href="https://my.flowershow.app/@je7remy/linuxknowledge">
-          <img alt="Linux & Cybersecurity Knowledge Hub" src="/_r/-/assets/showcases/jeremy-linux-knowledge.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
+          <img alt="Linux & Cybersecurity Knowledge Hub" src="@blackberry-garance/flowershow-app/_r/-/assets/showcases/jeremy-linux-knowledge.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
           <div className="mt-4 text-lg font-medium text-gray-900">
             <h3>Linux & Cybersecurity Knowledge Hub</h3>
           </div>
@@ -169,7 +169,7 @@ showComments: false
       </div>
       <div>
         <a href="https://my.flowershow.app/@robsonfvilela/professorrobson">
-          <img alt="Professor Robson" src="/_r/-/assets/showcases/professor-robson.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
+          <img alt="Professor Robson" src="@blackberry-garance/flowershow-app/_r/-/assets/showcases/professor-robson.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
           <div className="mt-4 text-lg font-medium text-gray-900">
             <h3>Professor Robson</h3>
           </div>
@@ -177,7 +177,7 @@ showComments: false
       </div>
       <div>
         <a href="https://my.flowershow.app/@TheCyberWeaver/obvault">
-          <img alt="Thomas Lu - Digital Garden" src="/_r/-/assets/showcases/cyber-weaver.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
+          <img alt="Thomas Lu - Digital Garden" src="@blackberry-garance/flowershow-app/_r/-/assets/showcases/cyber-weaver.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
           <div className="mt-4 text-lg font-medium text-gray-900">
             <h3>Thomas Lu - Digital Garden</h3>
           </div>
@@ -185,7 +185,7 @@ showComments: false
       </div>
       <div>
         <a href="https://tech.datopian.com/">
-          <img alt="Datopian Tech" src="/_r/-/assets/showcases/tech-datopian.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
+          <img alt="Datopian Tech" src="@blackberry-garance/flowershow-app/_r/-/assets/showcases/tech-datopian.png" className="aspect-video w-full rounded-lg bg-gray-100 object-cover" />
           <div className="mt-4 text-lg font-medium text-gray-900">
             <h3>Datopian Tech</h3>
           </div>
@@ -214,7 +214,7 @@ showComments: false
       <div className="flex items-start justify-end lg:order-first">
         <img
           alt="Product screenshot"
-          src="/_r/-/assets/syntax-support.png"
+          src="@blackberry-garance/flowershow-app/_r/-/assets/syntax-support.png"
           className="max-w-full h-auto rounded-xl shadow-xl ring-1 ring-gray-400/10 lg:max-w-[700px]"
         />
       </div>
@@ -234,7 +234,7 @@ showComments: false
       </div>
       <img
         alt="Product screenshot"
-        src="/_r/-/assets/comments.png"
+        src="@blackberry-garance/flowershow-app/_r/-/assets/comments.png"
         width={2432}
         height={1442}
         className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
@@ -255,7 +255,7 @@ showComments: false
       <div className="flex items-start justify-end lg:order-first">
         <img
           alt="Product screenshot"
-          src="/_r/-/assets/toc-and-sidebar.png"
+          src="@blackberry-garance/flowershow-app/_r/-/assets/toc-and-sidebar.png"
           width={2432}
           height={1442}
           className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
@@ -276,7 +276,7 @@ showComments: false
       </div>
       <img
         alt="Product screenshot"
-        src="/_r/-/assets/blog-header.png"
+        src="@blackberry-garance/flowershow-app/_r/-/assets/blog-header.png"
         width={2432}
         height={1442}
         className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
@@ -298,7 +298,7 @@ showComments: false
       <div className="flex items-start justify-end lg:order-first">
         <img
           alt="Product screenshot"
-          src="/_r/-/assets/hero-section.png"
+          src="@blackberry-garance/flowershow-app/_r/-/assets/hero-section.png"
           width={2432}
           height={1442}
           className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
